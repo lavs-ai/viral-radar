@@ -1,257 +1,440 @@
-// PUBLISHER - turns the scored data into the four things you actually sell.
+// PUBLISHER - builds everything a customer or a client ever sees.
 //
-//   docs/index.html          the dashboard people look at
-//   docs/api/latest.json     your free API (a static file IS an API)
-//   docs/trend/<slug>.html   one SEO page per trend - the traffic engine
-//   newsletter/<date>.md     the daily brief you send to paying subscribers
+//   docs/index.html          the dashboard (this is your shop window)
+//   docs/api/latest.json     your API
+//   docs/story/<slug>.html   one page per story
+//   newsletter/<hour>.md     your own record, one file per hour
 //
-// Everything lands in docs/, which GitHub Pages serves for free.
+// Design direction: a meteorological bulletin. Global news spreading country to
+// country behaves like a weather front crossing a map, so the page borrows that
+// visual language - cool-to-hot gradient encoding intensity, precise station-code
+// notation for countries, and a hard-edged data grid rather than soft cards.
+//
+// The signature element is the COUNTRY STRIP: every country carrying a story,
+// with the ones gained since the last reading lit up. That is the picture of the
+// story. Not a stock photo - the actual shape of how far it has travelled.
 
-import { writeJson } from './store.js';
+import { writeJson, loadHistory, seriesFor } from './store.js';
 import { diversify } from './dedupe.js';
 import { writeFile, mkdir, readdir } from 'node:fs/promises';
 import path from 'node:path';
 
 const SITE_NAME = 'Viral Radar';
-const SITE_URL = process.env.SITE_URL || 'https://example.github.io/viral-radar';
+const SITE_URL = process.env.SITE_URL || 'https://lavs-ai.github.io/viral-radar';
+const WATCHED = 14; // Google News editions we read
 
 export async function publish(scored) {
   const ranked = [...scored].sort((a, b) => b.finalScore - a.finalScore);
-  // News-shaped buckets. What a reader wants to know is not "how big" but
-  // "is this crossing borders right now, and did it start in the last hour".
-  const news = ranked.filter((r) => r.source === 'googlenews');
-  const spreading = news.filter((r) => r.phase === 'SPREADING' || r.phase === 'BREAKING').slice(0, 12);
-  const global = news.filter((r) => r.phase === 'GLOBAL').slice(0, 12);
-  const signals = diversify(
-    ranked.filter((r) => r.source !== 'googlenews' && r.norm >= 60), 5, 12
-  );
-
-  // Keep these names so the rest of the file and the API stay stable.
-  const ignition = [...spreading, ...signals].slice(0, 25);
-  const climbing = global;
   const takenAt = new Date().toISOString();
+  const history = await loadHistory(12);
 
-  // 1. API -----------------------------------------------------------------
+  const news = ranked.filter((r) => r.source === 'googlenews');
+  const spreading = news.filter((r) => r.newCountries > 0 || r.phase === 'BREAKING').slice(0, 10);
+  const global = news.filter((r) => r.phase === 'GLOBAL' && !spreading.includes(r)).slice(0, 10);
+  const signals = diversify(ranked.filter((r) => r.source !== 'googlenews' && r.norm >= 62), 4, 10);
+
+  // Attach the country-count series so each row can draw its own trace.
+  const withSeries = (arr) =>
+    arr.map((r) => ({ ...r, series: r.fp ? seriesFor(history, r.fp).filter((v) => v !== null) : [] }));
+
+  const S = withSeries(spreading);
+  const G = withSeries(global);
+
+  // ---- API ---------------------------------------------------------------
   await writeJson('docs/api/latest.json', {
     takenAt,
-    counts: countBy(ranked, 'status'),
-    ignition: ignition.map(apiShape),
-    climbing: climbing.map(apiShape),
+    watchedCountries: WATCHED,
+    spreading: S.map(apiShape),
+    global: G.map(apiShape),
+    signals: signals.map(apiShape),
   });
   await writeJson('docs/api/all.json', { takenAt, records: ranked.slice(0, 400).map(apiShape) });
 
-  // 2. Dashboard -----------------------------------------------------------
+  // ---- Dashboard ---------------------------------------------------------
   await mkdir('docs', { recursive: true });
-  await writeFile('docs/index.html', dashboard(ignition, climbing, takenAt));
+  await writeFile('docs/index.html', dashboard(S, G, signals, takenAt, news.length));
   await writeFile('docs/.nojekyll', '');
 
-  // 3. SEO pages -----------------------------------------------------------
-  await mkdir('docs/trend', { recursive: true });
-  for (const r of [...ignition, ...climbing]) {
-    await writeFile(path.join('docs/trend', `${slug(r.entity)}.html`), trendPage(r, takenAt));
+  // ---- Story pages -------------------------------------------------------
+  await mkdir('docs/story', { recursive: true });
+  for (const r of [...S, ...G]) {
+    await writeFile(path.join('docs/story', `${slug(r.entity)}.html`), storyPage(r, takenAt));
   }
   await writeFile('docs/sitemap.xml', await sitemap());
 
-  // 4. Newsletter ----------------------------------------------------------
+  // ---- Newsletter: ONE FILE PER HOUR -------------------------------------
+  // An hourly pipeline writing a daily file overwrites itself 23 times a day.
+  // Hour-stamped names sort correctly and never collide.
   await mkdir('newsletter', { recursive: true });
-  // One file per HOUR, not per day. An hourly pipeline that writes a daily
-  // file overwrites itself 23 times and you keep only the last reading.
-  // Filenames like "2026-08-07-14.md" sort correctly and never collide.
   const stamp = takenAt.slice(0, 13).replace('T', '-');
-  await writeFile(`newsletter/${stamp}.md`, brief(ignition, climbing, takenAt.slice(0, 16).replace('T', ' ')));
-  //const date = takenAt.slice(0, 10);
-  //await writeFile(`newsletter/${date}.md`, brief(ignition, climbing, date));
+  await writeFile(`newsletter/${stamp}.md`, brief(S, G, takenAt));
 
-  return { ignition: ignition.length, climbing: climbing.length, total: ranked.length };
+  return { spreading: S.length, global: G.length, signals: signals.length, total: ranked.length };
 }
 
 const apiShape = (r) => ({
-  entity: r.entity, source: r.source, kind: r.kind, status: r.status, phase: r.phase,
+  entity: r.entity, source: r.source, phase: r.phase, status: r.status,
   countries: r.countries, countryCount: r.countryCount, newCountries: r.newCountries,
-  articleCount: r.articleCount, publisherCount: r.publisherCount, ageHours: r.ageHours,
-  score: r.finalScore, velocity: r.velocity, pos: r.pos, ageDays: r.ageDays,
-  platforms: r.platforms, confirmedOn: r.confirmedOn, confidence: r.confidence,
-  category: r.category, why: r.why, angle: r.angle, url: r.url,
+  articleCount: r.articleCount, publisherCount: r.publisherCount, publishers: r.publishers,
+  effectiveCountries: r.effectiveCountries, syndicated: r.syndicated,
+  ageHours: r.ageHours, score: r.finalScore, confidence: r.confidence,
+  category: r.category, why: r.why, angle: r.angle, url: r.url, fp: r.fp,
 });
 
-// URL-safe slug. normalize('NFD') + strip marks turns "fábio" into "fabio",
-// which matters because search engines and file systems both prefer plain ASCII.
 const slug = (s) =>
-  String(s)
-    .normalize('NFD').replace(/\p{M}/gu, '')
-    .toLowerCase().replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '').slice(0, 70) || 'trend';
+  String(s).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70) || 'story';
 
-const countBy = (arr, k) =>
-  arr.reduce((acc, r) => ((acc[r[k]] = (acc[r[k]] || 0) + 1), acc), {});
+// JSON.stringify escapes quotes but NOT "</script>". A headline containing that
+// closes the tag early and everything after it runs as live HTML. Headlines come
+// from third-party feeds, so this is real, not theoretical. Escaping the angle
+// brackets as unicode keeps the JSON valid and makes breaking out impossible.
+const safeJsonLd = (obj) =>
+  JSON.stringify(obj).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
 
 const esc = (s) =>
   String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-// Map a score onto a cold-to-hot position, 0-100.
-const heat = (score) => Math.max(0, Math.min(100, Math.round((score / 60) * 100)));
+// Cool to hot, driven by how much of the watched world has the story.
+function heatColor(countryCount) {
+  const t = Math.min((countryCount || 1) / WATCHED, 1);
+  if (t > 0.62) return 'var(--hot)';
+  if (t > 0.32) return 'var(--warm)';
+  return 'var(--cool)';
+}
 
 // ---------------------------------------------------------------------------
-// Shared styling. Reads like a measuring instrument on graph paper: cool paper
-// ground, ink navy type, and a cold-to-hot scale that encodes real velocity.
+// STYLE
 // ---------------------------------------------------------------------------
 const CSS = `
+/* Direction: a masthead. Publications are recognised by their paper colour
+   (FT salmon, Economist red), so this owns a bone/oyster stock instead of the
+   usual white or cream. Dark ink band up top for authority, warm paper below
+   for reading. Serif display for editorial weight, mono for anything measured. */
 :root{
-  --paper:#EEF1F6; --grid:#DDE3EC; --ink:#12182B; --ink-soft:#59627A;
-  --rule:#C3CCDA; --cold:#3E63DD; --warm:#E8A33D; --hot:#E2483C; --card:#FFFFFF;
+  --paper:#EFEDE6; --paper-2:#F6F5F0; --card:#FCFBF8;
+  --ink:#15171C; --ink-band:#101319; --ink-2:#343A44; --mute:#585F6B;
+  --rule:#D6D2C6; --rule-2:#BFB9A9;
+  --signal:#AE2E1F; --amber:#8A5606; --cool:#23508C; --live:#2E7D5B;
 }
 *{box-sizing:border-box}
-body{
-  margin:0; background:var(--paper);
-  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
-  background-size:28px 28px;
-  color:var(--ink); font-family:"IBM Plex Sans",system-ui,sans-serif; line-height:1.55;
-}
-.wrap{max-width:1080px;margin:0 auto;padding:40px 20px 80px}
-h1{font-family:"Bricolage Grotesque","IBM Plex Sans",sans-serif;font-weight:800;
-   font-size:clamp(2.1rem,6vw,3.6rem);line-height:.98;letter-spacing:-.03em;margin:0}
-.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.22em;
-   text-transform:uppercase;color:var(--ink-soft);margin:0 0 12px}
-.lede{max-width:56ch;color:var(--ink-soft);margin:16px 0 0}
-.rule{height:1px;background:var(--rule);margin:34px 0 26px}
-.sec{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.18em;
-   text-transform:uppercase;color:var(--ink-soft);margin:38px 0 14px}
-.row{background:var(--card);border:1px solid var(--rule);border-radius:2px;
-   padding:16px 18px;margin-bottom:10px}
-.row-top{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
-.rank{font-family:"IBM Plex Mono",monospace;font-size:.78rem;color:var(--ink-soft);min-width:2.2em}
-.name{font-weight:600;font-size:1.02rem;flex:1;min-width:220px}
-.name a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
-.name a:hover{border-color:var(--ink)}
-.score{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:1.02rem;font-variant-numeric:tabular-nums}
-/* SIGNATURE: the velocity trace - a tick scale with a marker at the reading */
-.trace{position:relative;height:26px;margin:12px 0 10px;
-  background:repeating-linear-gradient(90deg,var(--rule) 0 1px,transparent 1px 10%);
-  border-bottom:1px solid var(--rule)}
-.trace i{position:absolute;top:2px;bottom:0;width:3px;border-radius:1px;
-  transform:translateX(-1.5px);transition:left .5s cubic-bezier(.2,.8,.2,1)}
-.meta{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--ink-soft);
-  display:flex;gap:16px;flex-wrap:wrap}
-.tag{border:1px solid var(--rule);padding:1px 7px;border-radius:2px;font-size:.66rem;
-  letter-spacing:.08em;text-transform:uppercase}
-.angle{margin:10px 0 0;font-size:.92rem}
-.angle b{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.14em;
-  text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:2px}
-a.back{font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:var(--ink-soft)}
-footer{margin-top:56px;font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--ink-soft)}
-@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Public Sans",system-ui,-apple-system,sans-serif;
+  font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.mono{font-family:"DM Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+.pad{padding-bottom:104px}
+
+/* ---------- masthead band ---------- */
+.band{background:var(--ink-band);color:var(--paper-2);
+  background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);
+  background-size:22px 22px}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:16px 0;border-bottom:1px solid rgba(255,255,255,.13);flex-wrap:wrap}
+.brand{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:1.22rem;letter-spacing:-.01em}
+.brand em{font-style:italic;color:#D9A441}
+.stamp{font-family:"DM Mono",monospace;font-size:.7rem;color:#A3A9B4;
+  display:flex;align-items:center;gap:9px}
+.dot{width:7px;height:7px;border-radius:50%;background:#4ADE80;
+  box-shadow:0 0 10px rgba(74,222,128,.9);animation:pulse 2.6s ease-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+.hero{padding:60px 0 46px}
+.kicker{font-family:"DM Mono",monospace;font-size:.66rem;letter-spacing:.3em;
+  text-transform:uppercase;color:#8E9099;margin:0 0 24px}
+.hero h1{font-family:Newsreader,Georgia,serif;font-weight:500;
+  font-size:clamp(2.5rem,6.6vw,4.5rem);line-height:1.02;letter-spacing:-.022em;
+  margin:0 0 20px;text-wrap:balance;color:#FBFAF7}
+.hero h1 .count{font-weight:600;color:#E8A33D;font-variant-numeric:tabular-nums}
+.subline{font-family:"DM Mono",monospace;font-size:.76rem;color:#E8A33D;margin:0 0 22px;
+  padding-left:13px;border-left:2px solid rgba(232,163,61,.45)}
+.hero p{max-width:58ch;color:#A9AEB8;margin:0;font-size:1rem}
+
+/* reach meter, 14 slots */
+.gauge{display:flex;gap:3px;margin:34px 0 10px}
+.gauge i{height:22px;flex:1;background:rgba(255,255,255,.09);border-radius:1px}
+.gauge i.on{background:linear-gradient(180deg,#E8A33D,#B97F1F)}
+.gauge-label{font-family:"DM Mono",monospace;font-size:.66rem;letter-spacing:.16em;
+  text-transform:uppercase;color:#8E9099}
+
+/* ---------- sections ---------- */
+.sec{margin:52px 0 18px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.sec h2{font-family:"DM Mono",monospace;font-size:.72rem;letter-spacing:.22em;
+  text-transform:uppercase;font-weight:500;margin:0}
+.sec .note{font-size:.82rem;color:var(--mute)}
+
+/* ---------- story ---------- */
+.story{background:var(--card);border:1px solid var(--rule);border-radius:3px;
+  padding:22px 24px 20px;margin-bottom:12px;position:relative;
+  transition:box-shadow .18s,transform .18s,border-color .18s}
+.story::before{content:"";position:absolute;left:-1px;top:-1px;bottom:-1px;width:3px;
+  background:var(--rule-2);border-radius:3px 0 0 3px}
+.story.is-spreading::before{background:var(--signal)}
+.story:hover{border-color:var(--rule-2);transform:translateY(-1px);
+  box-shadow:0 8px 22px rgba(21,23,28,.09)}
+.story h3{font-family:Newsreader,Georgia,serif;font-weight:600;
+  margin:0 0 6px;font-size:1.24rem;letter-spacing:-.012em;line-height:1.28}
+.story h3 a{color:inherit;text-decoration:none}
+.story h3 a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+
+.badge{display:inline-block;font-family:"DM Mono",monospace;font-size:.63rem;
+  letter-spacing:.13em;text-transform:uppercase;padding:3px 9px;margin-bottom:11px;
+  border:1px solid;border-radius:2px}
+.badge.up{color:var(--signal);border-color:var(--signal);background:rgba(185,50,34,.06)}
+.badge.new{color:var(--amber);border-color:rgba(168,106,18,.5);background:rgba(168,106,18,.07)}
+.badge.gl{color:var(--cool);border-color:rgba(35,80,140,.45);background:rgba(35,80,140,.06)}
+.badge.sig{color:var(--mute);border-color:var(--rule)}
+
+/* SIGNATURE: country strip */
+.strip{display:flex;flex-wrap:wrap;gap:4px;margin:15px 0 13px}
+.cc{font-family:"DM Mono",monospace;font-size:.68rem;letter-spacing:.05em;
+  padding:4px 8px;border:1px solid var(--rule);border-radius:2px;
+  color:var(--mute);background:var(--paper-2)}
+.cc.new{background:var(--signal);border-color:var(--signal);color:#fff}
+
+.trace{display:flex;align-items:flex-end;gap:3px;height:24px;margin:11px 0 13px}
+.trace i{width:8px;border-radius:1px 1px 0 0;background:var(--rule-2)}
+.trace i:last-child{background:var(--signal)}
+
+.meta{display:flex;flex-wrap:wrap;gap:16px;font-family:"DM Mono",monospace;
+  font-size:.7rem;color:var(--mute)}
+.meta b{color:var(--ink);font-weight:500}
+.meta .warn{color:var(--amber)}
+.pubs{margin:12px 0 0;font-family:"DM Mono",monospace;font-size:.67rem;
+  color:var(--mute);line-height:1.75}
+.pubs span{letter-spacing:.15em;text-transform:uppercase;font-size:.6rem;
+  color:var(--ink-2);margin-right:9px}
+.angle{margin:15px 0 0;padding-top:13px;border-top:1px solid var(--rule);
+  font-size:.95rem;color:var(--ink-2)}
+.angle span{display:block;font-family:"DM Mono",monospace;font-size:.61rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}
+
+.empty{color:var(--mute);font-size:.95rem;padding:24px 0;font-style:italic}
+.sources{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.sources div{background:var(--paper-2);border:1px solid var(--rule);border-radius:3px;padding:15px 16px}
+.sources b{display:block;font-family:Newsreader,Georgia,serif;font-size:1rem;
+  font-weight:600;margin-bottom:5px}
+.sources em{font-style:normal;color:var(--mute);font-size:.79rem;line-height:1.55;display:block}
+.disclaimer{color:var(--mute);font-size:.79rem;max-width:70ch;margin-top:18px}
+footer{margin-top:64px;padding-top:22px;border-top:2px solid var(--ink);
+  font-family:"DM Mono",monospace;font-size:.68rem;color:var(--mute);
+  display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+a{color:var(--ink)}
+a:focus-visible,.story:focus-within{outline:2px solid var(--cool);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media(max-width:560px){.hero{padding:40px 0 34px}.story{padding:17px 18px}.gauge i{height:16px}}
 `;
 
 const HEAD = (title, desc) => `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(desc)}">
+<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
-<style>${CSS}</style></head><body><div class="wrap">`;
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Public+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>${CSS}</style></head><body>`;
 
-function traceBar(score) {
-  const pct = heat(score);
-  const color = pct > 66 ? 'var(--hot)' : pct > 33 ? 'var(--warm)' : 'var(--cold)';
-  return `<div class="trace"><i style="left:${pct}%;background:${color}"></i></div>`;
+const statusBar = (takenAt) => `<div class="bar">
+  <div class="brand">Viral <em>Radar</em></div>
+  <div class="stamp"><span class="dot"></span>Reading ${esc(takenAt.slice(11, 16))} UTC · ${esc(takenAt.slice(0, 10))}</div>
+</div>`;
+
+// The country strip. New arrivals in solid red, established ones dimmed.
+function countryStrip(r) {
+  const all = r.countries || [];
+  if (!all.length) return '';
+  const newCount = r.newCountries || 0;
+  // Careful: slice(-0) is slice(0), which returns EVERYTHING. Guard explicitly,
+  // or a story that gained no countries lights up every chip as brand new.
+  const newest = newCount > 0 ? new Set(all.slice(-newCount)) : new Set();
+  return `<div class="strip">${all
+    .map((c) => `<span class="cc ${newest.has(c) ? 'new' : 'off'}">${esc(c)}</span>`)
+    .join('')}</div>`;
 }
 
-function rowHtml(r, i) {
-  return `<article class="row">
-  <div class="row-top">
-    <span class="rank">${String(i + 1).padStart(2, '0')}</span>
-    <span class="name"><a href="trend/${slug(r.entity)}.html">${esc(r.entity)}</a></span>
-    <span class="score">${r.finalScore}</span>
-  </div>
-  ${traceBar(r.finalScore)}
+// Bar trace of country count across the last readings.
+function trace(series, current) {
+  const data = [...(series || []), current].filter((n) => typeof n === 'number').slice(-12);
+  // A trace where every bar is the same height is visual noise pretending to be
+  // information. Only draw it once the country count has actually changed.
+  if (data.length < 3 || new Set(data).size < 2) return '';
+  const max = Math.max(...data, 2);
+  return `<div class="trace" role="img" aria-label="Country count over the last ${data.length} readings">${data
+    .map((v) => `<i style="height:${Math.max(3, Math.round((v / max) * 22))}px"></i>`)
+    .join('')}</div>`;
+}
+
+function storyRow(r, kind) {
+  const badge =
+    kind === 'spreading'
+      ? (r.newCountries > 0
+          ? `<span class="badge up">+${r.newCountries} ${r.newCountries === 1 ? 'new country' : 'new countries'} this hour</span>`
+          : `<span class="badge new">Breaking · first seen ${age(r.ageHours).replace(' old', ' ago')}</span>`)
+      : kind === 'global'
+      ? `<span class="badge gl">In ${r.countryCount} countries</span>`
+      : `<span class="badge sig">${esc(r.source)}</span>`;
+
+  return `<article class="story${kind === 'spreading' ? ' is-spreading' : ''}">
+  ${badge}
+  <h3><a href="story/${slug(r.entity)}.html">${esc(r.entity)}</a></h3>
+  ${countryStrip(r)}
+  ${trace(r.series, r.countryCount)}
   <div class="meta">
-    <span class="tag">${esc(r.phase || r.status)}</span>
-    <span>${esc(r.source)}</span>
-    ${r.countryCount > 1 ? `<span>${r.countryCount} countries</span>` : ''}
-    ${r.newCountries > 0 ? `<span>+${r.newCountries} since last read</span>` : ''}
-    <span>${r.ageHours < 24 ? `${Math.round(r.ageHours)}h old` : `${r.ageDays}d old`}</span>
-    ${r.category ? `<span>${esc(r.category)}</span>` : ''}
+    <span><b>${r.effectiveCountries ?? r.countryCount ?? 1}</b> of ${WATCHED} countries</span>
+    ${r.publisherCount ? `<span><b>${r.publisherCount}</b> ${r.publisherCount === 1 ? 'publisher' : 'publishers'}</span>` : ''}
+    ${r.syndicated ? `<span class="warn">${r.countryCount} editions, ${r.effectiveCountries} independent</span>` : ''}
+    ${r.ageHours != null ? `<span><b>${age(r.ageHours)}</b></span>` : ''}
+    <span>score <b>${r.finalScore}</b></span>
   </div>
-  ${r.angle ? `<p class="angle"><b>What to do</b>${esc(r.angle)}</p>` : ''}
+  ${publisherLine(r)}
+  ${r.angle ? `<p class="angle"><span>What to do</span>${esc(r.angle)}</p>` : ''}
 </article>`;
 }
 
-function dashboard(ignition, climbing, takenAt) {
+// Naming the newsrooms does two jobs: it lets a client verify the story, and it
+// exposes syndication. Ten articles from ten mastheads is real. Ten articles
+// from one wire report is not, and the reader can now see the difference.
+function publisherLine(r) {
+  if (!r.publishers?.length) return '';
+  const shown = r.publishers.slice(0, 5).map(esc).join(' · ');
+  const more = r.publishers.length > 5 ? ` +${r.publishers.length - 5} more` : '';
+  return `<p class="pubs"><span>Reported by</span>${shown}${more}</p>`;
+}
+
+function signalRow(r) {
+  return `<article class="story">
+  <span class="badge sig">${esc(r.source)}</span>
+  <h3>${esc(r.entity)}</h3>
+  <div class="meta"><span>score <b>${r.finalScore}</b></span><span>${esc(r.phase || '')}</span></div>
+</article>`;
+}
+
+const age = (h) => (h == null ? '' : h < 1 ? 'just now' : `${Math.round(h)}h old`);
+
+function dashboard(spreading, global, signals, takenAt, trackedCount) {
+  // Only count stories that genuinely gained a country. Counting "breaking but
+  // static" here would inflate the headline number, and the headline number is
+  // the one thing a customer checks at a glance.
+  const n = spreading.filter((r) => r.newCountries > 0).length;
+  const watchedOn = Math.max(...global.concat(spreading).map((r) => r.countryCount || 0), 0);
+
   return HEAD(
-    `${SITE_NAME} — what is accelerating right now`,
-    'Cross-platform trend detection. Ranked by speed, not popularity.'
-  ) + `
-<p class="eyebrow">Reading taken ${esc(takenAt.slice(0, 16).replace('T', ' '))} UTC</p>
-<h1>What is crossing<br>borders right now.</h1>
-<p class="lede">A story in one country is local news. The same story in eleven countries at once
-is a global event in progress. This reads the news feeds of 14 countries at the same moment,
-works out which headlines are the same story, and counts how fast that number is growing.</p>
-<div class="rule"></div>
-<p class="sec">Spreading now — crossing borders since the last reading</p>
-${ignition.map(rowHtml).join('') || '<p class="lede">Nothing crossing borders this run. Quiet news cycle.</p>'}
-<p class="sec">Already global — everyone has it</p>
-${climbing.map(rowHtml).join('') || '<p class="lede">No story has reached seven countries yet.</p>'}
-<footer>Updated every 3 hours · <a href="api/latest.json">JSON feed</a></footer>
+    `${SITE_NAME} — stories crossing borders right now`,
+    `Live tracking of which news stories are spreading across ${WATCHED} countries, updated hourly.`
+  ) + `<div class="band"><div class="wrap">` + statusBar(takenAt) + `
+<section class="hero">
+  <p class="kicker">Live global spread monitor</p>
+  <h1>${n > 0
+    ? `<span class="count">${n}</span> ${n === 1 ? 'story is' : 'stories are'} crossing borders right now.`
+    : `<span class="count">${trackedCount}</span> stories on the board.`}</h1>
+  ${n > 0 ? '' : '<p class="subline">None has crossed a border since the last reading. Quiet cycle.</p>'}
+  <p>We read the front page of ${WATCHED} countries at the same moment, work out which
+  differently-worded headlines are the same story, and count how fast that number grows.
+  A story in one country is local news. The same story in eleven is a global event in progress.</p>
+  <div class="gauge">${Array.from({ length: WATCHED }, (_, i) =>
+    `<i class="${i < watchedOn ? 'on' : ''}"></i>`).join('')}</div>
+  <div class="gauge-label">Widest reach this reading — ${watchedOn} of ${WATCHED} countries</div>
+</section>
+</div></div><div class="wrap pad">
+
+<div class="sec"><h2>Spreading now</h2><span class="note">Gaining countries, or newly broken in the last few hours</span></div>
+${spreading.length
+    ? spreading.map((r) => storyRow(r, 'spreading')).join('')
+    : '<p class="empty">No story gained a country this hour. Quiet cycle — check back at the next reading.</p>'}
+
+<div class="sec"><h2>Already global</h2><span class="note">Everyone has these. Too late to be first.</span></div>
+${global.length
+    ? global.map((r) => storyRow(r, 'global')).join('')
+    : '<p class="empty">Nothing has reached seven countries yet.</p>'}
+
+<div class="sec"><h2>Early signals</h2><span class="note">Social and search chatter, no country count yet</span></div>
+${signals.length ? signals.map(signalRow).join('') : '<p class="empty">No strong signals this reading.</p>'}
+
+<div class="sec"><h2>Where this comes from</h2></div>
+<div class="sources">
+  <div><b>Google News</b><em>Front page of ${WATCHED} countries, read at the same moment. Gives the country count.</em></div>
+  <div><b>Bluesky</b><em>Trending topics. Social chatter usually moves first.</em></div>
+  <div><b>Google Trends</b><em>Daily search trends across 8 countries. Shows when the public starts looking.</em></div>
+  <div><b>Reddit</b><em>Rising posts. Sits between social chatter and the news cycle.</em></div>
+  <div><b>Wikipedia</b><em>Most-viewed pages in 7 languages. Confirms a story was real, not just widely printed.</em></div>
+</div>
+<p class="disclaimer">We publish headlines, publisher names and counts only — never article text.
+Every story links back to its original source. All five feeds are public and free to read.</p>
+
+<footer>
+  <span>Updated hourly · Independent · Not affiliated with any source listed</span>
+  <span><a href="api/latest.json">JSON feed</a></span>
+</footer>
 </div></body></html>`;
 }
 
-function trendPage(r, takenAt) {
-  const title = `Is "${r.entity}" still trending? — ${SITE_NAME}`;
+function storyPage(r, takenAt) {
+  const n = r.effectiveCountries ?? r.countryCount ?? 1;
+  const title = `${r.entity} — spreading in ${n} ${n === 1 ? 'country' : 'countries'}`;
   const ld = {
-    '@context': 'https://schema.org', '@type': 'Article', headline: title,
+    '@context': 'https://schema.org', '@type': 'Article', headline: r.entity,
     dateModified: takenAt, author: { '@type': 'Organization', name: SITE_NAME },
   };
-  return HEAD(title, `Live velocity reading for ${r.entity}. Score ${r.finalScore}, status ${r.status}.`) + `
-<script type="application/ld+json">${JSON.stringify(ld)}</script>
-<p class="eyebrow"><a class="back" href="../index.html">← All trends</a></p>
-<h1>${esc(r.entity)}</h1>
-<p class="lede">Status <strong>${esc(r.status)}</strong>. Velocity score ${r.finalScore},
-measured ${esc(takenAt.slice(0, 10))}. Seen on ${r.platforms} platform${r.platforms > 1 ? 's' : ''}${
-    r.confirmedOn?.length ? ` (confirmed on ${r.confirmedOn.join(', ')})` : ''}.</p>
-${traceBar(r.finalScore)}
-<div class="meta">
-  <span>source ${esc(r.source)}</span><span>rank ${r.pos}</span>
-  <span>day ${r.ageDays}</span><span>confidence ${r.confidence}</span>
-</div>
-<div class="rule"></div>
-${r.why ? `<p class="sec">Why it is rising</p><p>${esc(r.why)}</p>` : ''}
-${r.angle ? `<p class="sec">What to do about it</p><p>${esc(r.angle)}</p>` : ''}
-<p class="sec">How this is measured</p>
-<p>The score combines four things: how much faster it moved since the last reading,
-how new it is, whether it is hitting a new personal best, and how much room it has left
-to climb. A high score means it is still going up — not that it is already big.</p>
-${r.url ? `<p><a href="${esc(r.url)}" rel="nofollow noopener">Source</a></p>` : ''}
-<footer>Re-measured every 3 hours.</footer>
+
+  return HEAD(title, `Live spread tracking. Currently in ${n} of ${WATCHED} countries.`)
+    + `<div class="band"><div class="wrap">` + statusBar(takenAt) + `
+<script type="application/ld+json">${safeJsonLd(ld)}</script>
+<section class="hero">
+  <p class="gauge-label"><a href="../index.html">← All stories</a></p>
+  <h1>${esc(r.entity)}</h1>
+  <p>Currently carried by <strong>${n} of ${WATCHED}</strong> ${n === 1 ? 'country' : 'countries'} we watch${
+    r.newCountries ? `, up ${r.newCountries} since the last reading` : ''}.
+  ${r.publisherCount ? `${r.publisherCount} independent ${r.publisherCount === 1 ? 'publisher' : 'publishers'}.` : ''}</p>
+  ${countryStrip(r)}
+  ${trace(r.series, r.countryCount)}
+</section>
+</div></div><div class="wrap pad">
+
+${r.why ? `<div class="sec"><h2>Why it is rising</h2></div><p>${esc(r.why)}</p>` : ''}
+${r.angle ? `<div class="sec"><h2>What to do about it</h2></div><p>${esc(r.angle)}</p>` : ''}
+
+<div class="sec"><h2>How this is measured</h2></div>
+<p>We read the news front page of ${WATCHED} countries at the same moment and group headlines
+that are about the same event, even when they are worded completely differently. The score
+rewards a story that is gaining countries fast, is still young, and is being covered by many
+independent publishers rather than one wire report reprinted everywhere.</p>
+
+${r.url ? `<p class="mono"><a href="${esc(r.url)}" rel="nofollow noopener">Original source →</a></p>` : ''}
+<footer><span>Re-measured every hour</span><span><a href="../api/latest.json">JSON feed</a></span></footer>
 </div></body></html>`;
 }
 
 async function sitemap() {
-  const files = await readdir('docs/trend').catch(() => []);
-  const urls = ['', ...files.map((f) => `trend/${f}`)];
+  const files = await readdir('docs/story').catch(() => []);
+  const urls = ['', ...files.map((f) => `story/${f}`)];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map((u) => `  <url><loc>${SITE_URL}/${u}</loc><changefreq>hourly</changefreq></url>`).join('\n')}
 </urlset>`;
 }
 
-function brief(ignition, climbing, date) {
+function brief(spreading, global, takenAt) {
   const line = (r, i) =>
     `**${i + 1}. ${r.entity}**\n` +
-    `score ${r.finalScore} · ${r.countryCount > 1 ? `${r.countryCount} countries` : r.source}` +
-    `${r.newCountries ? ` (+${r.newCountries} new)` : ''} · ${Math.round(r.ageHours)}h old\n` +
+    `${r.effectiveCountries ?? r.countryCount} ${(r.effectiveCountries ?? r.countryCount) === 1 ? 'country' : 'countries'}` +
+    `${r.newCountries ? ` (+${r.newCountries} this reading)` : ''}` +
+    ` · ${r.publisherCount || '?'} publishers · ${Math.round(r.ageHours)}h old\n` +
+    `\`${(r.countries || []).join(' ')}\`\n` +
     (r.why ? `${r.why}\n` : '') +
     (r.angle ? `> **Do this:** ${r.angle}\n` : '');
 
-  return `# Viral Radar — ${date}
+  return `# Viral Radar — ${takenAt.slice(0, 16).replace('T', ' ')} UTC
 
-**${ignition.length} stories are crossing borders right now.** These picked up new countries since the last reading three hours ago. That is the window before they are everywhere.
+**${spreading.length} ${spreading.length === 1 ? 'story' : 'stories'} gained countries this hour.**
 
 ## Spreading now
-${ignition.slice(0, 8).map(line).join('\n')}
+${spreading.length ? spreading.slice(0, 8).map(line).join('\n') : '_Quiet cycle. Nothing crossed a border this hour._'}
 
 ## Already global
-${climbing.slice(0, 5).map((r, i) => `${i + 1}. **${r.entity}** — ${r.countryCount} countries${r.angle ? ` — ${r.angle}` : ''}`).join('\n')}
+${global.slice(0, 5).map((r, i) => `${i + 1}. **${r.entity}** — ${r.countryCount} countries`).join('\n') || '_None._'}
 
 ---
-*Read from Google News in 14 countries, Bluesky, Google Trends in 8 countries, Reddit and Wikipedia in 7 languages — all at the same moment. Scored on how fast a story is crossing borders, not how loud it is.*
+*Read from Google News in ${WATCHED} countries, Bluesky, Google Trends, Reddit and Wikipedia — all at the same moment. Scored on how fast a story crosses borders, not how loud it is.*
 `;
 }
