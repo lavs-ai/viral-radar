@@ -1,495 +1,374 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Viral Radar — what is accelerating right now</title><meta name="description" content="Cross-platform trend detection. Ranked by speed, not popularity.">
+<title>Viral Radar — stories crossing borders right now</title><meta name="description" content="Live tracking of which news stories are spreading across 14 countries, updated hourly.">
+<meta property="og:title" content="Viral Radar — stories crossing borders right now"><meta property="og:description" content="Live tracking of which news stories are spreading across 14 countries, updated hourly.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Public+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+/* Direction: a masthead. Publications are recognised by their paper colour
+   (FT salmon, Economist red), so this owns a bone/oyster stock instead of the
+   usual white or cream. Dark ink band up top for authority, warm paper below
+   for reading. Serif display for editorial weight, mono for anything measured. */
 :root{
-  --paper:#EEF1F6; --grid:#DDE3EC; --ink:#12182B; --ink-soft:#59627A;
-  --rule:#C3CCDA; --cold:#3E63DD; --warm:#E8A33D; --hot:#E2483C; --card:#FFFFFF;
+  --paper:#EFEDE6; --paper-2:#F6F5F0; --card:#FCFBF8;
+  --ink:#15171C; --ink-band:#101319; --ink-2:#343A44; --mute:#585F6B;
+  --rule:#D6D2C6; --rule-2:#BFB9A9;
+  --signal:#AE2E1F; --amber:#8A5606; --cool:#23508C; --live:#2E7D5B;
 }
 *{box-sizing:border-box}
-body{
-  margin:0; background:var(--paper);
-  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
-  background-size:28px 28px;
-  color:var(--ink); font-family:"IBM Plex Sans",system-ui,sans-serif; line-height:1.55;
-}
-.wrap{max-width:1080px;margin:0 auto;padding:40px 20px 80px}
-h1{font-family:"Bricolage Grotesque","IBM Plex Sans",sans-serif;font-weight:800;
-   font-size:clamp(2.1rem,6vw,3.6rem);line-height:.98;letter-spacing:-.03em;margin:0}
-.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.22em;
-   text-transform:uppercase;color:var(--ink-soft);margin:0 0 12px}
-.lede{max-width:56ch;color:var(--ink-soft);margin:16px 0 0}
-.rule{height:1px;background:var(--rule);margin:34px 0 26px}
-.sec{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.18em;
-   text-transform:uppercase;color:var(--ink-soft);margin:38px 0 14px}
-.row{background:var(--card);border:1px solid var(--rule);border-radius:2px;
-   padding:16px 18px;margin-bottom:10px}
-.row-top{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
-.rank{font-family:"IBM Plex Mono",monospace;font-size:.78rem;color:var(--ink-soft);min-width:2.2em}
-.name{font-weight:600;font-size:1.02rem;flex:1;min-width:220px}
-.name a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
-.name a:hover{border-color:var(--ink)}
-.score{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:1.02rem;font-variant-numeric:tabular-nums}
-/* SIGNATURE: the velocity trace - a tick scale with a marker at the reading */
-.trace{position:relative;height:26px;margin:12px 0 10px;
-  background:repeating-linear-gradient(90deg,var(--rule) 0 1px,transparent 1px 10%);
-  border-bottom:1px solid var(--rule)}
-.trace i{position:absolute;top:2px;bottom:0;width:3px;border-radius:1px;
-  transform:translateX(-1.5px);transition:left .5s cubic-bezier(.2,.8,.2,1)}
-.meta{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--ink-soft);
-  display:flex;gap:16px;flex-wrap:wrap}
-.tag{border:1px solid var(--rule);padding:1px 7px;border-radius:2px;font-size:.66rem;
-  letter-spacing:.08em;text-transform:uppercase}
-.angle{margin:10px 0 0;font-size:.92rem}
-.angle b{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.14em;
-  text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:2px}
-a.back{font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:var(--ink-soft)}
-footer{margin-top:56px;font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--ink-soft)}
-@media(prefers-reduced-motion:reduce){*{transition:none!important}}
-</style></head><body><div class="wrap">
-<p class="eyebrow">Reading taken 2026-08-10 05:17 UTC</p>
-<h1>What is crossing<br>borders right now.</h1>
-<p class="lede">A story in one country is local news. The same story in eleven countries at once
-is a global event in progress. This reads the news feeds of 14 countries at the same moment,
-works out which headlines are the same story, and counts how fast that number is growing.</p>
-<div class="rule"></div>
-<p class="sec">Spreading now — crossing borders since the last reading</p>
-<article class="row">
-  <div class="row-top">
-    <span class="rank">01</span>
-    <span class="name"><a href="trend/samsung-galaxy-z-fold8-ultra-z-fold8-z-flip8-watch-ultra2-and-watch9-g.html">Samsung Galaxy Z Fold8 Ultra, Z Fold8, Z Flip8, Watch Ultra2, and Watch9 Go on Sale in India</a></span>
-    <span class="score">95.5</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">SPREADING</span>
-    <span>googlenews</span>
-    <span>4 countries</span>
-    <span>+2 since last read</span>
-    <span>1h old</span>
-    
-  </div>
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Public Sans",system-ui,-apple-system,sans-serif;
+  font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.mono{font-family:"DM Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+.pad{padding-bottom:104px}
+
+/* ---------- masthead band ---------- */
+.band{background:var(--ink-band);color:var(--paper-2);
+  background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);
+  background-size:22px 22px}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:16px 0;border-bottom:1px solid rgba(255,255,255,.13);flex-wrap:wrap}
+.brand{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:1.22rem;letter-spacing:-.01em}
+.brand em{font-style:italic;color:#D9A441}
+.stamp{font-family:"DM Mono",monospace;font-size:.7rem;color:#A3A9B4;
+  display:flex;align-items:center;gap:9px}
+.dot{width:7px;height:7px;border-radius:50%;background:#4ADE80;
+  box-shadow:0 0 10px rgba(74,222,128,.9);animation:pulse 2.6s ease-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+.hero{padding:60px 0 46px}
+.kicker{font-family:"DM Mono",monospace;font-size:.66rem;letter-spacing:.3em;
+  text-transform:uppercase;color:#8E9099;margin:0 0 24px}
+.hero h1{font-family:Newsreader,Georgia,serif;font-weight:500;
+  font-size:clamp(2.5rem,6.6vw,4.5rem);line-height:1.02;letter-spacing:-.022em;
+  margin:0 0 20px;text-wrap:balance;color:#FBFAF7}
+.hero h1 .count{font-weight:600;color:#E8A33D;font-variant-numeric:tabular-nums}
+.subline{font-family:"DM Mono",monospace;font-size:.76rem;color:#E8A33D;margin:0 0 22px;
+  padding-left:13px;border-left:2px solid rgba(232,163,61,.45)}
+.hero p{max-width:58ch;color:#A9AEB8;margin:0;font-size:1rem}
+
+/* reach meter, 14 slots */
+.gauge{display:flex;gap:3px;margin:34px 0 10px}
+.gauge i{height:22px;flex:1;background:rgba(255,255,255,.09);border-radius:1px}
+.gauge i.on{background:linear-gradient(180deg,#E8A33D,#B97F1F)}
+.gauge-label{font-family:"DM Mono",monospace;font-size:.66rem;letter-spacing:.16em;
+  text-transform:uppercase;color:#8E9099}
+
+/* ---------- sections ---------- */
+.sec{margin:52px 0 18px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.sec h2{font-family:"DM Mono",monospace;font-size:.72rem;letter-spacing:.22em;
+  text-transform:uppercase;font-weight:500;margin:0}
+.sec .note{font-size:.82rem;color:var(--mute)}
+
+/* ---------- story ---------- */
+.story{background:var(--card);border:1px solid var(--rule);border-radius:3px;
+  padding:22px 24px 20px;margin-bottom:12px;position:relative;
+  transition:box-shadow .18s,transform .18s,border-color .18s}
+.story::before{content:"";position:absolute;left:-1px;top:-1px;bottom:-1px;width:3px;
+  background:var(--rule-2);border-radius:3px 0 0 3px}
+.story.is-spreading::before{background:var(--signal)}
+.story:hover{border-color:var(--rule-2);transform:translateY(-1px);
+  box-shadow:0 8px 22px rgba(21,23,28,.09)}
+.story h3{font-family:Newsreader,Georgia,serif;font-weight:600;
+  margin:0 0 6px;font-size:1.24rem;letter-spacing:-.012em;line-height:1.28}
+.story h3 a{color:inherit;text-decoration:none}
+.story h3 a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+
+.badge{display:inline-block;font-family:"DM Mono",monospace;font-size:.63rem;
+  letter-spacing:.13em;text-transform:uppercase;padding:3px 9px;margin-bottom:11px;
+  border:1px solid;border-radius:2px}
+.badge.up{color:var(--signal);border-color:var(--signal);background:rgba(185,50,34,.06)}
+.badge.new{color:var(--amber);border-color:rgba(168,106,18,.5);background:rgba(168,106,18,.07)}
+.badge.gl{color:var(--cool);border-color:rgba(35,80,140,.45);background:rgba(35,80,140,.06)}
+.badge.sig{color:var(--mute);border-color:var(--rule)}
+
+/* SIGNATURE: country strip */
+.strip{display:flex;flex-wrap:wrap;gap:4px;margin:15px 0 13px}
+.cc{font-family:"DM Mono",monospace;font-size:.68rem;letter-spacing:.05em;
+  padding:4px 8px;border:1px solid var(--rule);border-radius:2px;
+  color:var(--mute);background:var(--paper-2)}
+.cc.new{background:var(--signal);border-color:var(--signal);color:#fff}
+
+.trace{display:flex;align-items:flex-end;gap:3px;height:24px;margin:11px 0 13px}
+.trace i{width:8px;border-radius:1px 1px 0 0;background:var(--rule-2)}
+.trace i:last-child{background:var(--signal)}
+
+.meta{display:flex;flex-wrap:wrap;gap:16px;font-family:"DM Mono",monospace;
+  font-size:.7rem;color:var(--mute)}
+.meta b{color:var(--ink);font-weight:500}
+.meta .warn{color:var(--amber)}
+.pubs{margin:12px 0 0;font-family:"DM Mono",monospace;font-size:.67rem;
+  color:var(--mute);line-height:1.75}
+.pubs span{letter-spacing:.15em;text-transform:uppercase;font-size:.6rem;
+  color:var(--ink-2);margin-right:9px}
+.angle{margin:15px 0 0;padding-top:13px;border-top:1px solid var(--rule);
+  font-size:.95rem;color:var(--ink-2)}
+.angle span{display:block;font-family:"DM Mono",monospace;font-size:.61rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}
+
+.empty{color:var(--mute);font-size:.95rem;padding:24px 0;font-style:italic}
+.sources{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.sources div{background:var(--paper-2);border:1px solid var(--rule);border-radius:3px;padding:15px 16px}
+.sources b{display:block;font-family:Newsreader,Georgia,serif;font-size:1rem;
+  font-weight:600;margin-bottom:5px}
+.sources em{font-style:normal;color:var(--mute);font-size:.79rem;line-height:1.55;display:block}
+.disclaimer{color:var(--mute);font-size:.79rem;max-width:70ch;margin-top:18px}
+footer{margin-top:64px;padding-top:22px;border-top:2px solid var(--ink);
+  font-family:"DM Mono",monospace;font-size:.68rem;color:var(--mute);
+  display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+a{color:var(--ink)}
+a:focus-visible,.story:focus-within{outline:2px solid var(--cool);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media(max-width:560px){.hero{padding:40px 0 34px}.story{padding:17px 18px}.gauge i{height:16px}}
+</style></head><body><div class="band"><div class="wrap"><div class="bar">
+  <div class="brand">Viral <em>Radar</em></div>
+  <div class="stamp"><span class="dot"></span>Reading 06:42 UTC · 2026-08-10</div>
+</div>
+<section class="hero">
+  <p class="kicker">Live global spread monitor</p>
+  <h1><span class="count">45</span> stories on the board.</h1>
+  <p class="subline">None has crossed a border since the last reading. Quiet cycle.</p>
+  <p>We read the front page of 14 countries at the same moment, work out which
+  differently-worded headlines are the same story, and count how fast that number grows.
+  A story in one country is local news. The same story in eleven is a global event in progress.</p>
+  <div class="gauge"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="gauge-label">Widest reach this reading — 10 of 14 countries</div>
+</section>
+</div></div><div class="wrap pad">
+
+<div class="sec"><h2>Spreading now</h2><span class="note">Gaining countries, or newly broken in the last few hours</span></div>
+<article class="story is-spreading">
+  <span class="badge new">Breaking · first seen just now</span>
+  <h3><a href="story/alleged-cartel-boss-daniel-kinahan-charged-in-ireland-amid-heavy-secur.html">Alleged cartel boss Daniel Kinahan charged in Ireland amid heavy security</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">GB</span><span class="cc off">CA</span><span class="cc off">IE</span></div>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">02</span>
-    <span class="name"><a href="trend/one-ui-9-watch-update-full-list-of-compatible-smartwatches.html">One UI 9 Watch Update - Full List of Compatible Smartwatches</a></span>
-    <span class="score">94.6</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
   <div class="meta">
-    <span class="tag">SPREADING</span>
-    <span>googlenews</span>
-    <span>5 countries</span>
-    <span>+3 since last read</span>
-    <span>14h old</span>
-    
+    <span><b>3</b> of 14 countries</span>
+    <span><b>3</b> publishers</span>
+    <span class="warn">4 editions, 3 independent</span>
+    <span><b>just now</b></span>
+    <span>score <b>78.3</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>Al Jazeera · Sky News · CTV News</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">03</span>
-    <span class="name"><a href="trend/leylah-fernandez-eliminated-from-national-bank-open-ending-canadian-si.html">Leylah Fernandez eliminated from National Bank Open, ending Canadian singles hopes</a></span>
-    <span class="score">73.1</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen just now</span>
+  <h3><a href="story/liverpool-2-3-monaco-reds-throw-away-lead-as-andoni-iraola-beaten-in-f.html">Liverpool 2-3 Monaco: Reds throw away lead as Andoni Iraola beaten in first Anfield game</a></h3>
+  <div class="strip"><span class="cc off">NG</span><span class="cc off">KE</span><span class="cc off">MY</span></div>
+  <div class="trace" role="img" aria-label="Country count over the last 4 readings"><i style="height:22px"></i><i style="height:13px"></i><i style="height:13px"></i><i style="height:13px"></i></div>
   <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>3 countries</span>
+    <span><b>3</b> of 14 countries</span>
+    <span><b>3</b> publishers</span>
     
-    <span>1h old</span>
-    
+    <span><b>just now</b></span>
+    <span>score <b>76.8</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>Sky Sports · Citizen Digital · The Mirror</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">04</span>
-    <span class="name"><a href="trend/spider-man-brand-new-day-keeps-record-pace-the-odyssey-sets-new-high-f.html">'Spider-Man: Brand New Day' keeps record pace, 'The Odyssey' sets new high for Nolan</a></span>
-    <span class="score">66.2</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>2 countries</span>
-    
-    <span>3h old</span>
-    
-  </div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 1h ago</span>
+  <h3><a href="story/yemen-s-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-an.html">Yemen's Houthis claim attack on Aramco oil facility in Saudi Arabia, and other Middle East news</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">PK</span><span class="cc off">KE</span></div>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">05</span>
-    <span class="name"><a href="trend/how-super-falcons-can-qualify-for-world-cup-despite-wafcon-loss-to-cam.html">How Super Falcons Can Qualify For World Cup Despite WAFCON Loss To Cameroon</a></span>
-    <span class="score">64.3</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
   <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>2 countries</span>
+    <span><b>3</b> of 14 countries</span>
+    <span><b>4</b> publishers</span>
     
-    <span>1h old</span>
-    
+    <span><b>1h old</b></span>
+    <span>score <b>72.2</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>NPR · France 24 · NBC News · businessdailyafrica.com</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">06</span>
-    <span class="name"><a href="trend/5-month-old-baby-among-2-dead-as-boat-capsizes-near-new-york-s-liberty.html">5-month-old baby among 2 dead as boat capsizes near New York’s Liberty Island</a></span>
-    <span class="score">61.1</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 1h ago</span>
+  <h3><a href="story/from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-.html">From Solar corona to human emotions: What can we learn from eclipses? (2/4)</a></h3>
+  <div class="strip"><span class="cc off">SG</span><span class="cc off">IE</span><span class="cc off">NG</span><span class="cc off">NZ</span><span class="cc off">PK</span><span class="cc off">KE</span><span class="cc off">MY</span></div>
+  <div class="trace" role="img" aria-label="Country count over the last 3 readings"><i style="height:16px"></i><i style="height:22px"></i><i style="height:22px"></i></div>
   <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>2 countries</span>
-    
-    <span>0h old</span>
-    
+    <span><b>1</b> of 14 countries</span>
+    <span><b>1</b> publisher</span>
+    <span class="warn">7 editions, 1 independent</span>
+    <span><b>1h old</b></span>
+    <span>score <b>68</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>France 24</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">07</span>
-    <span class="name"><a href="trend/amid-questions-over-mojtaba-khamenei-s-health-an-iran-president-suprem.html">Amid Questions Over Mojtaba Khamenei's Health, An Iran President-Supreme Leader Meet</a></span>
-    <span class="score">58.1</span>
-  </div>
-  <div class="trace"><i style="left:97%;background:var(--hot)"></i></div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 2h ago</span>
+  <h3><a href="story/deals-galaxy-z-flip8-gets-a-discount-out-of-the-gate-z-fold8-and-z-fol.html">Deals: Galaxy Z Flip8 gets a discount out of the gate, Z Fold8 and Z Fold8 Ultra also on sale - GSMArena.com news</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">IN</span><span class="cc off">AU</span></div>
+  <div class="trace" role="img" aria-label="Country count over the last 4 readings"><i style="height:18px"></i><i style="height:22px"></i><i style="height:13px"></i><i style="height:13px"></i></div>
   <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>2 countries</span>
+    <span><b>3</b> of 14 countries</span>
+    <span><b>3</b> publishers</span>
     
-    <span>3h old</span>
-    
+    <span><b>2h old</b></span>
+    <span>score <b>67.2</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>GSMArena.com · gsmarena.com · Mirage News</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">08</span>
-    <span class="name"><a href="trend/you-re-hit-with-a-slam-of-shadow-nasa-s-air-mission-to-capture-rare-ec.html">‘You’re hit with a slam of shadow’: Nasa’s air mission to capture rare eclipse data</a></span>
-    <span class="score">55.9</span>
-  </div>
-  <div class="trace"><i style="left:93%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>3 countries</span>
-    
-    <span>4h old</span>
-    
-  </div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 3h ago</span>
+  <h3><a href="story/aubrey-plaza-and-christopher-abbott-are-parents-to-a-baby-daughter.html">Aubrey Plaza and Christopher Abbott Are Parents to a Baby Daughter</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">GB</span><span class="cc off">AU</span></div>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">09</span>
-    <span class="name"><a href="trend/house-of-the-dragon-star-phia-saban-on-helaena-s-finale-tragedy-and-ch.html">‘House of the Dragon’ Star Phia Saban on Helaena’s Finale ‘Tragedy’ and Changes to Maelor Storyline</a></span>
-    <span class="score">52</span>
-  </div>
-  <div class="trace"><i style="left:87%;background:var(--hot)"></i></div>
   <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>2 countries</span>
-    
-    <span>3h old</span>
-    
+    <span><b>2</b> of 14 countries</span>
+    <span><b>2</b> publishers</span>
+    <span class="warn">3 editions, 2 independent</span>
+    <span><b>3h old</b></span>
+    <span>score <b>65</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>The Hollywood Reporter · Nine.com.au</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">10</span>
-    <span class="name"><a href="trend/mourinho-had-deal-to-succeed-sir-alex-at-manchester-united.html">Mourinho had deal to succeed Sir Alex at Manchester United</a></span>
-    <span class="score">47.1</span>
-  </div>
-  <div class="trace"><i style="left:79%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>2 countries</span>
-    
-    <span>2h old</span>
-    
-  </div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 2h ago</span>
+  <h3><a href="story/twice-s-jeongyeon-personally-confirms-departure-from-jyp-signs-with-va.html">TWICE's Jeongyeon Personally Confirms Departure From JYP + Signs With VARO Entertainment</a></h3>
+  <div class="strip"><span class="cc off">SG</span><span class="cc off">MY</span></div>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">11</span>
-    <span class="name"><a href="trend/unemployment-rate-up-in-nl-down-across-canada.html">Unemployment Rate Up in NL, Down Across Canada</a></span>
-    <span class="score">46</span>
-  </div>
-  <div class="trace"><i style="left:77%;background:var(--hot)"></i></div>
   <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>2 countries</span>
+    <span><b>2</b> of 14 countries</span>
+    <span><b>2</b> publishers</span>
     
-    <span>3h old</span>
-    
+    <span><b>2h old</b></span>
+    <span>score <b>64.1</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>Soompi · The Star</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">12</span>
-    <span class="name"><a href="trend/iphone-18-pro-release-date-demand-drives-september-launch.html">iPhone 18 Pro Release Date: Demand Drives September Launch</a></span>
-    <span class="score">44</span>
-  </div>
-  <div class="trace"><i style="left:73%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">BREAKING</span>
-    <span>googlenews</span>
-    <span>3 countries</span>
-    
-    <span>5h old</span>
-    
-  </div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 2h ago</span>
+  <h3><a href="story/how-super-falcons-can-qualify-for-world-cup-despite-wafcon-loss-to-cam.html">How Super Falcons Can Qualify For World Cup Despite WAFCON Loss To Cameroon</a></h3>
+  <div class="strip"><span class="cc off">NG</span><span class="cc off">PK</span></div>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">13</span>
-    <span class="name"><a href="trend/daniel-kinahan.html">Daniel Kinahan</a></span>
-    <span class="score">100</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
   <div class="meta">
-    <span class="tag">CONFIRMED</span>
-    <span>wikipedia</span>
+    <span><b>2</b> of 14 countries</span>
+    <span><b>3</b> publishers</span>
     
-    
-    <span>1d old</span>
-    
+    <span><b>2h old</b></span>
+    <span>score <b>62.4</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>Channels Television · Dawn · The Express Tribune</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">14</span>
-    <span class="name"><a href="trend/football-transfer-news-arsenal.html">football transfer news arsenal</a></span>
-    <span class="score">80.6</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>gtrends</span>
-    
-    
-    <span>12h old</span>
-    
-  </div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 4h ago</span>
+  <h3><a href="story/spider-man-brand-new-day-keeps-record-pace-the-odyssey-sets-new-high-f.html">'Spider-Man: Brand New Day' keeps record pace, 'The Odyssey' sets new high for Nolan</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">IN</span></div>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">15</span>
-    <span class="name"><a href="trend/liverpool-fc.html">Liverpool FC</a></span>
-    <span class="score">72.8</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
   <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>bluesky</span>
+    <span><b>2</b> of 14 countries</span>
+    <span><b>2</b> publishers</span>
     
-    
-    <span>12h old</span>
-    
+    <span><b>4h old</b></span>
+    <span>score <b>59.1</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>KSL News · timesofindia.indiatimes.com</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">16</span>
-    <span class="name"><a href="trend/tatort-borowski-und-das-ewige-meer.html">Tatort: Borowski und das ewige Meer</a></span>
-    <span class="score">100</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">CONFIRMED</span>
-    <span>wikipedia</span>
-    
-    
-    <span>1d old</span>
-    
-  </div>
+</article><article class="story is-spreading">
+  <span class="badge new">Breaking · first seen 2h ago</span>
+  <h3><a href="story/u-a-e-s-adnoc-gas-to-invest-more-than-8-billion-in-expansion-push.html">U.A.E.’s Adnoc Gas to Invest More Than $8 Billion in Expansion Push</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">IN</span></div>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">17</span>
-    <span class="name"><a href="trend/house-of-the-dragon.html">house of the dragon</a></span>
-    <span class="score">80.6</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
   <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>gtrends</span>
+    <span><b>2</b> of 14 countries</span>
+    <span><b>2</b> publishers</span>
     
-    
-    <span>12h old</span>
-    
+    <span><b>2h old</b></span>
+    <span>score <b>58.7</b></span>
   </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">18</span>
-    <span class="name"><a href="trend/epstein-files.html">Epstein Files</a></span>
-    <span class="score">65</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>bluesky</span>
-    
-    
-    <span>12h old</span>
-    
-  </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">19</span>
-    <span class="name"><a href="trend/james-bond-007-skyfall.html">James Bond 007: Skyfall</a></span>
-    <span class="score">100</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">CONFIRMED</span>
-    <span>wikipedia</span>
-    
-    
-    <span>1d old</span>
-    
-  </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">20</span>
-    <span class="name"><a href="trend/house-of-the-dragon-season-4.html">house of the dragon season 4</a></span>
-    <span class="score">80.6</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>gtrends</span>
-    
-    
-    <span>12h old</span>
-    
-  </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">21</span>
-    <span class="name"><a href="trend/lala.html">Lala</a></span>
-    <span class="score">65</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>bluesky</span>
-    
-    
-    <span>12h old</span>
-    
-  </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">22</span>
-    <span class="name"><a href="trend/robert-francis-kennedy.html">Robert Francis Kennedy</a></span>
-    <span class="score">100</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">CONFIRMED</span>
-    <span>wikipedia</span>
-    
-    
-    <span>1d old</span>
-    
-  </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">23</span>
-    <span class="name"><a href="trend/presiden.html">presiden</a></span>
-    <span class="score">80.6</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>gtrends</span>
-    
-    
-    <span>12h old</span>
-    
-  </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">24</span>
-    <span class="name"><a href="trend/bb28.html">BB28</a></span>
-    <span class="score">65</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">SIGNAL</span>
-    <span>bluesky</span>
-    
-    
-    <span>12h old</span>
-    
-  </div>
+  <p class="pubs"><span>Reported by</span>wsj.com · WSJ</p>
   
 </article>
-<p class="sec">Already global — everyone has it</p>
-<article class="row">
-  <div class="row-top">
-    <span class="rank">01</span>
-    <span class="name"><a href="trend/typhoon-dolphin-shanghai-airports-cancel-1-300-flights-as-china-evacua.html">Typhoon Dolphin: Shanghai airports cancel 1,300 flights as China evacuates thousands</a></span>
-    <span class="score">100</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
+
+<div class="sec"><h2>Already global</h2><span class="note">Everyone has these. Too late to be first.</span></div>
+<article class="story">
+  <span class="badge gl">In 8 countries</span>
+  <h3><a href="story/iran-live-tehran-demands-compensation-from-trump-to-reopen-strait-of-h.html">Iran live: Tehran demands compensation from Trump to reopen Strait of Hormuz</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">GB</span><span class="cc off">IN</span><span class="cc off">CA</span><span class="cc off">IE</span><span class="cc off">NG</span><span class="cc off">NZ</span><span class="cc off">PK</span></div>
+  <div class="trace" role="img" aria-label="Country count over the last 4 readings"><i style="height:19px"></i><i style="height:22px"></i><i style="height:22px"></i><i style="height:22px"></i></div>
   <div class="meta">
-    <span class="tag">GLOBAL</span>
-    <span>googlenews</span>
-    <span>10 countries</span>
+    <span><b>8</b> of 14 countries</span>
+    <span><b>9</b> publishers</span>
     
-    <span>2h old</span>
-    
+    <span><b>1h old</b></span>
+    <span>score <b>100</b></span>
   </div>
+  <p class="pubs"><span>Reported by</span>CNBC · The Independent · The Hindu · timesofindia.indiatimes.com · CNN +4 more</p>
   
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">02</span>
-    <span class="name"><a href="trend/iran-live-tehran-demands-compensation-from-trump-to-reopen-strait-of-h.html">Iran live: Tehran demands compensation from Trump to reopen Strait of Hormuz</a></span>
-    <span class="score">87.4</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
+</article><article class="story">
+  <span class="badge gl">In 10 countries</span>
+  <h3><a href="story/shanghai-cancels-at-least-1-300-flights-as-typhoon-dolphin-hits-china-.html">Shanghai cancels at least 1,300 flights as Typhoon Dolphin hits China's eastern coast on Sunday (Aug 9) night</a></h3>
+  <div class="strip"><span class="cc off">US</span><span class="cc off">GB</span><span class="cc off">IN</span><span class="cc off">AU</span><span class="cc off">CA</span><span class="cc off">SG</span><span class="cc off">NG</span><span class="cc off">PH</span><span class="cc off">PK</span><span class="cc off">MY</span></div>
+  <div class="trace" role="img" aria-label="Country count over the last 4 readings"><i style="height:18px"></i><i style="height:22px"></i><i style="height:22px"></i><i style="height:22px"></i></div>
   <div class="meta">
-    <span class="tag">GLOBAL</span>
-    <span>googlenews</span>
-    <span>8 countries</span>
-    
-    <span>2h old</span>
-    
+    <span><b>7</b> of 14 countries</span>
+    <span><b>7</b> publishers</span>
+    <span class="warn">10 editions, 7 independent</span>
+    <span><b>3h old</b></span>
+    <span>score <b>88.8</b></span>
   </div>
-  
-</article><article class="row">
-  <div class="row-top">
-    <span class="rank">03</span>
-    <span class="name"><a href="trend/europe-faces-rocket-launcher-shortage-by-2030-space-agency-chief-warns.html">Europe faces rocket launcher shortage by 2030, space agency chief warns</a></span>
-    <span class="score">79.2</span>
-  </div>
-  <div class="trace"><i style="left:100%;background:var(--hot)"></i></div>
-  <div class="meta">
-    <span class="tag">GLOBAL</span>
-    <span>googlenews</span>
-    <span>7 countries</span>
-    
-    <span>1h old</span>
-    
-  </div>
+  <p class="pubs"><span>Reported by</span>bbc.com · BBC · timesofindia.indiatimes.com · The Guardian · The Straits Times +2 more</p>
   
 </article>
-<footer>Updated every 3 hours · <a href="api/latest.json">JSON feed</a></footer>
+
+<div class="sec"><h2>Early signals</h2><span class="note">Social and search chatter, no country count yet</span></div>
+<article class="story">
+  <span class="badge sig">wikipedia</span>
+  <h3>Daniel Kinahan</h3>
+  <div class="meta"><span>score <b>100</b></span><span>CONFIRMED</span></div>
+</article><article class="story">
+  <span class="badge sig">bluesky</span>
+  <h3>BB28</h3>
+  <div class="meta"><span>score <b>95.5</b></span><span>SIGNAL</span></div>
+</article><article class="story">
+  <span class="badge sig">gtrends</span>
+  <h3>football transfer news arsenal</h3>
+  <div class="meta"><span>score <b>80.6</b></span><span>SIGNAL</span></div>
+</article><article class="story">
+  <span class="badge sig">wikipedia</span>
+  <h3>Robert Francis Kennedy</h3>
+  <div class="meta"><span>score <b>100</b></span><span>CONFIRMED</span></div>
+</article><article class="story">
+  <span class="badge sig">bluesky</span>
+  <h3>Epstein Files</h3>
+  <div class="meta"><span>score <b>88</b></span><span>SIGNAL</span></div>
+</article><article class="story">
+  <span class="badge sig">gtrends</span>
+  <h3>house of the dragon season 4</h3>
+  <div class="meta"><span>score <b>80.6</b></span><span>SIGNAL</span></div>
+</article><article class="story">
+  <span class="badge sig">wikipedia</span>
+  <h3>Airbus A380</h3>
+  <div class="meta"><span>score <b>100</b></span><span>CONFIRMED</span></div>
+</article><article class="story">
+  <span class="badge sig">bluesky</span>
+  <h3>Lala</h3>
+  <div class="meta"><span>score <b>86.6</b></span><span>SIGNAL</span></div>
+</article><article class="story">
+  <span class="badge sig">gtrends</span>
+  <h3>house of the dragon</h3>
+  <div class="meta"><span>score <b>80.6</b></span><span>SIGNAL</span></div>
+</article><article class="story">
+  <span class="badge sig">wikipedia</span>
+  <h3>Don Nelson</h3>
+  <div class="meta"><span>score <b>91</b></span><span>CONFIRMED</span></div>
+</article>
+
+<div class="sec"><h2>Where this comes from</h2></div>
+<div class="sources">
+  <div><b>Google News</b><em>Front page of 14 countries, read at the same moment. Gives the country count.</em></div>
+  <div><b>Bluesky</b><em>Trending topics. Social chatter usually moves first.</em></div>
+  <div><b>Google Trends</b><em>Daily search trends across 8 countries. Shows when the public starts looking.</em></div>
+  <div><b>Reddit</b><em>Rising posts. Sits between social chatter and the news cycle.</em></div>
+  <div><b>Wikipedia</b><em>Most-viewed pages in 7 languages. Confirms a story was real, not just widely printed.</em></div>
+</div>
+<p class="disclaimer">We publish headlines, publisher names and counts only — never article text.
+Every story links back to its original source. All five feeds are public and free to read.</p>
+
+<footer>
+  <span>Updated hourly · Independent · Not affiliated with any source listed</span>
+  <span><a href="api/latest.json">JSON feed</a></span>
+</footer>
 </div></body></html>

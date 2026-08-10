@@ -27,10 +27,22 @@ function scoreOne(r, prev) {
   // ---- 1. SPREAD: how many countries, and is that number growing? ---------
   // This dominates everything else for news, which is why it is first and why
   // it gets the biggest weight.
-  const countries = r.countryCount || 1;
-  const prevCountries = prev?.countryCount ?? (prev ? 1 : null);
+  const rawCountries = r.countryCount || 1;
 
-  // Share of the world we can see that is carrying this story.
+  // CRITICAL CORRECTION. Google shows the same article in several country
+  // editions, so "3 countries, 1 publisher" is not three countries covering a
+  // story - it is one article displayed three times. Counting that as spread
+  // is the single easiest way to publish a false alarm.
+  //
+  // A country only counts if an independent newsroom is behind it, so the real
+  // reach can never exceed the number of distinct publishers.
+  const countries = r.publisherCount
+    ? Math.min(rawCountries, r.publisherCount)
+    : rawCountries;
+
+  const prevCountries = prev?.effectiveCountries ?? prev?.countryCount ?? (prev ? 1 : null);
+
+  // Share of the world we can see that is genuinely carrying this story.
   const reach = Math.min(countries / MAX_COUNTRIES, 1);
 
   // New countries picked up since the last reading. This is the "going global
@@ -74,7 +86,9 @@ function scoreOne(r, prev) {
 
   return {
     velocity,
-    countryCount: countries,
+    effectiveCountries: countries,   // after the independence correction
+    syndicated: rawCountries > countries,
+    countryCount: rawCountries,      // raw editions, kept for display
     newCountries,
     reach: +reach.toFixed(2),
     spreadRate: +spreadRate.toFixed(2),
@@ -82,6 +96,9 @@ function scoreOne(r, prev) {
     ageHours: +ageHours.toFixed(1),
     ageDays: +(ageHours / 24).toFixed(2),
     phase: phase(r, countries, newCountries, ageHours),
+    reachLabel: countries === rawCountries
+      ? `${rawCountries} countries`
+      : `${rawCountries} editions, ${countries} independent`,
   };
 }
 

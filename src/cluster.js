@@ -191,6 +191,10 @@ function finalise(c) {
     countries: [...c.countries],
     countryCount: c.countries.size,
     publisherCount: c.publishers.size,
+    // Keep the actual names, not just the count. A client who cannot see who
+    // is reporting a story has no way to verify it, and an unverifiable claim
+    // is worth nothing to someone paying for it.
+    publishers: [...c.publishers].slice(0, 10),
     articleCount: c.articleCount,
     pos: c.bestPos,
     volume: c.articleCount,
@@ -198,5 +202,9 @@ function finalise(c) {
     firstSeen: c.firstSeen,
     url: c.url,
     keywords: c.sig.proper.slice(0, 8),
+    // Stable ID across readings. Headlines get reworded every hour; the names
+    // inside them do not. Fingerprinting on names is what lets us chart a
+    // single story's country count over time.
+    fp: c.sig.proper.slice(0, 4).sort().join('|') || label.toLowerCase().slice(0, 40),
   };
 }

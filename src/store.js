@@ -11,7 +11,7 @@
 // Free, versioned, and you can move to Postgres later without changing anything
 // upstream of this file.
 
-import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 
 const DATA_DIR = path.resolve('data');
@@ -23,10 +23,12 @@ export async function saveSnapshot(records) {
   const file = path.join(SNAP_DIR, `${stamp}.json`);
   await writeFile(file, JSON.stringify({ takenAt: new Date().toISOString(), records }, null, 0));
 
-  // Keep the last 120 snapshots (~30 days at 4 runs/day). Prevents repo bloat.
+  // Keep the last 240 snapshots (~10 days at hourly). Actually DELETE the old
+  // ones - the earlier version truncated them to empty files, which left junk
+  // behind and confused the history reader.
   const files = (await readdir(SNAP_DIR)).filter((f) => f.endsWith('.json')).sort();
-  for (const old of files.slice(0, Math.max(0, files.length - 120))) {
-    await writeFile(path.join(SNAP_DIR, old), ''); // truncate then leave for git rm
+  for (const old of files.slice(0, Math.max(0, files.length - 240))) {
+    await rm(path.join(SNAP_DIR, old), { force: true });
   }
   return file;
 }
@@ -65,6 +67,31 @@ export function indexSnapshot(snap) {
 }
 
 export const key = (r) => `${r.source}::${(r.entity || '').toLowerCase()}`;
+
+// Read the last N snapshots, oldest first. This is what turns a pile of
+// readings into a chart - and the chart is the thing a customer cannot get
+// anywhere else, because it only exists if you were already recording.
+export async function loadHistory(n = 10) {
+  try {
+    const files = (await readdir(SNAP_DIR)).filter((f) => f.endsWith('.json')).sort().slice(-n);
+    const out = [];
+    for (const f of files) {
+      const raw = await readFile(path.join(SNAP_DIR, f), 'utf8');
+      if (raw) out.push(JSON.parse(raw));
+    }
+    return out;
+  } catch {
+    return [];
+  }
+}
+
+// For one story, pull its country count from each past reading.
+export function seriesFor(history, fp, key = 'countryCount') {
+  return history.map((snap) => {
+    const hit = snap.records.find((r) => r.fp && r.fp === fp);
+    return hit ? (hit[key] || 1) : null;
+  });
+}
 
 export async function writeJson(relPath, obj) {
   const full = path.resolve(relPath);
