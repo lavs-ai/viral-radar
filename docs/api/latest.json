@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-08-11T19:55:06.057Z",
+  "takenAt": "2026-08-11T20:34:54.798Z",
   "watchedCountries": 14,
   "spreading": [
     {
@@ -23,11 +23,11 @@
         "The Guardian",
         "NDTV",
         "CBC",
-        "news24.com"
+        "News24"
       ],
       "effectiveCountries": 5,
       "syndicated": false,
-      "ageHours": 2.9,
+      "ageHours": 3.6,
       "score": 100,
       "confidence": 0.57,
       "category": null,
@@ -37,42 +37,37 @@
       "fp": "al-assad|bashar|ex-president|syrian"
     },
     {
-      "entity": "Trump says will demand conflict compensation from Iran",
+      "entity": "The Office star Lucy Davis diagnosed with 'incurable' cancer",
       "source": "googlenews",
-      "phase": "LOCAL",
+      "phase": "BREAKING",
       "status": "IGNITION",
       "countries": [
-        "US",
-        "AU",
-        "CA",
+        "GB",
         "IE",
-        "PK",
-        "MY"
+        "NG"
       ],
-      "countryCount": 6,
+      "countryCount": 3,
       "newCountries": 1,
-      "articleCount": 6,
-      "publisherCount": 5,
+      "articleCount": 3,
+      "publisherCount": 3,
       "publishers": [
-        "BBC",
-        "The Australian",
-        "Global News",
+        "The Guardian",
         "RTE.ie",
-        "Free Malaysia Today"
+        "BBC"
       ],
-      "effectiveCountries": 5,
-      "syndicated": true,
-      "ageHours": 3.5,
-      "score": 94.7,
-      "confidence": 0.35,
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 1.9,
+      "score": 100,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XUmJWU0hkazJFUk1NNjVUbUdILUJUZUlaRk9ZZ1B6N21KeWQwYmFLbDVpY29xcmJYOVlFTHR0NWdOcGg1ZG1LaUxUeFNOakU5ZDZlZF93U0tSQQ?oc=5",
-      "fp": "iran|trumps"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWjFab0N4bFRaX3NrV2JUVllNUTd0aUpxaTZDUFhBQ2hGZ2xRdTA0UkxIX1FQZVQ2VzM1UVVPaEVfbnlxXzV0ZnN2RU9iU3VrblEyRV9nQzdvUFF2UGx0azg2TWcyMUNEeFRJNUE3VWZBakc2WUdHNEJuY1JHeGZsNUNQb21GMG5sd0VOWVlvd2s2NVJpOU1sWTZ0LVlsWk1GU0ZYMGdqY3E?oc=5",
+      "fp": "davis|lucy|office"
     },
     {
-      "entity": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+      "entity": "More than 70 killed after powerful earthquake hits western Colombia",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
@@ -80,21 +75,23 @@
         "US",
         "GB",
         "CA",
+        "ZA",
         "PH",
         "PK"
       ],
-      "countryCount": 5,
+      "countryCount": 6,
       "newCountries": 0,
-      "articleCount": 5,
-      "publisherCount": 2,
+      "articleCount": 6,
+      "publisherCount": 3,
       "publishers": [
         "CNN",
-        "BBC"
+        "BBC",
+        "News24"
       ],
-      "effectiveCountries": 2,
+      "effectiveCountries": 3,
       "syndicated": true,
       "ageHours": 0.8,
-      "score": 78.1,
+      "score": 85.6,
       "confidence": 0.57,
       "category": null,
       "why": null,
@@ -103,7 +100,38 @@
       "fp": "colombia"
     },
     {
-      "entity": "DR Congo Ebola death toll surpasses 2,000 as scientists trace likely origin",
+      "entity": "Arsenal set firm asking price for Myles Lewis-Skelly amid strong interest from Manchester United and Chelsea",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
+      "countries": [
+        "GB",
+        "SG",
+        "NG",
+        "KE"
+      ],
+      "countryCount": 4,
+      "newCountries": 0,
+      "articleCount": 4,
+      "publisherCount": 3,
+      "publishers": [
+        "The Times",
+        "United In Focus",
+        "Goal.com"
+      ],
+      "effectiveCountries": 3,
+      "syndicated": true,
+      "ageHours": 3.3,
+      "score": 71.7,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONksyeG9qT3Q0blYzYi1BY2NVWHRrRnZGMEl6ejJfOXRHSl9Hc1RqRjR4bHNnS09fdnBldU50TzRma01IUGIySzN1b2lFVWdMRkhCZ08xY3k0bkplNl9yNkhua25yNU9jWUtIdTlfeUdkSmtGTU9abTdVSVI5dndkNTlxSFUyMmIxWXp6bmU3QzZqU1ZlQUphbWc3TXBCbWdXN1ZuaHV2b2xBZzVoRXJOanFHRkQzdXAxQ0czejNiYw?oc=5",
+      "fp": "arsenal|lewis-skelly|myles|utd"
+    },
+    {
+      "entity": "DR Congo Ebola outbreak may have begun in February: WHO regional chief",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
@@ -119,12 +147,12 @@
       "publishers": [
         "Al Jazeera",
         "CBC",
-        "africanews.com"
+        "Xinhua"
       ],
       "effectiveCountries": 3,
       "syndicated": false,
-      "ageHours": 3.6,
-      "score": 73.7,
+      "ageHours": 4.2,
+      "score": 69.9,
       "confidence": 0.35,
       "category": null,
       "why": null,
@@ -133,113 +161,111 @@
       "fp": "congo|ebola"
     },
     {
-      "entity": "Transfer News LIVE - Manchester City interested in Alexis Mac Allister, Chelsea and Manchester United offered chance to sign Myles Lewis-Skelly",
+      "entity": "iPhone 18 Pro Component Prices Could Surge 1.4x Prior to Release, Per Analysts",
       "source": "googlenews",
       "phase": "BREAKING",
-      "status": "CLIMBING",
+      "status": "PLATEAU",
       "countries": [
-        "GB",
-        "KE",
-        "SG"
+        "US",
+        "PK"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "MacRumors",
+        "extremetech.com"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 1.2,
+      "score": 69.8,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMWgxQkJwN0M2ZWlCdFQ0S292SU0tdDVnTWliWjVvdkRSbHhxTHYwbUpDTWZOZUJYUUd4SXUyRFJkYl9JT0NVbjB0ZzJmYzJ4dURCUGNvcW94b0hZaDJjWWtyRHpKZ09jZ3VXT0NrQUNWMVBnWUxDY1lwWnY3NzhMa09sVQ?oc=5",
+      "fp": "pro|reportedly|start|storage"
+    },
+    {
+      "entity": "Could The 2026 Total Solar Eclipse Cause An Earthquake? Here’s The Truth",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IN",
+        "KE"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The Times of India",
+        "Forbes"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 2,
+      "score": 68.3,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTklEOXVCaUxqTlpTOVZfV2JPTzZ6Y3l3b3g5UFpwZFpMaDQtTkgxWi1EQmZHRFZNbTk1eVRaU1Zqa1g2dTN3QW5ZZk9mZGluUGNYNXpDVndteV9vMzFBYWt4X3J6aVN3U3FwdG9wTmgxZVBDMFN2aDQ3UXRTbzZJc2l1ZnRhcktRZ1cwc1lBVzlOeDlhaTlsd1VZbVBGaWhNZjM3cjlrbF8wY01ZSm80X3lmV3ZEXzRPQVp5ZkoyQ0ZPZHFWNnI2OGxoeUVaSVNXcHlWbXJSdnRfMF91dms1elV2RkpHSVV0UTlBOEY2VWhxRmlyckHSAfsBQVVfeXFMUGlsTlFSR2s1cHItc3g1cDNqa3ViVmJ2aGNJZ29sT0luTWFES0NyWlhBM1h4SlhXcTdwOGpPOENGRzdFblBNLWcwZTZ2SHJRN05laDFQQ3hncGREdHZ6OF9RMmtKTTVJekhhN1kyTmxwcGgwSXZDMGJXaGNYQ0tmWS1ZOFBfZ0JrWGVQemJ0M3ZkVUdvMFVZaU5rekxTdlFHU3pyYWo1cUswVEtYczVQYkNoYnhSem05Nl9ybTVVTWxGTjNYT1hqY21ya2FkMXBpTUV2THQtWFQ2NXdpT05wQm5tTTdpOVRmamV1ZWJ0Qm5XVzBLV3VGeENvMGs?oc=5",
+      "fp": "eclipse|nasa|solar|total"
+    },
+    {
+      "entity": "Moscow releases former US Marine Robert Gilman after four-year stint in Russian prison",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "GB"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The Hill",
+        "Financial Times"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 2.7,
+      "score": 65.9,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR1VER0lGX3dpX3U1U2J6YTd3UGluQVJFVGJlWHdqVkQzLVRFNGx5MXZCLXhnWVg1dXZWc2xKaFQ3bEFxYmdlZS0zVXZQVXNHMWduQ2xtbTd4NlEycVoxSjVVQ1FQVjc4RHJJVzgtVF9sMlBCaWpxLUEwNVlMNlc5amNia0RCQ1po0gGOAUFVX3lxTE1zWlJJSFB6ckdCSm16U1JaR3Y5SXNfNmV5NzFKQkpqV1pyaUpJbFZpakRVMnpaVEtMeFp5Z0NXbVRYVWF0VjAzMUFuMnBwMi1Ub05lYWFabVBfaGZfckF5M3Zubk1JSjFSUGtPMnN1cHpvNGdxSHlab3BVUEtMeERnT25Da29HWmVpLWpDb0E?oc=5",
+      "fp": "gilman|marine|robert|russia"
+    },
+    {
+      "entity": "Argonne Uses AI to Speed X-Ray Data Analysis at Advanced Photon Source",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IE",
+        "PK",
+        "MY"
       ],
       "countryCount": 3,
       "newCountries": 0,
       "articleCount": 3,
-      "publisherCount": 3,
-      "publishers": [
-        "TNT Sports",
-        "goal.com",
-        "United In Focus"
-      ],
-      "effectiveCountries": 3,
-      "syndicated": false,
-      "ageHours": 3.8,
-      "score": 72.8,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQb25qNDZfUmZfTEs4UzZtRGpZMlV6S1pvTkNwcXlwdFJybnd3NHVVZlc5MkZHbWNNU3ZNZmY2T1VPczBXc2ExM0JYT2Q0TDhCNUw1c3J6aU1Td0M5ZmlOSXdMV1dsRkRLMGRCTldqMUQtNjdTSl90UU1UVGFjalpIa0R3MkF3Sy1BMDk1YUZfTlNHOHlUV1hhU3VxbnNjalFPMGNhdmZlODdJTHlUVVdsSFJ3Szc2UU9JbmJRVjZNMVlSS1VLVkxMSXowSnlaYi1PNXdNRnJzaEd6ZkUzR05QbzhTbWVETkJSMFVPcEdTRUNENWpVd1piUnJxLWpfYTNhcWR2eUZjNk9lZnQ0UDlmdHRaLWVORVVBNjdTY3BMc1pvRTlxeWJpZUQ0c1otUQ?oc=5",
-      "fp": "alexis|city|mac|manchester"
-    },
-    {
-      "entity": "Italian scientists set to test new solar tool during total eclipse",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "SG",
-        "IE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "CNA",
-        "Silicon Republic"
+        "HPCwire",
+        "hpcwire.com"
       ],
       "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 5.8,
-      "score": 72.8,
-      "confidence": 0.79,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONXVfUnFOeUpIZVpDTFpsRW5NWVVjRVVYdW1uXzJ0OWJ2VGNRWnkyY0t4TUp5bFdJeEk2S3RnN2RPZ0xQcG5KYmVWMDF3S1pQQVU4YVo1ZDBZWkJhZkktRHJrR096cEJZTnBFZ05adWFXT3k5UWtORjVfaVlwQ3hTcWFPTlJvNHV2Zi1xRVJmTTJPSk9YOHVSVWN2NFRZLVBqaW1MbDZwX044SlVXTnNzWUxDZVNjWW8?oc=5",
-      "fp": "italian scientists set to test new solar"
-    },
-    {
-      "entity": "Desperate rescue efforts continue in Colombia as earthquake death toll passes 200",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "IE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The Hindu",
-        "The Irish Times"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 2.2,
-      "score": 71.6,
-      "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeXpmSm9qOVNpUkxpc0hIUUNpN055bGZlYmdVa29Xa2h4QW9UUEJUekNEdVRsVE1nMm5iV2NhWjdDQ2VjYkRxSjNBOFNrN19zQkRFdDdGcm1oWmcyNERfalhzRm9BY1E1Wk55SFRRRG51eTR2SVNiSGhmQWpwSWJGOGFSVmtyQko1Zm5zTkFCU3YzUm5scmkyQzF4UWx3RENsZE5xX1hWZVM2dnRYSm9icklfU0kxSDVIdVFIRnFBQmVxc3oybk9jLWFKRzF4b3djZ1dZWFR4UXg3TVJMQ05reWdOMDfSAesBQVVfeXFMTXIyMWpmcl82WnVkM09pZTJaRU5VUm5leF9uM3Z6QnRPbHQ0bUdabUduYjh2eVRoSldnUWFnUVJpenZtc3g5Nm1pZjBVZjdwREVtOU5tcmREdnA0bjhWLUJIcnRHaUs1RDF6OUtlUVE5Si1aeXdoeEpZYkdfRkpBeF9ibVhyYlppVS1lY3p6WjhUbU5GWVVzWVJOYlozNTZyaF9ENE4yOWpoUTU2ZGZFZTlNOXdpaVhicUVlNlYxRFFXVXd5azVPb0hxbjVfUE5hMkN1TTRySTdqcmNYd0ZsazlDZURmWVhLemNvOA?oc=5",
-      "fp": "colombia"
-    },
-    {
-      "entity": "The most dramatic meteor shower of the summer peaks the day of a solar eclipse",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "PH",
-        "PK",
-        "MY"
-      ],
-      "countryCount": 4,
-      "newCountries": 0,
-      "articleCount": 4,
-      "publisherCount": 1,
-      "publishers": [
-        "NBC News"
-      ],
-      "effectiveCountries": 1,
       "syndicated": true,
-      "ageHours": 1,
-      "score": 67.3,
-      "confidence": 0.79,
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZGZuemZlSkRDeVN1NmdMSkFGdnhCZ2lWVGtIa2VDU3BzZmRzUTd5YVAxbXd4ckFtRDlYWV9mdHdMUG92TG5RaUhkdHFuaFBoMkRJS3BlUFR6QjJSSFBVMUpoTjdkQnZIaDBqaUVlS0FvcnRSRFdKdkRjVk1nLXl3T0NzRGROTktHa1VRamxRNXVBTFRCdEt2VHdmMXhmUi13UGlLQ254VnRJRGhLVXc?oc=5",
-      "fp": "the most dramatic meteor shower of the s"
+      "ageHours": 0.3,
+      "score": 65.1,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWmppVFE5SGpwX0tUVVRybmdxemEtMDBpUmxSbWpuc1A0eUpWR3hQN01aTzVOYXR3VDBydE5HN2laYTNkelJYSnE3bmZUZ0poZEJrSEZhdzEyWEk3OTZ1NElXQko1LXA4NUR6cFZMYlhEMml5WWR4VkV0bnhOdUNOUTZfWEdTZ2hSMjJvbS1UdVR1U0szM0x1dVpTOXhqN0lRZmVKYkdoazdPM1hiN2FiR21rOUV2eTdTdU5qRA?oc=5",
+      "fp": "data|speed|uses|x-ray"
     },
     {
       "entity": "Almost 75% of England now in drought after record dry July | ITV News",
@@ -261,42 +287,17 @@
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 5,
-      "score": 66.2,
+      "ageHours": 5.6,
+      "score": 63.6,
       "confidence": 0.35,
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVjhfb1pFVkR3bFNaQkZCVmxUUV9mVUNCTEhhZUpfV25QQ3VPSlpETFNOQ2Qxa1RGOWlkZmpObjgtUVJKRUx6UzJjTVduZkpZVEZ4NTlwZjI4M2I3RGY3bmlHMzRYUWdoYTBNV2lGRFE3WnMtaEZqdnY2czgyQ0hQVzBHb1B6VkRwTmpzQlNfOTB0c19KX3d1bzZGdUZ6WU85WjE4?oc=5",
       "fp": "england|itv"
-    },
-    {
-      "entity": "Perseid meteor shower reaches peak viewing on Wednesday night",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "US",
-        "GB"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "CBS News",
-        "BBC"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 5.8,
-      "score": 65.7,
-      "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHBWRlVQRk5MRm1CczNrSG9oMkhKY2kya3l6WU9tMGw1dld4dktLeGVoM1huYmItbkRTRGt2LTUtRHYtSDJnUGhoc09LaHpOWUdyVFljNGMwNlZuSjg4VnBSZWdnY1lKQnB5NG92dVlySVYySlZFTXRxanAzbXNWalNwMWFMZw?oc=5",
-      "fp": "perseid meteor shower reaches peak viewi"
     }
   ],
   "global": [],
   "signals": [
     {
-      "entity": "Star Wars/Marvel",
+      "entity": "AI Labs",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "IGNITION",
@@ -311,27 +312,27 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/trending.bsky.app/feed/827067923"
+      "url": "https://bsky.app/profile/trending.bsky.app/feed/827344876"
     },
     {
-      "entity": "Solar eclipse of August 12, 2026",
+      "entity": "House of the Dragon season 3",
       "source": "wikipedia",
       "phase": "CONFIRMED",
-      "status": "CLIMBING",
+      "status": "IGNITION",
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 24,
-      "score": 89.4,
-      "confidence": 0.79,
+      "score": 94.6,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_12%2C_2026"
+      "url": "https://en.wikipedia.org/wiki/House_of_the_Dragon_season_3"
     },
     {
-      "entity": "solar eclipse 2026",
+      "entity": "lucy davis",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -340,42 +341,24 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 80.6,
-      "confidence": 0.79,
+      "score": 72.8,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=solar%20eclipse%202026&geo=AU"
-    },
-    {
-      "entity": "NBA",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "IGNITION",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 83.5,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/davelevitan.bsky.social/feed/aaadvxju4txkk"
+      "url": "https://trends.google.com/trends/explore?q=lucy%20davis&geo=AU"
     },
     {
       "entity": "Faisal of Saudi Arabia",
       "source": "wikipedia",
       "phase": "CONFIRMED",
-      "status": "CLIMBING",
+      "status": "IGNITION",
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 24,
-      "score": 80.8,
+      "score": 94.6,
       "confidence": 0.57,
       "category": null,
       "why": null,
@@ -383,7 +366,7 @@
       "url": "https://en.wikipedia.org/wiki/Faisal_of_Saudi_Arabia"
     },
     {
-      "entity": "person of interest",
+      "entity": "georgina rodriguez",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -397,37 +380,37 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=person%20of%20interest&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=georgina%20rodriguez&geo=DE"
     },
     {
-      "entity": "Quiet Posters",
+      "entity": "European Defence",
       "source": "bluesky",
       "phase": "SIGNAL",
-      "status": "IGNITION",
+      "status": "PLATEAU",
       "countries": [],
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 81.1,
-      "confidence": 0.35,
+      "score": 72.1,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/why.bsky.team/feed/infreq"
+      "url": "https://bsky.app/profile/trending.bsky.app/feed/827033923"
     },
     {
       "entity": "Mecca Joint Defence Agreement",
       "source": "wikipedia",
       "phase": "CONFIRMED",
-      "status": "CLIMBING",
+      "status": "IGNITION",
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 24,
-      "score": 80.8,
+      "score": 94.6,
       "confidence": 0.57,
       "category": null,
       "why": null,
@@ -435,7 +418,25 @@
       "url": "https://en.wikipedia.org/wiki/Mecca_Joint_Defence_Agreement"
     },
     {
-      "entity": "uefa super cup",
+      "entity": "Book Releases",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 72.1,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/trending.bsky.app/feed/826909714"
+    },
+    {
+      "entity": "cava stock",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -444,29 +445,29 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 72.8,
-      "confidence": 0.57,
+      "score": 65,
+      "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=uefa%20super%20cup&geo=IN"
+      "url": "https://trends.google.com/trends/explore?q=cava%20stock&geo=US"
     },
     {
-      "entity": "One Night Only (2026 film)",
+      "entity": "Anexo:Terremotos en Colombia",
       "source": "wikipedia",
       "phase": "CONFIRMED",
-      "status": "CLIMBING",
+      "status": "IGNITION",
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 24,
-      "score": 80.8,
+      "score": 94.6,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://en.wikipedia.org/wiki/One_Night_Only_(2026_film)"
+      "url": "https://es.wikipedia.org/wiki/Anexo%3ATerremotos_en_Colombia"
     }
   ]
 }
