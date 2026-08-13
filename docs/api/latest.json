@@ -1,34 +1,32 @@
 {
-  "takenAt": "2026-08-13T19:51:35.563Z",
+  "takenAt": "2026-08-13T20:31:30.520Z",
   "watchedCountries": 14,
   "spreading": [
     {
       "entity": "Solar Eclipse Photos: Viewers Line Up in Europe To Watch",
       "source": "googlenews",
-      "phase": "SPREADING",
+      "phase": "LOCAL",
       "status": "IGNITION",
       "countries": [
         "IN",
-        "CA",
         "ZA",
         "IE",
         "PK"
       ],
-      "countryCount": 5,
-      "newCountries": 2,
-      "articleCount": 6,
-      "publisherCount": 6,
+      "countryCount": 4,
+      "newCountries": 1,
+      "articleCount": 5,
+      "publisherCount": 5,
       "publishers": [
         "Forbes",
-        "France 24",
-        "Daily Maverick",
+        "EWN",
         "roscommonherald.ie",
         "waterford-news.ie",
-        "nytimes.com"
+        "The New York Times"
       ],
-      "effectiveCountries": 5,
+      "effectiveCountries": 4,
       "syndicated": false,
-      "ageHours": 6.6,
+      "ageHours": 7.2,
       "score": 100,
       "confidence": 0.79,
       "category": null,
@@ -38,34 +36,66 @@
       "fp": "eclipse|line|photos|viewers"
     },
     {
-      "entity": "All Blacks great Ma’a Nonu performs solo haka against New Zealand in South Africa tour match",
+      "entity": "Skies darken as solar eclipse heads south from Arctic to Spain",
+      "source": "googlenews",
+      "phase": "SPREADING",
+      "status": "IGNITION",
+      "countries": [
+        "CA",
+        "SG",
+        "NZ",
+        "MY"
+      ],
+      "countryCount": 4,
+      "newCountries": 2,
+      "articleCount": 4,
+      "publisherCount": 4,
+      "publishers": [
+        "CBC",
+        "The Guardian",
+        "RNZ",
+        "Dawn"
+      ],
+      "effectiveCountries": 4,
+      "syndicated": false,
+      "ageHours": 7.5,
+      "score": 100,
+      "confidence": 0.79,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSm0wbFMtaEI3TzNOc0MwQmNrTW9wM1pvM2VVVFhTZklJV3NjeWZHOXhYOWExWk16djdxUDVhalFLWW8wblRkdnFwaEZvaWJaeFJPcEloZWdsMzZGV3dsamREejZSSlNtVFpZWTc0T2FoYXhySTM1d3NIRy1NNWE5WjI1N3NVbXNkMEFOcDV3MFJPUmtXS0VJYmZTbU1PajFfSlp1MDBtdGgwRENY?oc=5",
+      "fp": "arctic|canada|iceland|spain"
+    },
+    {
+      "entity": "USS Abraham Lincoln to be replaced amid poor conditions for troops deployed to Middle East",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
       "countries": [
-        "ZA",
-        "NZ"
+        "US",
+        "PH",
+        "MY"
       ],
-      "countryCount": 2,
+      "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 4,
-      "publisherCount": 4,
+      "articleCount": 3,
+      "publisherCount": 3,
       "publishers": [
-        "businesstech.co.za",
-        "Daily Investor",
-        "1News",
-        "The Guardian"
+        "NBC News",
+        "Philippine News Agency",
+        "Space Daily"
       ],
-      "effectiveCountries": 2,
+      "effectiveCountries": 3,
       "syndicated": false,
-      "ageHours": 4.6,
-      "score": 84,
+      "ageHours": 0.7,
+      "score": 83.1,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSllQbEZJWHFadnNfU0FFM25nNWZMbVVRSmJvZVN0VXlYX1BOWVJyVUN3aDVQa0hvcmtzQWVpUjI2WWJTVmNtV0gweHRISi16VW9VZ3N0eHNCRFVlUWdXaWRqVXRsdnFqZWRhQXNyM29LZ0ZjalJkN0ctajZuOFRMUVlialZISnh4ajZIcEp5d3VQWkd2eERvX1BCaHhlT1lDajIwNzNNSG9oVUN1YjNoVkdQX2dtMGhZN1dUOElXYm5uUzJMdWZN?oc=5",
-      "fp": "africa|blacks|mo'unga|south"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTFdVXzh0UWVKOEhqYzJkY0JTQ3V6QlFybFl2Wk16b2hBc1NabnZVcjlDR3VWLUliRW1ublNiWVN0cE5VZnRhSk1QZzc2SWJEeUlOM1Y4NmE3SzdrWHF3YXhIc2ptaVpuQ2hFV2FkZ1o4R3BKVTFpT0NhQU51THk5S0thWlN1M0VuTllmanJXNjR5N0JXSXJLMFhVQzFjUklQTnl6OUl6ZlJENHVMcmJQaUZ3?oc=5",
+      "fp": "abraham|east|lincoln|middle"
     },
     {
       "entity": "Ebola outbreak caused by new ‘animal transmission’: What that means",
@@ -81,20 +111,110 @@
       "countryCount": 4,
       "newCountries": 0,
       "articleCount": 4,
-      "publisherCount": 1,
+      "publisherCount": 2,
       "publishers": [
+        "aljazeera.com",
         "Al Jazeera"
       ],
-      "effectiveCountries": 1,
+      "effectiveCountries": 2,
       "syndicated": true,
-      "ageHours": 5.4,
-      "score": 81.2,
+      "ageHours": 6,
+      "score": 81.7,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUExzVXFVZkFvamhRU0JlMlU0VjBsZ3M1TmlRQzJPWmJRbUF2UHJBYW5LcVhMWDdBekl2cnRhclpZUVZNcEZzNVRyN29OVDdHdmhJSEhjSlR4TjZqejN4dzFBcUdSa0FEYmk0ZEtRTVFLaVlFV0Z4MUpjOFhkazZvZ2Exa09FVVEwLTA2YkVVcmtFbG5uTW5DSkhtRXRRSzNEQ3h4TFZKUDHSAa4BQVVfeXFMTzhpekVSR3pnMUMtdFNCa202Y3dSb1M3cHhuMzU3T2NxdjV1UVVieE9sWGpkWHZwQU53WFNRZ1hiZFZhay1ibzU0MlJHVFYxWmZTNmZvQTI1RHl6SHpWX0dwRVo3eFZiR1V1ZjJ4dkFaXzJ5M1VuTDZCOXJURGlxSUtaWklKekpaY0VWSW5odmZjSUN1ZVBhVXpleHBxLTQyUDhfNGY0cGQyQWRjckZ3?oc=5",
       "fp": "ebola outbreak caused by new ‘animal tra"
+    },
+    {
+      "entity": "Youri Tielemans apologises to Aston Villa fans after suggesting Manchester United is a bigger club",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
+      "countries": [
+        "GB",
+        "NG",
+        "KE"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 4,
+      "publisherCount": 3,
+      "publishers": [
+        "skysports.com",
+        "Goal.com",
+        "bbc.com"
+      ],
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 2.9,
+      "score": 80.5,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRHBYbHBXMEZIS0hiQ2pMREllbWFXSXJVVkhjNVdNVEl0ZEplQkxtMWh6LTkyUmYyQVJSYVNTRzJpal9UOTFiN1RqWDk0dGNHNVdRamNTbUhLRE5MV2FJOC1HNFJPLTc2UjJaVEpnT0V0YUx3THN6cXBRWElfLXU4S1FSd29tQjBGdmd6bUZUZXVUU0hNMHNCaXhjNWxiWFlYMVJScGdBYXE0UTQxMGYzV1puV2hVYlVXX2hxQUV2NEJWbWY1Zk1NWkVnYzcyM1pMNWQ1VXVUMUpCRTlkZTlBTEhTQmRHV0NSS1lua1ZDODYtWlM2N2lLY3lB?oc=5",
+      "fp": "carrick|manchester|michael|utd"
+    },
+    {
+      "entity": "US Robot Vacuum Maker One-Ups China Rivals With Voice Commands",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
+      "countries": [
+        "AU",
+        "PH",
+        "PK"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 3,
+      "publishers": [
+        "bloomberg.com",
+        "TechRepublic",
+        "Huawei Central"
+      ],
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 3.3,
+      "score": 70.5,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVGg2LXBGQnNQUUxLR09VaWVpYnVORWZiamhlS1l1eHpHMUZNTFU1OU9QaEhOaDU1SXRVSWVDanlBbTRKRGo3aHdZQXZmYWZobjc5eVo0bTVRRUZKZnNSNk5XUl9wZ2xTNlREM0dleFBwYXdxS1NBM2RuT1Q5dFhXTElSMFJUSm1Wb295ZGZQTEFERnZtUDRhelpId1VsSkVsWUx1M21zY05WNXN5V0pBUDNVQQ?oc=5",
+      "fp": "maker|one-ups|robot|vacuum"
+    },
+    {
+      "entity": "Kennedy Center Board votes again to shut main building down — and add Trump's name back",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "GB",
+        "CA"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 2,
+      "publishers": [
+        "NPR",
+        "The Guardian"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 1.6,
+      "score": 69,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUmVaZkROTm1ON0lZQTY1VVVxVk4zN2ZQN2R3eUNjb28tY0FCcUlWeVdQeGo1NU1RUnNxeG51aS1Ncks1TnU1WVJUWWEtSVI0cUVkT2FRY1FoZllTRDlySnpTTEJuMFdudnY0V2J2VmpLVGZmekN3WnMxU3RUT2dfRWJqM08tbVh6YzZvT2tMRQ?oc=5",
+      "fp": "board|center|trump's|trumps"
     },
     {
       "entity": "Who could potentially replace White House Press Secretary Karoline Leavitt?",
@@ -116,171 +236,63 @@
       ],
       "effectiveCountries": 2,
       "syndicated": true,
-      "ageHours": 4.9,
-      "score": 77.9,
+      "ageHours": 5.6,
+      "score": 68.7,
       "confidence": 0.79,
-      "category": null,
-      "why": null,
-      "angle": null,
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpcHlwNWN0QlVQVG42MHpEeE1JcDVoc0ZadGEtTTlhYXo1d0hlX09tU1RWSzgtMHJKd0c0cVgxeHhrZ01Qbmo3c2U3Snl3X3JIV0liRm9ISEhoZw?oc=5",
       "fp": "house|press|secretary|white"
     },
     {
-      "entity": "Kennedy Center Board votes again to shut main building down — and add Trump's name back",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "CLIMBING",
-      "countries": [
-        "US",
-        "CA"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "NPR",
-        "The Guardian"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 0.9,
-      "score": 77.3,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUmVaZkROTm1ON0lZQTY1VVVxVk4zN2ZQN2R3eUNjb28tY0FCcUlWeVdQeGo1NU1RUnNxeG51aS1Ncks1TnU1WVJUWWEtSVI0cUVkT2FRY1FoZllTRDlySnpTTEJuMFdudnY0V2J2VmpLVGZmekN3WnMxU3RUT2dfRWJqM08tbVh6YzZvT2tMRQ?oc=5",
-      "fp": "board|center|kennedy|trump's"
-    },
-    {
-      "entity": "EXCLUSIVE: Ukraine offers Russia truce in Black Sea as food supply fears mount, source says",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "US",
-        "GB"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "Reuters",
-        "The Telegraph"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 1.5,
-      "score": 75.9,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVAyN1FTME4xT3BNeld6NHNVMEpaWElYUkJrVjdmZmFVMVBtX0NlZGp3cXk4UUItS1ZDaGhCVE54bkptY0tiSTJDTHF2VU5HSzB3YTRFay1KY09uM1RuNkZJSXFtbVNiNVlzTU1rWEF2TTV4LUZzazNDU2dkdTVsdENPdnFvZDJMWmcxWTdwNE5na2NzeVBwVlVwTnNrQUN5VHV3bEIwaS1vTmZXOVhGeEVnN1FyQ1VxMTQ0T2g4aw?oc=5",
-      "fp": "black|russia|sea|ukraine"
-    },
-    {
-      "entity": "Vladimir Putin's first visit to disputed Pacific islands draws Tokyo protest",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "US",
-        "IN"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "NPR",
-        "The Hindu"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 3.2,
-      "score": 72.8,
-      "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaGlockVzbWFRSmNTXzRlOUtVLWtSLVIyR2Y3Yk9XRXllbFBYX2ZsYUtyeTJUMlhucE1VU19MRUZ5UUpocDZOS1lyR3ktYldzVmt3OE1TaXB6bkd1bXVIaU5PV2dOTU82bnZlTW5qbkpqY1libXNLTEhuMWd0VGczZ3JBdkYzMGVvY2ZRa05fUjRiQXAwXzF5VXYwOS1vLVVkaURxdU8ybUx3SGI2RGhCRlhjREV2SklXUGc?oc=5",
-      "fp": "japan|pacific|putin's|tokyo"
-    },
-    {
-      "entity": "Investing In Africa’s Community Health Systems Can Define The Next Era Of Epidemic Control",
+      "entity": "All Blacks team: Beauden Barrett's positional switch as Codie Taylor returns to captain side against Bulls",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
         "ZA",
-        "NG"
+        "NZ"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "Africa.com",
-        "THISDAYLIVE"
+        "Planet Rugby",
+        "1News"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 3.2,
-      "score": 72.8,
+      "ageHours": 1.9,
+      "score": 66.5,
       "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGNueEZLSnE5N0JudHdmdThiaXVKU1VEVU9KeHZxVUdJRmNOQ2Z5MXFvd092YnVNNmN0RUc0MzJXQ3lXakM5eXJqaDdfRXZxNDUxWGVsejJCOXZKc09Ob3JTX2dKdWZmc0dsUkpHNWUtLTVuSmdNdnlBZ0JjX0RQaVhWaVN4dGo1RnZhX0NIVUMyUHVja1czY1FYZVBBa3ZqTVNvZDNjbFZNTTFjNnB0NEZVLTRUWDg4YXBUaElKTHZLZlFKZEFz?oc=5",
-      "fp": "africas|community|health|systems"
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTWpYUUxiOG9YNGh5ZTVmVmsybDkxTHc1R0xnMTQ0c1doUi03RldBdDhETHFDSEZUYVprczVRanNaS09raDBMeXJNdXZJX01xODlvUTk4QlZtcU93TUpMeElwWXNrazVGZkw2YXJtRTU4N0cwak9XejlqOF8teXRxeU85bXNmeVI5Z215U1FYODNZc0FYTkZuOXNUUGt1RHA0N0hoeXluck9FWkRoSElkdER6c19iTVl5ZnZHTlpBX1JvQWRtYVhXWl9nUkNVQ2NiYTRv?oc=5",
+      "fp": "barrett's|beauden|blacks|codie"
     },
     {
-      "entity": "Siaya Sounds Alarm on Ebola Preparedness, Seeks Urgent Support to Train Front-Line Workers",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "CLIMBING",
-      "countries": [
-        "ZA",
-        "KE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "SABC News",
-        "Dawan Africa"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 0.8,
-      "score": 69.9,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOHZRcC1ZaGtWTXZkZWVKNkViTFRTWWRJc2hPRTFLb0ZPVGMzOXozaW1lQlhXcmdfbjFTZkVnVDNMcDZrRUFRRUhUaE9sZTBxNk01YXVuLV80WDZIREMtVDJHZHNTZVRjRUUyVlZsVy13SmlrbEJFTVRKX0VKblFJQUxn?oc=5",
-      "fp": "alarm|ebola|preparedness|sounds"
-    },
-    {
-      "entity": "Honor Launches Robot Phone in China With a 200MP Moving Camera",
+      "entity": "'Baseless Lies': Iran dismisses US President Trump's claims of 'total control' over Strait of Hormuz",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "AU",
-        "PH",
-        "PK"
+        "IN",
+        "PK",
+        "MY"
       ],
       "countryCount": 3,
       "newCountries": 0,
       "articleCount": 3,
-      "publisherCount": 2,
+      "publisherCount": 3,
       "publishers": [
-        "Trend Hunter",
-        "TechRepublic"
+        "The Times of India",
+        "Reuters",
+        "The Star"
       ],
-      "effectiveCountries": 2,
-      "syndicated": true,
+      "effectiveCountries": 3,
+      "syndicated": false,
       "ageHours": 2.7,
-      "score": 66.7,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QaHRzbTNuekE1OXRINXpBZzQtemMzcVZGQjUwSEhHVWY0NnFfMXhuekRzSWFRYVJBSGdBeEE5UkpSNDNGNDRqNExjN0ZubzRMTnNObGh2SUttR2J6Z2tzbzlJb1LSAWpBVV95cUxPUXhETmdzQ3VSbXh0Z1VxbUpHM1Q4YnRSakJZNk9sM0ZkbVB5alZYeHI0dXg4ZmhvMm96QVROMk1QNThjeDB1UDYzWTNwT1FmQmFwM3pqa05laHhyNDdKMGlnNnBrMFVRb1JR?oc=5",
-      "fp": "cleaners|launches|phone|robot"
+      "score": 64.2,
+      "confidence": 0.79,
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORVV5VWVxZUJUa25xb2ZWTjJKeUR4WmpJVzk0ZkZHUXltS0FJYUFNY1NULWRteFJ6dDhuN20yWVgxY3d4b1NTZ1hPb3hPWmtud085Ym80Snpnak1MNmREQ1JxNWMyZTZQNEpTTmpZaUJSUHVXOFc5bnlpanBoTmtKMUFlX092U2d1NS1ieVdwckpENVZ3dEd6UnBDa3lpMVIybWw4Ni1vQ0ZUWUhuMUtVN2dkc0JncHN4UGwtN3g1Rnhvb3Q0SlRPM0xORkVXNE9fMndvc1FuQnMzc1A5TkJPMVpERy1CUQ?oc=5",
+      "fp": "hormuz|iran|strait|trump's"
     }
   ],
   "global": [],
@@ -321,7 +333,7 @@
       "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_2%2C_2027"
     },
     {
-      "entity": "vladimir putin kuril islands visit",
+      "entity": "where to watch champions league",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -330,30 +342,12 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 72.8,
-      "confidence": 0.57,
+      "score": 80.6,
+      "confidence": 0.79,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=vladimir%20putin%20kuril%20islands%20visit&geo=US"
-    },
-    {
-      "entity": "NBA releases 2026-27 season schedule",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "IGNITION",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 100,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/964ebd4c8d80"
+      "url": "https://trends.google.com/trends/explore?q=where%20to%20watch%20champions%20league&geo=ID"
     },
     {
       "entity": "Solar eclipse",
@@ -373,7 +367,25 @@
       "url": "https://en.wikipedia.org/wiki/Solar_eclipse"
     },
     {
-      "entity": "miami heat schedule",
+      "entity": "Flock Safety faces license plate surveillance backlash",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "IGNITION",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 97.1,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1e997ee23a69"
+    },
+    {
+      "entity": "fernando mendoza",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -387,25 +399,7 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=miami%20heat%20schedule&geo=US"
-    },
-    {
-      "entity": "Settlers besiege Palestinian homes in West Bank",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "IGNITION",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 100,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/434ca42ae4be"
+      "url": "https://trends.google.com/trends/explore?q=fernando%20mendoza&geo=US"
     },
     {
       "entity": "Solar eclipse of August 11, 1999",
@@ -425,24 +419,7 @@
       "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_11%2C_1999"
     },
     {
-      "entity": "pakistan independence day",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 72.8,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=pakistan%20independence%20day&geo=IN"
-    },
-    {
-      "entity": "AOC misquoted on \"Woke 1\"",
+      "entity": "Trump policies raise cost of living",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "IGNITION",
@@ -457,7 +434,42 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9e00c3f09e6f"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f97748970778"
+    },
+    {
+      "entity": "flock safety platform privacy changes",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 72.8,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=flock%20safety%20platform%20privacy%20changes&geo=US"
+    },
+    {
+      "entity": "Spider-Man: Brand New Day film",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "IGNITION",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 94.3,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/52f1d7c5c030"
     }
   ]
 }
