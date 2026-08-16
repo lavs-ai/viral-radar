@@ -1,68 +1,59 @@
 {
-  "takenAt": "2026-08-16T10:14:43.873Z",
+  "takenAt": "2026-08-16T11:12:05.733Z",
   "watchedCountries": 14,
   "spreading": [
     {
-      "entity": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+      "entity": "Russia launches wave of strikes on Ukraine as Kyiv hits Wildberries warehouse near Moscow",
       "source": "googlenews",
-      "phase": "SPREADING",
-      "status": "IGNITION",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
       "countries": [
-        "US",
-        "IN",
-        "PK",
-        "SG",
-        "IE",
-        "NG"
+        "GB",
+        "IN"
       ],
-      "countryCount": 6,
-      "newCountries": 4,
-      "articleCount": 10,
-      "publisherCount": 9,
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 3,
       "publishers": [
-        "AP News",
-        "The Hindu",
-        "NDTV",
-        "Fox News",
-        "nst.com.my",
-        "Irish Independent",
-        "TheCable",
-        "Fortune",
-        "news.cgtn.com"
+        "BBC",
+        "Al Jazeera",
+        "The Indian Express"
       ],
-      "effectiveCountries": 6,
+      "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 6.9,
-      "score": 100,
+      "ageHours": 0.5,
+      "score": 84.3,
       "confidence": 0.79,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS1ZVeVR3dkRTVHNDamZQUkxBc0FUS1RVQlh4WnJnM0hESmZYZUhMdkk1a3JaNE9IQUFMT2hGWU1CU1VkYkxCbUVpUGp0YzJNYmU2U05tZ2ViNE5hWVVnZUtyUW0zNjVLMk9IRDBVSzR0cTFlY0dsUDRGUXlEaWlFUFN5Qk5LTnJkQ0R5NDRpSUpiWmFoQVpKQ2VHaHJIY0o5SmN2OUE5Zm1ndw?oc=5",
-      "fp": "asia|iran|trump|western"
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11QmtGWGdvV3lqOVRQcEFBZkkyNmpINVI0R0pWQmc0Z3dhQVNQR0c3YWdYZlB4UTBZS2ZkMS1FcVdlMTM2N1NuRXM2WS1VX2dwOFR5WHktM0k?oc=5",
+      "fp": "kyiv|moscow|ukraine|wildberries"
     },
     {
       "entity": "Apple iPhone Vs. Google Pixel - Which Has The Longest Software Support Guarantee?",
       "source": "googlenews",
       "phase": "BREAKING",
-      "status": "PLATEAU",
+      "status": "CLIMBING",
       "countries": [
+        "IN",
         "CA",
-        "PK",
-        "KE"
+        "PK"
       ],
       "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 2,
+      "articleCount": 4,
+      "publisherCount": 3,
       "publishers": [
         "GSMArena.com",
+        "gsmarena.com",
         "bgr.com"
       ],
-      "effectiveCountries": 2,
-      "syndicated": true,
-      "ageHours": 0.4,
-      "score": 67.7,
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 1.3,
+      "score": 72.9,
       "confidence": 0.35,
       "category": null,
       "why": null,
@@ -71,65 +62,42 @@
       "fp": "google|gsmarenacom|has|pixel"
     },
     {
-      "entity": "Multiple people killed and others injured in motorway crash in County Kildare, Irish police say",
+      "entity": "Rescuers search for survivors of powerful Indonesia earthquake",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
+        "US",
         "GB",
-        "IE"
+        "PH",
+        "KE"
       ],
-      "countryCount": 2,
+      "countryCount": 4,
       "newCountries": 0,
-      "articleCount": 2,
+      "articleCount": 4,
       "publisherCount": 2,
       "publishers": [
-        "Sky News",
-        "RTE.ie"
+        "BBC",
+        "the-star.co.ke"
       ],
       "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 0.7,
-      "score": 66.5,
-      "confidence": 0.35,
+      "syndicated": true,
+      "ageHours": 2.8,
+      "score": 71.1,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPODE3X1ctT0NrcmtmdzdwcERtbDlxcENvQzZ2VjhLUmVVMmVLUkRRSXpuQ0U5Z0FIbUFkUW00U0lSSlJSa2R1Y3JuSVg3QXA1aHk2SC1RODFRaWY4a291eGJGM1Mzc3luT1dBWjN4MzhjdDlxRU5jUVhoQXlYdUVhRUFlLWlmM3lJQy1pTV9DU0FaWVVFOFBmODVkTHR3T2ktX1dOVG9NbFBXSHFMbV9ZSnNjeE01U1d0UTNjQWxqOUFvRGtRcWhQcHV3?oc=5",
-      "fp": "county|irish|kildare"
-    },
-    {
-      "entity": "Thousands evacuate after Indonesia quake kills 51, cuts roads",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "KE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "reuters.com",
-        "AP News"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 0.9,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeEJFQktERVZJaDU5NFZfV0ZKZWpwc0FzYzR1SUJYeFF4Z1U5SVQxenBacVFDM1lNdGNRTnhXSVFBQTlFZVpEaGlsX1J0MzY1cHN5bllZQ0hMNVlvcnAtRlFmYWRKYzZORnZibTluNWJkVk5sdExHQWduODdCcEZ1OXVGSXd0ZHFmTS00OWhPeVpxQ2lpYWZheUZKWmZFZWM4N0RGeEhOSlM4WXliOWNfY0NWZ0JuRENL?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yd09DeUZVMlpkZlF6bFQ5N3NNVDNaUWVFTURSN1RKZFlyM1U4cTRGalhYWGplN1d4b21mZkNoeHVwYUp3cGRTdXdvSnhqNUVUakZIcGdKYmVQdw?oc=5",
       "fp": "indonesia"
     },
     {
-      "entity": "Pakistan Retain Wahab Riaz As Women's Team Head Coach For Asian Games",
+      "entity": "JD Vance and the Trump team keep moving the goalposts on Iran",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "PH",
+        "US",
         "PK"
       ],
       "countryCount": 2,
@@ -137,167 +105,270 @@
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "Philippine News Agency",
-        "sports.ndtv.com"
+        "Yahoo News Singapore",
+        "Reuters"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 2.1,
-      "score": 63.8,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1idThMeV93RFlNSGxFQndlZUh1V3ZxV05iRFQ1UGpCcTVhLWNFamN6VDhsV0poZ3d4Qm03dnRLNUl1RGFBQ2FqQ2t3N0lBZ0VG?oc=5",
-      "fp": "asian|games|retain|wahab"
-    },
-    {
-      "entity": "Harmanpreet Singh's brace powers India to 3-1 win over Wales in FIH World Cup opener",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "NG"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The Times of India",
-        "Voice of Nigeria"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 2.9,
-      "score": 62.8,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPeDVkd1lpM014ZjlrVW50UEMzVWo0UHg1VEY5dXdrTFowbklWZktPUXU0VG9xS0tRbEtNd051WDFrSXQxQkFQSE8xZlJseG5nNTRPMkN3d2xZNW1LSm1XaElXTmNuVHNDQzRuc3ctbDV6RzlkYWNWNFVndUZlWHBzTUFVbkprcjBvUDFIUTg5NGNocjJaVUlxYVFjZHF2dU1JLWp0RDktbEg0blZwbGU2aGlKZl8xMEtsUlFmU2dEV0VKdXVsV2JaSS1NLXRLV3RXNVg4NG9rcE90V3c2cUxPZHVmTG05cHdSWDRVeDZ6b3ZTdkhDdmg2NHNlOGFFY1Jh?oc=5",
-      "fp": "fih|india|singh's|wales"
-    },
-    {
-      "entity": "American Icon Shelby Cobra Daytona Coupe That Beat Ferrari 250 GTO In 1965 Sells For Record $42.9 Million",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "CA",
-        "NG"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "Bluebird Banter",
-        "AUTOJOSH"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 3.1,
-      "score": 61.3,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSldhdV9lNkU5YWR6Q0RBd1FXbGoxUEJSQ2RNbG15UkFITVFfSy1kS2o4bFQwbXR4amJiRGFSNTBFdEplclRzS0pDeWx5cFFOWEM2dUJ5TFN5b0VNVDFFVDF2cTZJeUdUa0VCa3V2VTVQazZqTV8ya0F0MGFHWDJnWUFmS0RPbkExQjdxLQ?oc=5",
-      "fp": "beat|icon|jays|yankees"
-    },
-    {
-      "entity": "Ukraine targets Moscow in mass drone attack as Russia bombards Kyiv",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "GB"
-      ],
-      "countryCount": 1,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 2,
-      "score": 60.3,
+      "ageHours": 1.1,
+      "score": 66.3,
       "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzczRwOHdXV08tMTdZMUdMRVRZTDdWLVlvdmNWd1F2TS12akJYUWJWaFptdDAtV1RrcFYwbkZlWXZBZHllN29rcHRyLVRMaDY0Z3BWVHNHLWFKU0ts?oc=5",
-      "fp": "kyiv|moscow|russia|ukraine"
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ickpLdjhvTVpVZGFSYl83bFFlb2traEtha0VUcndYdzB2ZVBNQ0hMRGNmWmxJWkNoTmVacDk3VW5VWHQ1OG4xS2JVejRDM05tVGJsY0tRNkJ1bURZNExuVGZqMno2SW45QVMxRDcwVklBdkU?oc=5",
+      "fp": "iran|trump|vance"
     },
     {
-      "entity": "Warning to people using Netflix and YouTube in South Africa",
+      "entity": "Arsenal vs Manchester City: Community Shield – prediction, lineups, teams",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "ZA",
-        "NZ"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 6,
-      "publisherCount": 4,
-      "publishers": [
-        "businesstech.co.za",
-        "TopAuto.co.za",
-        "Cape Town ETC",
-        "nzherald.co.nz"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 4.8,
-      "score": 58.5,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVG1KZWl0STZIODU2Q3lTX1U0YWdnSXRpTjBfakREM0owdllFRUFnS0NPSDVMRmZ5Nmwwb0RvWV9mUGpxejRlOUI5ajB6WkdtVVh5YXppLVNRVGFjR0pMS2pyeEdJS3VsMEhuWVJRVEVPVElVb0RVZlhybm1UZm1IS0xuQlVPNFo1dHdVTXdCWEhUNkpWejRyWTIxSnlaaDV3Q1NjZ3djcE4zck5ULWtJ?oc=5",
-      "fp": "africa|south|states|united"
-    },
-    {
-      "entity": "'This goes beyond showcasing technological soft power': China's new moon map signals bold space ambitions (video)",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "ZA",
+        "GB",
+        "SG",
         "NG",
-        "PH",
         "KE"
       ],
       "countryCount": 4,
       "newCountries": 0,
       "articleCount": 4,
-      "publisherCount": 1,
+      "publisherCount": 2,
       "publishers": [
-        "Space"
+        "London Evening Standard",
+        "Al Jazeera"
       ],
-      "effectiveCountries": 1,
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 2.1,
+      "score": 65.3,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPZGo3MVg0aWRmemRwN01kaW5KcUJPSkhNRl9WU3NIXzl6TlcxamlYYzk4N2JmQlNFVzVaSzdRVllpa01WZkx3cFFuMjM3N3lDZEVuRmRKMmRJdkJERHNjcmEzSDRaUVZub2hEZkRJb2gxRF9kbWhGZElwV0hZZS11amRXTGtEdk93UExmcXItaWdPdDYzZzhOTHkzVndhR0tHdl9RbnV4TGhOYkVIRldVZkJ1ZnFIN21saVhOeDJtTXdfVGpLRHAzNGwxdkZZOG82UzJhWlFsRjMwSkRLenAxUExfU2dDUUFCTVVCTkkyQ1JPSWtrRUNFZEZDZFB6LUtzYllLMmc2dTJ6VXNnTmFMWjBWRGR0QXM?oc=5",
+      "fp": "city|man|manchester|prediction"
+    },
+    {
+      "entity": "Astronomers Discover an Entirely New Type of Object: a \"Black Hole Star\"",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "GB",
+        "IN"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 2,
+      "publishers": [
+        "Futurism",
+        "Phys.org"
+      ],
+      "effectiveCountries": 2,
       "syndicated": true,
       "ageHours": 0.3,
-      "score": 57.6,
+      "score": 64.6,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaFB1S3Q0UVRmM0x3cE5nMlhEajVJM3BqblR6VTgzNEZoS1E4bXh2cFBiSllPXzRFcWlQZm5JNDVuQjRnSXBHVmRkdDN4ODRNOFR3ZkJyd0J4UjB4ckpsazdYQ1N6UUhGRU5TZXh4NXozSHJCbnpDTXRQT3Bta3F2TEgtQk5HMmFMRUo3aU5yTTFCWnR0QktDUDBrbzRUeVpxVWhkdjV0QXhwaG1QSDF0WGQ4YWxOWTBjOUJydDY5X3FadS1kMzNSdm9XYURtM2d5UUtmcHJMejhEVnpR?oc=5",
-      "fp": "china's"
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MTXliVVBzbmZQaXpYczVOcUFLZ3dsS0xDYWZOUk5VZGVIS1RDbkVLejl3aUdVbGppVlZlSnV6R3R5Q0tZWXJ4dW8wRWhnTkRUdlJjTFZYdlBDMTM1eUZzc0UwN21KbGl1VThOVzhNWXA?oc=5",
+      "fp": "discover|entirely|object|type"
+    },
+    {
+      "entity": "India vs Sri Lanka Live Score, 1st Test day 2: Play delayed due to wet outfield",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IN",
+        "PK"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The Indian Express",
+        "France 24"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 0.6,
+      "score": 62.5,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdXk4UkFGMTQ0UlhxVnVGRFppSEZ6eVNoWHhiUnZCdWdWZjRObXhiNTVZN2V4OFhrWmt6TjV2RnhRN0g2Y1JHMzkwb2w0VnNiQ0ZEUEFNWTdNNmt4MGpscmYxMERzQTFsdUxhXzNseGdObkdrb2ZTYW14d2pwQkJJRVhNZ2VPUW1WTzRmUmV5M0lfU05pNDRRcW45dV9QWERIalQ2am9LSzUyaWN4bHF5VGlMY3RXeVlhdVF4M0dlX0RLUGtZbnBmdWVJZk1Ed3Ft0gHXAUFVX3lxTE5NcmpMVEhKZ3lpa18zbVFseDRab2ZHY3IwZ0pseGVtalFuN2Q2YWJFWTJmaGdIZDZGakJDWEJmVzJhTzl0X21ISlk3V1dyanByNDB3cjEtRVA2Tm10U2ctRkxGdndFZUpKdEhZMkp2UHhjb1dfYjJYbVAzQUFSVnhxcGZZTFRPa0w0RTdJcEluUzBqR0tpcF9ZUUtFWEJkalQxTFNubEc3QUs3cGFoOUdYZmdEY3BlUGpZSGF1UlJHV2JnbmFSdnE4MUh6ZjdvX0R4OEJnWmQw?oc=5",
+      "fp": "lanka|score|sri|test"
+    },
+    {
+      "entity": "Android’s Apple Problem Goes Beyond The iPhone 18",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "SG",
+        "KE",
+        "MY"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 2,
+      "publishers": [
+        "Korea JoongAng Daily",
+        "TechTrendsKE"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 1.5,
+      "score": 61.7,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeDQ2WFRtSzJhUk84LTk2MUY4SjJNU1h5cklJa2hadW54Mkg1VU9mWEtXUDd4cVpfdVMxWTVuV0JXNlNYdHd6VmZyeFJRdXF0dDZodTJjeVJrd2NCWU1FcUIyR1RKcHpTYlNjTjlYeGRheDJHVWgyWGhtMV8yUDMxbllxLVNJYUhLajFlV1lwVV9rYXFtOGlBVzZQQllIcXp4NDNIdV92UU5KWkNWUEkxXzdadkZiOGRSTTE5OW5FY2JmRWZtUlVrQVZmQjQ2dndiV19TZXRlYw?oc=5",
+      "fp": "apple|fold8s|galaxy|problem"
+    },
+    {
+      "entity": "Karpal's daughter asks DAP CEC to seriously reassess ties with Anwar",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "SG",
+        "MY"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "CNA",
+        "The Star"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 0.8,
+      "score": 60.9,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOXNJdUZRbW41SzB6N0pQaklSVEZuUkd5TFZETnhVeS1pRUFWcDdlcFYxVGdOUDJhcnJZSXhkanZHRWd3UEl1NDJ6eVlHV095T2tlbTZLZzFULW9NOXYxU0hIMUdDSWh2X1VzTEhwcDNyTjNPcUVqS3I1MWMtSDFxaF9KYTV6bUFBdUlXYmlWSVltcl84?oc=5",
+      "fp": "anwar|cabinet|cec|dap"
+    },
+    {
+      "entity": "Russia Claims 600 Ukrainian Drones Targeted Moscow Overnight, 3 Hurt",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "IN"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "Reuters",
+        "NDTV"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 1,
+      "score": 60,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYUVQMGdnUEljNGo4eDhSbHFoSUtDZ2FVLU5hTHNmZXUwMFVDTTdneTR3S2owc1pSZjBtcHNtVkZKU25oLXlNbWxENHVhM2F1ZUtnUVVicEMzai1MMVgyZk5JLVJPRjRDUklLc21zcjJycVM5endpS2plUjRHS3FhMmFIa29MUlRjRzRpNDlTdnRLS0JuTUE?oc=5",
+      "fp": "claims|drones|moscow|ukrainian"
     }
   ],
   "global": [],
   "signals": [
     {
-      "entity": "Twitch uses streams to train AI",
+      "entity": "Blanche speaks at Trump rally",
       "source": "bluesky",
       "phase": "SIGNAL",
-      "status": "IGNITION",
+      "status": "CLIMBING",
       "countries": [],
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 95.5,
-      "confidence": 0.35,
+      "score": 87.1,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/5df5196e14cc"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/551391b5c9de"
     },
     {
-      "entity": "michael morales",
+      "entity": "russia ukraine drone strikes",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 80.6,
+      "confidence": 0.79,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=russia%20ukraine%20drone%20strikes&geo=GB"
+    },
+    {
+      "entity": "Jason Arday's death",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "CLIMBING",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 83.3,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/0f09edb0d35d"
+    },
+    {
+      "entity": "ukraine",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 80.6,
+      "confidence": 0.79,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=ukraine&geo=CA"
+    },
+    {
+      "entity": "7.7 earthquake strikes Indonesia",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 80.5,
+      "confidence": 0.79,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/31609fa0a1ec"
+    },
+    {
+      "entity": "european river drought satellite images",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -311,28 +382,28 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=michael%20morales&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=european%20river%20drought%20satellite%20images&geo=GB"
     },
     {
-      "entity": "Reporters rode Trump's decoy plane",
+      "entity": "Warner Bros opens Harry Potter shop",
       "source": "bluesky",
       "phase": "SIGNAL",
-      "status": "IGNITION",
+      "status": "CLIMBING",
       "countries": [],
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 85,
+      "score": 74.4,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/4511d45fdd4a"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/99c60be31a8b"
     },
     {
-      "entity": "western & southern open",
+      "entity": "university of cambridge",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -346,77 +417,7 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=western%20%26%20southern%20open&geo=BR"
-    },
-    {
-      "entity": "Texas egg recall over salmonella",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "CLIMBING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 78.2,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/7e57a353c181"
-    },
-    {
-      "entity": "aeropuerto internacional de orlando",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=aeropuerto%20internacional%20de%20orlando&geo=US"
-    },
-    {
-      "entity": "Sonic characters coming to Fortnite",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "CLIMBING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 73.6,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/dbe3ad7d5163"
-    },
-    {
-      "entity": "toyota prius",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=toyota%20prius&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=university%20of%20cambridge&geo=GB"
     }
   ]
 }
