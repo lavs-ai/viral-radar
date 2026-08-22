@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-08-22T18:15:58.007Z",
+  "takenAt": "2026-08-22T19:15:57.117Z",
   "records": [
     {
       "entity": "Coventry City F.C.",
@@ -17,59 +17,6 @@
       "why": null,
       "angle": null,
       "url": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
-    },
-    {
-      "entity": "Club Atlético Rosario Central",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "IGNITION",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 96.5,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://pt.wikipedia.org/wiki/Club_Atl%C3%A9tico_Rosario_Central"
-    },
-    {
-      "entity": "Bluesky users celebrate Canadian culture",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "IGNITION",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 95.5,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/17dcca79438f"
-    },
-    {
-      "entity": "Gary, Indiana lacks power after storm",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "IGNITION",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 95.5,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/47b80a5f1072"
     },
     {
       "entity": "Christos Tzolis",
@@ -185,6 +132,9 @@
       "ageHours": 24,
       "score": 95.5,
       "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
       "url": "https://en.wikipedia.org/wiki/Aisha_Wahab"
     },
     {
@@ -1518,7 +1468,43 @@
       "url": "https://id.wikipedia.org/wiki/XXX_(disambiguasi)"
     },
     {
-      "entity": "WNBA games and controversies",
+      "entity": "\"Unfair\": Canada Suspends Trade Talks With Trump, To Pay 50% Tariffs",
+      "source": "googlenews",
+      "phase": "LOCAL",
+      "status": "IGNITION",
+      "countries": [
+        "GB",
+        "IN",
+        "AU",
+        "CA",
+        "ZA",
+        "NG"
+      ],
+      "countryCount": 6,
+      "newCountries": 0,
+      "articleCount": 6,
+      "publisherCount": 6,
+      "publishers": [
+        "Financial Times",
+        "NDTV",
+        "ABC News & Headlines – Australian Broadcasting Corporation",
+        "The New York Times",
+        "News24",
+        "Channels Television"
+      ],
+      "effectiveCountries": 6,
+      "syndicated": false,
+      "ageHours": 1.2,
+      "score": 95.3,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVzRsX1RtUnUzUTk5LU5LYlFlaVVZdk9jdzY4WGJqSVhFaEhhb3NjWEdpYUkyMjBrOF9XMmhLNVExSkhhbHBIR1RWQ3RKRTFyTk5uVVF4dGxVY3hmR3NpUmxvYkNTMnJMSWRLdXk2TC1qRm8zQXhJZ3NLdFZ0U3lLZVV0RWo?oc=5",
+      "fp": "canada|carney|suspends|trade"
+    },
+    {
+      "entity": "US-Canada trade talks collapse",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "IGNITION",
@@ -1528,12 +1514,90 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 93,
+      "score": 94.3,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/b28e21eec571"
+    },
+    {
+      "entity": "Hull City 2-0 Man Utd: Michael Carrick's side left stunned by newly-promoted Tigers in Premier League opener",
+      "source": "googlenews",
+      "phase": "GLOBAL",
+      "status": "IGNITION",
+      "countries": [
+        "US",
+        "GB",
+        "ZA",
+        "SG",
+        "KE",
+        "MY",
+        "NG",
+        "IE"
+      ],
+      "countryCount": 8,
+      "newCountries": 0,
+      "articleCount": 13,
+      "publisherCount": 10,
+      "publishers": [
+        "NBC Sports",
+        "Sky Sports",
+        "supersport.com",
+        "ESPN Singapore",
+        "CNA",
+        "Goal.com",
+        "The Star",
+        "BBC",
+        "The Irish Times",
+        "RTE.ie"
+      ],
+      "effectiveCountries": 8,
+      "syndicated": false,
+      "ageHours": 0.3,
+      "score": 93.9,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/eafe9ed9bf04"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSlVlM3J4SVR2SENyMTVHb1o0cU04YTRrSTl4QWMyQ1F2YlJBeXhFNGFYZEF2VkppQW5qZEpvdko5Z3ktX3ItNXBKQnpyX1dyZFdYRzhrSGxOa0pncktRUFU3bWdGVVJPNmFXODdmcTZwdmlTc0trZlJfYlJ3cy1KdW9NNkJscHdJNGpDZkxCWE9ONUFsNVNXSEZXR3Y1VzZDSktMMFZqLWFmS3V4SkR5V2lYV2J0YVRRZjBZ?oc=5",
+      "fp": "city|league|opening|premier"
+    },
+    {
+      "entity": "Brentford faces Tottenham lineups",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "CLIMBING",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 92.8,
+      "confidence": 0.79,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/42b93a2aedb4"
+    },
+    {
+      "entity": "NFL preseason games underway",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "IGNITION",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 88.7,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/e6da6ed4dfc9"
     },
     {
       "entity": "Príon",
@@ -1562,35 +1626,6 @@
       "score": 87.3,
       "confidence": 0.35,
       "url": "https://it.wikipedia.org/wiki/Arthur_Melo"
-    },
-    {
-      "entity": "Brentford v Spurs team news: Five competitive debuts",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "CLIMBING",
-      "countries": [
-        "GB",
-        "SG",
-        "MY"
-      ],
-      "countryCount": 3,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 2,
-      "publishers": [
-        "fantasyfootballscout.co.uk",
-        "ESPN"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": true,
-      "ageHours": 0.4,
-      "score": 87.2,
-      "confidence": 0.79,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0w3Z3ZQR0xLWXVvN0ZadjBqYnE1MEtSaVNLaExWQzM3VUUxTDVtXzdHclMyOTFXamRHUXJKT1IzTEF1WFo5cjM0RUlCRzZxRDM0TkVsajRwZGR6YURncmdxYUljeUFaOEJaVGJ4VVRNa2VhNjhQUFdCby1CNDN5VUFsYlZLdl9PUWgyWWRNc0RWUVJKaWg2UVZkS3V2bDZjNVlr?oc=5",
-      "fp": "brentford|five|spurs"
     },
     {
       "entity": "Dominik Livaković",
@@ -1649,24 +1684,6 @@
       "url": "https://es.wikipedia.org/wiki/Florence_Cassez"
     },
     {
-      "entity": "Rogers campaign and AIPAC spending",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "CLIMBING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 86.8,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d8eaf9e9440f"
-    },
-    {
       "entity": "Akhmad Sodiq",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -1695,6 +1712,38 @@
       "url": "https://en.wikipedia.org/wiki/Big_Brother_28_(American_season)"
     },
     {
+      "entity": "Club Atlético Rosario Central",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "IGNITION",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 86.2,
+      "confidence": 0.35,
+      "url": "https://pt.wikipedia.org/wiki/Club_Atl%C3%A9tico_Rosario_Central"
+    },
+    {
+      "entity": "Natalie Harp's letters to Trump",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "CLIMBING",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 86,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ad05b644a0e8"
+    },
+    {
       "entity": "Heidemarie Dresing",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -1707,48 +1756,6 @@
       "score": 85.9,
       "confidence": 0.35,
       "url": "https://de.wikipedia.org/wiki/Heidemarie_Dresing"
-    },
-    {
-      "entity": "Man Utd's Hull City humiliation! Carlos Baleba's arrival can't come soon enough as Michael Carrick's men are outfought and outplayed by Premier League newcomers in opening-day embarrassment",
-      "source": "googlenews",
-      "phase": "GLOBAL",
-      "status": "IGNITION",
-      "countries": [
-        "US",
-        "GB",
-        "IN",
-        "ZA",
-        "SG",
-        "NG",
-        "KE",
-        "MY",
-        "IE"
-      ],
-      "countryCount": 9,
-      "newCountries": 0,
-      "articleCount": 14,
-      "publisherCount": 9,
-      "publishers": [
-        "NBC Sports",
-        "Sky Sports",
-        "Goal.com",
-        "supersport.com",
-        "ESPN Singapore",
-        "The Star",
-        "The Irish Times",
-        "BBC",
-        "RTE.ie"
-      ],
-      "effectiveCountries": 9,
-      "syndicated": false,
-      "ageHours": 1.1,
-      "score": 85.5,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSlVlM3J4SVR2SENyMTVHb1o0cU04YTRrSTl4QWMyQ1F2YlJBeXhFNGFYZEF2VkppQW5qZEpvdko5Z3ktX3ItNXBKQnpyX1dyZFdYRzhrSGxOa0pncktRUFU3bWdGVVJPNmFXODdmcTZwdmlTc0trZlJfYlJ3cy1KdW9NNkJscHdJNGpDZkxCWE9ONUFsNVNXSEZXR3Y1VzZDSktMMFZqLWFmS3V4SkR5V2lYV2J0YVRRZjBZ?oc=5",
-      "fp": "city|league|opening|premier"
     },
     {
       "entity": "Brigitte Bardot",
@@ -1765,34 +1772,35 @@
       "url": "https://fr.wikipedia.org/wiki/Brigitte_Bardot"
     },
     {
-      "entity": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "entity": "Brentford 3-0 Spurs: How the players rated",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
       "countries": [
         "GB",
-        "IN",
-        "KE"
+        "SG",
+        "NG",
+        "KE",
+        "MY"
       ],
-      "countryCount": 3,
+      "countryCount": 5,
       "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 3,
+      "articleCount": 5,
+      "publisherCount": 2,
       "publishers": [
-        "Sky News",
-        "The Times of India",
-        "BBC"
+        "BBC",
+        "ESPN"
       ],
-      "effectiveCountries": 3,
-      "syndicated": false,
-      "ageHours": 2.2,
-      "score": 85,
-      "confidence": 0.57,
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 0.7,
+      "score": 84.6,
+      "confidence": 0.79,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMWFpY3U5YkxTeHZmUUNId3JzMzhXZkh0blFSQ1kzTWUyejR2cFBpMkg4ZklpOGhXVkR1T05nX2ltZWh1V2RGSFBlRHJFZE1McWN1M1RxWGpDcE1UUDJZaFdNbmpILXgtTHRPZFNsYlNmLXdEN1Eyam5nMmlCbG9JbWFabk1EbUxaV1NFUXZVeFBFclE2NVlIVzUzam9fdnBkajhPb2ltR3hwYVlla0pQLXhpRkRVd0R4ZDNkYnR4LVlQTjJIVHIyRklraGg?oc=5",
-      "fp": "canada|carney|trump's"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veVl3VkpqNHAycHo4bkNoMDNaRTNpNmV5bVFVYlRwaFFlU3cweHBQSTQ2M0NheHNMR25zenhWUTVJdzdMTXpORVowdVhEcWpJNDQtc3BUNFRQT3NvNGxHc3Z1bUR1dVRVdGc?oc=5",
+      "fp": "brentford|spurs"
     },
     {
       "entity": "Enrico VIII d'Inghilterra",
@@ -1863,37 +1871,6 @@
       "score": 82,
       "confidence": 0.35,
       "url": "https://pt.wikipedia.org/wiki/Clarisse_Abujamra"
-    },
-    {
-      "entity": "AI mapping reveals hidden stage of Arctic freeze with climate implications",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "IGNITION",
-      "countries": [
-        "IE",
-        "NG",
-        "PH",
-        "NZ",
-        "KE",
-        "MY"
-      ],
-      "countryCount": 6,
-      "newCountries": 0,
-      "articleCount": 6,
-      "publisherCount": 1,
-      "publishers": [
-        "Phys.org"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 1.3,
-      "score": 81.3,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pcHBpek9IZWJRcUFlRmNCVVVNU0wzVFRZRThkeEwtVjVXTjczVUlaelpYV0x2cmtTZmRVbHFTdENHVEZwVHpkaWt1TVZyNkswTHV2Y256N1hrOHJFZXhXeEp5YXBVVmNZSnpic2dweHMwc1k?oc=5",
-      "fp": "arctic"
     },
     {
       "entity": "Patrick Swayze",
@@ -1997,36 +1974,6 @@
       "url": "https://id.wikipedia.org/wiki/Kalimantan"
     },
     {
-      "entity": "LIVE | Rugby’s Greatest Rivalry: Springboks v All Blacks",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "CLIMBING",
-      "countries": [
-        "ZA",
-        "IE",
-        "NZ"
-      ],
-      "countryCount": 3,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 3,
-      "publishers": [
-        "News24",
-        "RTE.ie",
-        "The Guardian"
-      ],
-      "effectiveCountries": 3,
-      "syndicated": false,
-      "ageHours": 0.7,
-      "score": 77.7,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVWNnNzQwTHRmM3RrNlNnUUhLYi1ZUml1YVBGQVJuQW5wYW8zazlXQ0pDQUlCSWlwVVNiUzA3NzlPMjlRZzlQV2RRS1FIRGt3cG55MWxsNHlhbW5Bb3oxbEI4M3hZeEJubVJDVExNQ251RnI1NlVONUhHYTVvYmJCaFBkRU5abERRY2VHb0VjTG92Ym4xRzJMbm12MWlWMHUyVzdobVZtSTdrVkd6ZUNkUE9n?oc=5",
-      "fp": "greatest|rivalry|rugbys|springboks"
-    },
-    {
       "entity": "Sex and the City (film)",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -2041,33 +1988,36 @@
       "url": "https://id.wikipedia.org/wiki/Sex_and_the_City_(film)"
     },
     {
-      "entity": "Irish pub-goers pay 11 times more tax on a pint than in Spain or Germany, research finds",
+      "entity": "All Blacks stun South Africa to end Springboks’ 12-match winning streak in bruising Ellis Park battle",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
       "countries": [
+        "ZA",
         "IE",
-        "NG",
-        "MY"
+        "NZ"
       ],
       "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 2,
+      "articleCount": 5,
+      "publisherCount": 5,
       "publishers": [
-        "The Irish Times",
-        "Euronews.com"
+        "News24",
+        "Irish Independent",
+        "1News",
+        "businesstech.co.za",
+        "MyBroadband"
       ],
-      "effectiveCountries": 2,
-      "syndicated": true,
-      "ageHours": 1.4,
-      "score": 77.2,
-      "confidence": 0.57,
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 0.3,
+      "score": 76.9,
+      "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYjM4RV9nUC1EVlVGYkFLVENTUHVlekhQY3ZPaVhhcVQySE9NZW1QYWRNQTJ4N2ZFWXZpeE11Z01VWkVoRnIyVzE2SlowUlp6TjJxbjBRcll6eURWQXpOMnQyRHczSlhzT0QyUGZTM3ZIbzRsdmJlc3I4MEN3UExpVFpPSE52UmJDMnh3ZlZBOGQtNmI3eldPUTh1YWY0Vmp2ckdJUDN2ZzBpeFdZS1duaXAtcFdEeFJPQ25WVVFaNDlfMlpoLTFxV2F3Q29PQTQ?oc=5",
-      "fp": "germany|spain"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVWNnNzQwTHRmM3RrNlNnUUhLYi1ZUml1YVBGQVJuQW5wYW8zazlXQ0pDQUlCSWlwVVNiUzA3NzlPMjlRZzlQV2RRS1FIRGt3cG55MWxsNHlhbW5Bb3oxbEI4M3hZeEJubVJDVExNQ251RnI1NlVONUhHYTVvYmJCaFBkRU5abERRY2VHb0VjTG92Ym4xRzJMbm12MWlWMHUyVzdobVZtSTdrVkd6ZUNkUE9n?oc=5",
+      "fp": "africa|blacks|south|springboks"
     },
     {
       "entity": "Harry van der Kamp",
@@ -2126,42 +2076,6 @@
       "url": "https://pt.wikipedia.org/wiki/Club_Sportivo_Cienciano"
     },
     {
-      "entity": "USPS mail voting rule debate",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "CLIMBING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 75.6,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/e8b485ea2df9"
-    },
-    {
-      "entity": "Arsenal vs. Coventry match",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 75.2,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/449ad62f74aa"
-    },
-    {
       "entity": "Riccardo Cocciante",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -2204,6 +2118,36 @@
       "url": "https://pt.wikipedia.org/wiki/Jorge_Almir%C3%B3n"
     },
     {
+      "entity": "Irish pub-goers pay 11 times more tax on a pint than in Spain or Germany, research finds",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IN",
+        "IE",
+        "NG",
+        "MY"
+      ],
+      "countryCount": 4,
+      "newCountries": 0,
+      "articleCount": 4,
+      "publisherCount": 2,
+      "publishers": [
+        "Euronews.com",
+        "The Irish Times"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 2.4,
+      "score": 73.7,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRURFVTJ1czc2Y1VOUklfS2FmSlN4OXNQc0pPeUkyN2xiUXVxVTVpNm01VWxPNFVsUFAwSmUyMmxjeFhMZzdWd1hLcGN3dW5jbWFPTVhWeW40OVE0dk51UkNYTG5tSWtSWUpNVUM4a2xaVGQ1Yll4RkpjenBsczF3QWF5Mnd0dHhNVHNHUTZWRHQzaGNHNXl0NEJDOVkzQmJHSzV1SFprSkJVSVcwWVRTUm9CUkpjY3M1X2d0VjRVZUR5WWtzbkNXUHRHYw?oc=5",
+      "fp": "germany|spain"
+    },
+    {
       "entity": "Franck Kessié",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -2216,6 +2160,23 @@
       "score": 73.3,
       "confidence": 0.35,
       "url": "https://it.wikipedia.org/wiki/Franck_Kessi%C3%A9"
+    },
+    {
+      "entity": "privacy",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 72.8,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=privacy&geo=GB"
     },
     {
       "entity": "arthur fils",
@@ -2232,10 +2193,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=arthur%20fils&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=arthur%20fils&geo=IN"
     },
     {
-      "entity": "roberto de zerbi",
+      "entity": "seleção brasileira de futebol sub-17",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2249,10 +2210,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=roberto%20de%20zerbi&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=sele%C3%A7%C3%A3o%20brasileira%20de%20futebol%20sub-17&geo=BR"
     },
     {
-      "entity": "tottenham standings",
+      "entity": "wladimir putin",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2266,10 +2227,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=tottenham%20standings&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=wladimir%20putin&geo=DE"
     },
     {
-      "entity": "federal judge strikes down visa ban",
+      "entity": "lautaro martínez",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2283,41 +2244,7 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=federal%20judge%20strikes%20down%20visa%20ban&geo=CA"
-    },
-    {
-      "entity": "davis schneider",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 72.8,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=davis%20schneider&geo=CA"
-    },
-    {
-      "entity": "campeonato brasileiro de futebol - série c",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 72.8,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=campeonato%20brasileiro%20de%20futebol%20-%20s%C3%A9rie%20c&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=lautaro%20mart%C3%ADnez&geo=ID"
     },
     {
       "entity": "Katseye",
@@ -2348,6 +2275,34 @@
       "url": "https://pt.wikipedia.org/wiki/Memphis_Depay"
     },
     {
+      "entity": "Anna Paquin speaks out about child stars after Hayden Panettiere's death - ABC News",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "IE"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "Breaking News, Latest News and Videos",
+        "RTE.ie"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 1.9,
+      "score": 70.2,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS2h4Z1lHcDJUaml6M2dwQnlYaTdVS0JMeHRzbGY0YVRmUHQ2WW9oX1FZeVFpNEhudWFTTzBKZHBXbnVFQ0NYNHdPd3RraGJRRmpnR0JSTlhHOGlFTnNCTmRxNVE5OWZBTDNMVGstWHB4ZURCVTZ3N3pwaWM3SnlhZ1RxbmliUkdYd1RRSjEzR240VnpEZnV0R095c3VZdGg0M21RcllRbUNRd9IBrwFBVV95cUxOX25EaTZYWTQ3TFdHYmtzNlhFTEVXRTNraW1IR3JTRTQ5dk5qWXBYRlpBbDVLTGI1MEhSYS1qOEVrZmhjSnNqM1Nsbm53Nlg4TFRWNS1uVWN3anhCX2JlS0hhcVM0XzZPQmJCR25vd1JpQVVoSGZPR1EwdC1ZZk45bkpKWnREMTdFVC1sOFIydktCYVQyc29YbzBJVWFicndHemhGN2ZYVHI2MDV4Q2FF?oc=5",
+      "fp": "abc|hayden|panettiere's|paquin"
+    },
+    {
       "entity": "Agata",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -2360,6 +2315,54 @@
       "score": 70.2,
       "confidence": 0.35,
       "url": "https://id.wikipedia.org/wiki/Agata"
+    },
+    {
+      "entity": "Chase Is On For ‘Grand Theft Auto VI’ Leaker—Take-Two Subpoenas Microsoft And Discord",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
+      "countries": [
+        "IN",
+        "NZ",
+        "PK"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 3,
+      "publishers": [
+        "Mashable",
+        "RNZ",
+        "Forbes Africa"
+      ],
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 4.2,
+      "score": 70.1,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYWJ1TDBVRlhoYlpoRk9jbjhaVmVrelhRSXNxZ3AwU2w5OGctaVU0SEphRUItMUxNX2JuV2tGdGl5eFEzZUlwLTZqc2pnM2NyOFMxNWg0S1lBejZTWE1xenhfYmt2d3pPekg3Q3pHVTVXNEVZOUd1dmRnMVFPcWtMQXNMN0xlODh2UVhpdl9iY0lzSkVpb0N3WGRTWWo2RVE1X0E?oc=5",
+      "fp": "auto|discord|microsoft|theft"
+    },
+    {
+      "entity": "IndyCar race disrupts Washington DC",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "CLIMBING",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 69.3,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/890d63d6d78a"
     },
     {
       "entity": "Andrea Yates",
@@ -2404,33 +2407,6 @@
       "url": "https://es.wikipedia.org/wiki/Jonatan_G%C3%B3mez"
     },
     {
-      "entity": "2027: I’d Have Declined If Tinubu Had Offered Me Campaign DG — Wike",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "NG"
-      ],
-      "countryCount": 1,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "Channels Television",
-        "Premium Times Nigeria"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 1.3,
-      "score": 67.9,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOFBkQ01zMzNHSWN5bF9rdk1Fd3I1SXlrejRYc043aVdrci0xVURjcDc3WU9XNUZZQkNPekxKeWl4bldyOXdFWU93WE5OUUhtb2pzM2ZMM1pDQzNYV1N5RGJQODhzQWlFSmxEY0k3QTdNcFc3YW0tcm1oUGcwZG9rNW5sdHpYN2pHbDBuMVJoU2lsNzF4OEg2cElqYkdBemRpeFU3YQ?oc=5",
-      "fp": "declined|had|have|tinubu"
-    },
-    {
       "entity": "Mertua vs Menantu",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -2443,34 +2419,6 @@
       "score": 67.9,
       "confidence": 0.35,
       "url": "https://id.wikipedia.org/wiki/Mertua_vs_Menantu"
-    },
-    {
-      "entity": "2026 F1 Dutch Grand Prix - Zandvoort Qualifying results",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "GB",
-        "ZA"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The Race",
-        "racingnews365.com"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 1.4,
-      "score": 67.7,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ0xSRHM4dUZCZzd3VURlQ1k1dEVxZDZhc25IaC1uemozVnpUUEpnX3hud3FvQnR3NVJqbnJ4aHBrT2JSNWZwLTNzMHRvV1l5QWo4VEMzSlN6OUFBRGxNMlZaQzg2MElRRkI1dE13cms3UU1DXzQzbkJNcDRRRlowRUV0T192VHFlelBOSg?oc=5",
-      "fp": "dutch|grand|prix|zandvoort"
     },
     {
       "entity": "Pedro Raul",
@@ -2571,6 +2519,35 @@
       "url": "https://de.wikipedia.org/wiki/Staatsverschuldung_der_Vereinigten_Staaten"
     },
     {
+      "entity": "Real reason Prince Harry and Meghan Markle waited until the last minute to tell King Charles about their move",
+      "source": "googlenews",
+      "phase": "LOCAL",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "ZA"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 3,
+      "publishers": [
+        "Yahoo",
+        "News24",
+        "IOL"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 8.8,
+      "score": 66,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSlJUeE9DSFdvSTJoRzZiMXhWWFFWSUo4U09WRmVZaXJidlhTdFhWcXk1cE9EbjhSOVQwSmU4THZlVWZlMmprRzVDUWhaRVRFWlphdzdrbDdSRFg2VFF4QmZscG5rS2xWejJZOGdMWUROanowaDRhb3g1clFkRkxtbWdqbXQxZjFwRUMtMENUZzk2QmdkeDFuMjVFMXlZcFZTdnRN?oc=5",
+      "fp": "harry|markle|meghan|prince"
+    },
+    {
       "entity": "21 de agosto",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -2583,55 +2560,6 @@
       "score": 66,
       "confidence": 0.35,
       "url": "https://es.wikipedia.org/wiki/21_de_agosto"
-    },
-    {
-      "entity": "How 'Dark' Tankers In Strait Of Hormuz Are Keeping Oil Prices In Check",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "PK"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 2,
-      "publishers": [
-        "NDTV",
-        "The Guardian"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 4.4,
-      "score": 65.8,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ3JyNDZlazRLMjRQNTBWaDRiUm9nVnN5MTFWRk9feFkySUV5TlZLdXlnSEFobWx3LWJvMG91NXNTSDB3Snp3Yk9hM0F2NnhEUGhNQ2FLY0daWDUxRmpuazhhN0Uxd2pDN0w2cHVYX01KaDE4aGFhVkJvMEtpckl2SjNySDd6UEJTV0V0bFRHUzRFN2ZreEV6QWg4TkVYOVBXTi1RUm40Nzh1WTFmenlDRGpBanBScUxlOHp6UWNB0gHGAUFVX3lxTFBhS1p6M2hHUjNHWlZCN1BBdXl6WTRVZHliVUV6SGZmQXZrMWRkbkpDWEdNZi1GYmRSVG9zYmhrODN2TXAyNndnSlJhWkY0V0VlYnAwMzAtaWpWNmtCa2phSC04X2NRb21HYkR5MVExRUJNLTUyYWNDOUoyZmZuV0FuVDZaMnNtbXJDcWlWZVFxUHdkX0xpcVZSMGhHZ0k5OEo2V1hkVTg3SDY0NThCSXlvNUl0ZEpVMHJja0FQd2g2OWtJTWIzQQ?oc=5",
-      "fp": "hormuz|keeping|strait|tankers"
-    },
-    {
-      "entity": "Trump’s Economic Isolation Plan Risks Iran Strikes Across Gulf",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "PH",
-        "KE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 1,
-      "publishers": [
-        "Bloomberg.com"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 5.2,
-      "score": 65.8,
-      "confidence": 0.79,
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc3ljN2pDcWlPaVBoQ21nV3dpb0UyZUhEelA5UEhBVzFiSlVnTV9FeTE3X2hlbkJZRy1pd2FsT3p2UkJXOVdYU2RuLV9ZZWFDRkFOdEtDSlBwM1VmcjBoZVViNlBMY1YzSm5CRzhoSGd1c3pyQ09lUkhoTmlPYmsyR1hJOWdNZzdQeE16X0RYbUhSdjZTTHNIbVRtckMzWFNvYWx0bHhrSFBtYzNOeWlCYWRtWQ?oc=5",
-      "fp": "economic|isolation|plan|risks"
     },
     {
       "entity": "Silo (TV series)",
@@ -2648,6 +2576,24 @@
       "url": "https://en.wikipedia.org/wiki/Silo_(TV_series)"
     },
     {
+      "entity": "Optimist-pessimist cup meme",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65.7,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1086315c763f"
+    },
+    {
       "entity": "Sex Is Zero",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -2660,6 +2606,44 @@
       "score": 65.4,
       "confidence": 0.35,
       "url": "https://id.wikipedia.org/wiki/Sex_Is_Zero"
+    },
+    {
+      "entity": "Jolly-Gopichand win India's 1st women's doubles medal in 15 yrs at Badminton World C'ships | This is India's only medal at the 2026 edition | Inshorts",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IN"
+      ],
+      "countryCount": 1,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The Times of India",
+        "Inshorts"
+      ],
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 2.8,
+      "score": 65.2,
+      "confidence": 0.79,
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMC1JUlQ5RFVIWThoSFBCWnNJbU1iQVpNOFNnaVB3WExMc0pqVEphcF85aHNmWGRLclpzRzNyNWl5dXJVcjdBaU9taEJzaUl5YktTMTg1U1lwdldoSlBlVXdRRERPRGpBOW1BTnBEbFpnUzhCMl95VXEyWG9feFk3cWRPWE1tX1FhMFNPMzN5dGp6eGI0ZlRTVkFQQ0xaaGl3MlFTUmhKQnBPUmhGMlZ1UVNSWUpYTUxZLVhMWkg5UUJHU0RjUGFHaGxsWkV5cDFVMU5sdm1hMTR0OFgyb3ljb1JKQ2xia3dxWkhsSF8zX2VJajQ?oc=5",
+      "fp": "cup|india's|netherlands|world"
+    },
+    {
+      "entity": "Teenage Sex and Death at Camp Miasma",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 65.1,
+      "confidence": 0.57,
+      "url": "https://en.wikipedia.org/wiki/Teenage_Sex_and_Death_at_Camp_Miasma"
     },
     {
       "entity": "Berkas:Pornhub-logo.svg",
@@ -2676,7 +2660,7 @@
       "url": "https://id.wikipedia.org/wiki/Berkas%3APornhub-logo.svg"
     },
     {
-      "entity": "iran news",
+      "entity": "tyanthony smith",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2687,10 +2671,13 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=iran%20news&geo=US"
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=tyanthony%20smith&geo=US"
     },
     {
-      "entity": "genoa vs napoli",
+      "entity": "reno fire",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2701,10 +2688,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=genoa%20vs%20napoli&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=reno%20fire&geo=US"
     },
     {
-      "entity": "carson wentz",
+      "entity": "nolan teasley",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2715,10 +2702,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=carson%20wentz&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=nolan%20teasley&geo=US"
     },
     {
-      "entity": "philip rivers",
+      "entity": "nathaniel brown",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2729,10 +2716,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=philip%20rivers&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=nathaniel%20brown&geo=US"
     },
     {
-      "entity": "vikings depth chart",
+      "entity": "jake lang",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2743,10 +2730,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=vikings%20depth%20chart&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=jake%20lang&geo=US"
     },
     {
-      "entity": "zachariah branch",
+      "entity": "damar hamlin",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2757,10 +2744,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=zachariah%20branch&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=damar%20hamlin&geo=US"
     },
     {
-      "entity": "gary woodland",
+      "entity": "donald trump white house statues",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2771,7 +2758,105 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=gary%20woodland&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=donald%20trump%20white%20house%20statues&geo=US"
+    },
+    {
+      "entity": "fox one",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=fox%20one&geo=US"
+    },
+    {
+      "entity": "isaiah bond",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=isaiah%20bond&geo=US"
+    },
+    {
+      "entity": "fils",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=fils&geo=US"
+    },
+    {
+      "entity": "nicole kidman",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=nicole%20kidman&geo=GB"
+    },
+    {
+      "entity": "udinese vs como 1907 standings",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=udinese%20vs%20como%201907%20standings&geo=GB"
+    },
+    {
+      "entity": "moses itauma",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=moses%20itauma&geo=GB"
+    },
+    {
+      "entity": "josh tarling",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=josh%20tarling&geo=GB"
     },
     {
       "entity": "flavio cobolli",
@@ -2785,10 +2870,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=flavio%20cobolli&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=flavio%20cobolli&geo=GB"
     },
     {
-      "entity": "sonny styles",
+      "entity": "gta6 leaks",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2799,10 +2884,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=sonny%20styles&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=gta6%20leaks&geo=GB"
     },
     {
-      "entity": "steven pressley",
+      "entity": "olympiacos vs atromitos",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2813,10 +2898,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=steven%20pressley&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=olympiacos%20vs%20atromitos&geo=GB"
     },
     {
-      "entity": "owen wilson",
+      "entity": "el chapo",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2827,10 +2912,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=owen%20wilson&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=el%20chapo&geo=GB"
     },
     {
-      "entity": "facing el chapo",
+      "entity": "fluminense vs remo",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2841,10 +2926,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=facing%20el%20chapo&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=fluminense%20vs%20remo&geo=IN"
     },
     {
-      "entity": "when does strictly start 2026",
+      "entity": "real madrid match",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -2855,7 +2940,91 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=when%20does%20strictly%20start%202026&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=real%20madrid%20match&geo=IN"
+    },
+    {
+      "entity": "bleach",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=bleach&geo=IN"
+    },
+    {
+      "entity": "mateus fernandes",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=mateus%20fernandes&geo=IN"
+    },
+    {
+      "entity": "clean up company series",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=clean%20up%20company%20series&geo=IN"
+    },
+    {
+      "entity": "irumudi movie collection",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=irumudi%20movie%20collection&geo=IN"
+    },
+    {
+      "entity": "राशिफल",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=%E0%A4%B0%E0%A4%BE%E0%A4%B6%E0%A4%BF%E0%A4%AB%E0%A4%B2&geo=IN"
+    },
+    {
+      "entity": "nottingham forest vs leeds united f.c. standings",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=nottingham%20forest%20vs%20leeds%20united%20f.c.%20standings&geo=AU"
     },
     {
       "entity": "dortmund vs bayern",
@@ -2869,147 +3038,7 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=dortmund%20vs%20bayern&geo=GB"
-    },
-    {
-      "entity": "william, prince of wales",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=william%2C%20prince%20of%20wales&geo=GB"
-    },
-    {
-      "entity": "nicholas hoult",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=nicholas%20hoult&geo=GB"
-    },
-    {
-      "entity": "al-ahli vs abha",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=al-ahli%20vs%20abha&geo=IN"
-    },
-    {
-      "entity": "weather hyderabad",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=weather%20hyderabad&geo=IN"
-    },
-    {
-      "entity": "bayern munich",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=bayern%20munich&geo=IN"
-    },
-    {
-      "entity": "vmas voting 2026",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=vmas%20voting%202026&geo=IN"
-    },
-    {
-      "entity": "abhijeet dipke school police case",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=abhijeet%20dipke%20school%20police%20case&geo=IN"
-    },
-    {
-      "entity": "dfl-supercup",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=dfl-supercup&geo=IN"
-    },
-    {
-      "entity": "mohsin khan",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=mohsin%20khan&geo=IN"
-    },
-    {
-      "entity": "valencia vs celta",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=valencia%20vs%20celta&geo=IN"
+      "url": "https://trends.google.com/trends/explore?q=dortmund%20vs%20bayern&geo=AU"
     },
     {
       "entity": "x",
@@ -3024,6 +3053,20 @@
       "score": 65,
       "confidence": 0.35,
       "url": "https://trends.google.com/trends/explore?q=x&geo=AU"
+    },
+    {
+      "entity": "sports",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 65,
+      "confidence": 0.35,
+      "url": "https://trends.google.com/trends/explore?q=sports&geo=AU"
     },
     {
       "entity": "inter vs monza",
@@ -3096,7 +3139,7 @@
       "url": "https://trends.google.com/trends/explore?q=efl%20championship&geo=AU"
     },
     {
-      "entity": "leeds united",
+      "entity": "llws",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3107,10 +3150,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=leeds%20united&geo=AU"
+      "url": "https://trends.google.com/trends/explore?q=llws&geo=CA"
     },
     {
-      "entity": "preston vs wolves",
+      "entity": "fenerbahçe",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3121,10 +3164,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=preston%20vs%20wolves&geo=AU"
+      "url": "https://trends.google.com/trends/explore?q=fenerbah%C3%A7e&geo=CA"
     },
     {
-      "entity": "west ham",
+      "entity": "toronto blue jays vs new york yankees match player stats",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3135,10 +3178,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=west%20ham&geo=AU"
+      "url": "https://trends.google.com/trends/explore?q=toronto%20blue%20jays%20vs%20new%20york%20yankees%20match%20player%20stats&geo=CA"
     },
     {
-      "entity": "braves vs brewers",
+      "entity": "google play",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3149,10 +3192,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=braves%20vs%20brewers&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=google%20play&geo=CA"
     },
     {
-      "entity": "usain bolt",
+      "entity": "espanyol vs real madrid",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3163,10 +3206,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=usain%20bolt&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=espanyol%20vs%20real%20madrid&geo=CA"
     },
     {
-      "entity": "udinese vs como",
+      "entity": "toulouse – lyon",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3177,10 +3220,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=udinese%20vs%20como&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=toulouse%20%E2%80%93%20lyon&geo=CA"
     },
     {
-      "entity": "bills",
+      "entity": "genoa vs napoli",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3191,10 +3234,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=bills&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=genoa%20vs%20napoli&geo=CA"
     },
     {
-      "entity": "little league world series",
+      "entity": "ken jennings",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3205,10 +3248,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=little%20league%20world%20series&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=ken%20jennings&geo=CA"
     },
     {
-      "entity": "ed markey",
+      "entity": "real madrid",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3219,10 +3262,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=ed%20markey&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=real%20madrid&geo=BR"
     },
     {
-      "entity": "new hyundai tucson",
+      "entity": "olise",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3233,10 +3276,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=new%20hyundai%20tucson&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=olise&geo=BR"
     },
     {
-      "entity": "real",
+      "entity": "cartola",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3247,10 +3290,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=real&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=cartola&geo=BR"
     },
     {
-      "entity": "xv de piracicaba x união são joão",
+      "entity": "harry kane",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3261,10 +3304,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=xv%20de%20piracicaba%20x%20uni%C3%A3o%20s%C3%A3o%20jo%C3%A3o&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=harry%20kane&geo=BR"
     },
     {
-      "entity": "genoa x napoli",
+      "entity": "sturm graz",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3275,10 +3318,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=genoa%20x%20napoli&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=sturm%20graz&geo=BR"
     },
     {
-      "entity": "são josé x são caetano",
+      "entity": "campeonato português",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3289,10 +3332,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=s%C3%A3o%20jos%C3%A9%20x%20s%C3%A3o%20caetano&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=campeonato%20portugu%C3%AAs&geo=BR"
     },
     {
-      "entity": "celta de vigo",
+      "entity": "ferrari",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3303,10 +3346,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=celta%20de%20vigo&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=ferrari&geo=BR"
     },
     {
-      "entity": "atacante",
+      "entity": "zdf live",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3317,10 +3360,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=atacante&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=zdf%20live&geo=DE"
     },
     {
-      "entity": "senado federal do brasil",
+      "entity": "luis díaz",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3331,10 +3374,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=senado%20federal%20do%20brasil&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=luis%20d%C3%ADaz&geo=DE"
     },
     {
-      "entity": "bayer",
+      "entity": "strohgäubahn",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3345,10 +3388,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=bayer&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=strohg%C3%A4ubahn&geo=DE"
     },
     {
-      "entity": "borussia x bayern",
+      "entity": "wm 2026",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3359,10 +3402,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=borussia%20x%20bayern&geo=BR"
+      "url": "https://trends.google.com/trends/explore?q=wm%202026&geo=DE"
     },
     {
-      "entity": "fahrer",
+      "entity": "guirassy",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3373,10 +3416,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=fahrer&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=guirassy&geo=DE"
     },
     {
-      "entity": "боруссия – бавария",
+      "entity": "karetsas bvb",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3387,10 +3430,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=%D0%B1%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%B8%D1%8F%20%E2%80%93%20%D0%B1%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D1%8F&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=karetsas%20bvb&geo=DE"
     },
     {
-      "entity": "śląsk wrocław – widzew łódź",
+      "entity": "saibari",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3401,10 +3444,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=%C5%9Bl%C4%85sk%20wroc%C5%82aw%20%E2%80%93%20widzew%20%C5%82%C3%B3d%C5%BA&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=saibari&geo=DE"
     },
     {
-      "entity": "joane gadou",
+      "entity": "joyn kostenlos",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3415,10 +3458,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=joane%20gadou&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=joyn%20kostenlos&geo=DE"
     },
     {
-      "entity": "dakota johnson",
+      "entity": "dinamo – nk varaždin",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3429,10 +3472,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=dakota%20johnson&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=dinamo%20%E2%80%93%20nk%20vara%C5%BEdin&geo=DE"
     },
     {
-      "entity": "bergwacht pfronten",
+      "entity": "madrid",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3443,10 +3486,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=bergwacht%20pfronten&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=madrid&geo=ID"
     },
     {
-      "entity": "tv programm heute",
+      "entity": "slavia praha",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3457,10 +3500,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=tv%20programm%20heute&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=slavia%20praha&geo=ID"
     },
     {
-      "entity": "دورتموند ضد البايرن",
+      "entity": "paris fc",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3471,10 +3514,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=%D8%AF%D9%88%D8%B1%D8%AA%D9%85%D9%88%D9%86%D8%AF%20%D8%B6%D8%AF%20%D8%A7%D9%84%D8%A8%D8%A7%D9%8A%D8%B1%D9%86&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=paris%20fc&geo=ID"
     },
     {
-      "entity": "sao paulo",
+      "entity": "le mans fc",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3485,10 +3528,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=sao%20paulo&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=le%20mans%20fc&geo=ID"
     },
     {
-      "entity": "sat 1 stream",
+      "entity": "espanyol vs madrid",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3499,10 +3542,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=sat%201%20stream&geo=DE"
+      "url": "https://trends.google.com/trends/explore?q=espanyol%20vs%20madrid&geo=ID"
     },
     {
-      "entity": "munchen",
+      "entity": "bayern munchen",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3513,10 +3556,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=munchen&geo=ID"
+      "url": "https://trends.google.com/trends/explore?q=bayern%20munchen&geo=ID"
     },
     {
-      "entity": "fenerbahçe vs konyaspor",
+      "entity": "valencia vs celta vigo",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3527,10 +3570,10 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=fenerbah%C3%A7e%20vs%20konyaspor&geo=ID"
+      "url": "https://trends.google.com/trends/explore?q=valencia%20vs%20celta%20vigo&geo=ID"
     },
     {
-      "entity": "al-ahli saudi vs abha",
+      "entity": "toulouse vs lyon",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -3541,102 +3584,32 @@
       "ageHours": 12,
       "score": 65,
       "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=al-ahli%20saudi%20vs%20abha&geo=ID"
+      "url": "https://trends.google.com/trends/explore?q=toulouse%20vs%20lyon&geo=ID"
     },
     {
-      "entity": "francesco pio esposito",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=francesco%20pio%20esposito&geo=ID"
-    },
-    {
-      "entity": "udinese",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=udinese&geo=ID"
-    },
-    {
-      "entity": "andy diouf",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=andy%20diouf&geo=ID"
-    },
-    {
-      "entity": "napoli",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=napoli&geo=ID"
-    },
-    {
-      "entity": "al-kholood club vs al-taawon",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 65,
-      "confidence": 0.35,
-      "url": "https://trends.google.com/trends/explore?q=al-kholood%20club%20vs%20al-taawon&geo=ID"
-    },
-    {
-      "entity": "Student killed in sword attack at a Swedish school was a 17-year-old girl",
+      "entity": "Weekly Health Update | Ebola Tops 5,000 Cases; Polio Outbreaks Recede",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "US",
-        "CA"
+        "ZA",
+        "NG",
+        "KE"
       ],
-      "countryCount": 2,
+      "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
+      "articleCount": 3,
+      "publisherCount": 1,
       "publishers": [
-        "AP News",
-        "Reuters"
+        "Ecofin Agency"
       ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 4.9,
-      "score": 64.3,
+      "effectiveCountries": 1,
+      "syndicated": true,
+      "ageHours": 3.1,
+      "score": 64.8,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVTVzQWhpRV94UFlYYjlobi1WaFhzMllaSEFjdUZXUlNDNkxrVTFkeTVJRGJIZWppdU5zZElta0paUEVaY3UxSEtBZmxmRDVkZl96U2kzS0FLOF9td0dFSk5fdnU3bThaSHRDa1NIYnlmVlBfU2VfSUpKZFJxMHktSm8xVk1udl9qdEhac29ORm1wYWs3VmpYR0VqWHlVT0E?oc=5",
-      "fp": "swedish"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnJJTnMwY0dMaHMxVTZsbFVlNXRScFFVdllZNkYtNU9aRURkbUNOQ3dEcWJiOEx2VkpscEhFN0tCblZjeUtGcExKbmlxRHlnWGl1d2lIZDBWY1FxUEtOTmlqWGQyQmV1eEg4M2NTdFBIYmhPZlJRQkQwT0hsS2ZIdnpnOUlyMVpldjJ1R3kta1pVQklDZktMSXg5S1dENWhiNFB1RlNQQnU4NTUzVUdick9zTDVrN2dfalIxVg?oc=5",
+      "fp": "ebola|health|tops|update"
     },
     {
       "entity": "Augusto Cury",
@@ -3653,6 +3626,24 @@
       "url": "https://pt.wikipedia.org/wiki/Augusto_Cury"
     },
     {
+      "entity": "Ghent University suspends Nathan Cofnas",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 64.1,
+      "confidence": 0.79,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/4cabae3256c3"
+    },
+    {
       "entity": "Daftar film Indonesia terlaris sepanjang masa",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -3667,6 +3658,31 @@
       "url": "https://id.wikipedia.org/wiki/Daftar_film_Indonesia_terlaris_sepanjang_masa"
     },
     {
+      "entity": "Kogi Govt Orders Investigation Into Deaths Of Four Family Members In Ihima",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IE",
+        "NG"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "Clare FM",
+        "Channels Television"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 1.5,
+      "score": 63.6,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMVZzVjVMc3V5R3hjYXlxbFBkVUZRTXBESTh0QzJ0MjkybkNpRGdrNEl6QXFhN2lmUlJYOWxXb1RhNkk0cXQyajFvUVYzTThnbUtjNWo2TmRSZWpKRGh2MVVtS3hNWnFTTWo4ak1JUG1vSnNySmRBMnRRTmFzM0pQbEo1Rld2Vmwyd292RVZlUlpoQXFXT1BNNjJkdDAzQ0J4RUc1TV93MHJZN2VITm1yTmRhRXR5WEd2b2c?oc=5",
+      "fp": "deaths|month|period|records"
+    },
+    {
       "entity": "Berkas:Stadion Dipta.jpg",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -3679,6 +3695,31 @@
       "score": 63.4,
       "confidence": 0.35,
       "url": "https://id.wikipedia.org/wiki/Berkas%3AStadion_Dipta.jpg"
+    },
+    {
+      "entity": "Carney faces crucial test after walking away from Trump's deal",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "PK",
+        "KE"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "BBC",
+        "the-star.co.ke"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 1.9,
+      "score": 62.7,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pUk1hZDJLWGdVS3kwS0VNQW4tX190X3RHZjBrcTFtVEt3Nmh1cmdMa0d5SWQwemlwdDR6N0NGUzJGanlqeFNid1pkTlFQb2JxQVZGaVdOWTFKUQ?oc=5",
+      "fp": "trump's"
     },
     {
       "entity": "Insidious: Out of the Further",
@@ -3709,29 +3750,19 @@
       "url": "https://id.wikipedia.org/wiki/Jordi_El_Ni%C3%B1o_Polla"
     },
     {
-      "entity": "Scott Bessent is 'playing with fire' as Treasury debt buyback scheme risks dollar devaluation spiral",
-      "source": "googlenews",
-      "phase": "LOCAL",
+      "entity": "Hegseth's Pentagon draws scrutiny",
+      "source": "bluesky",
+      "phase": "SIGNAL",
       "status": "PLATEAU",
-      "countries": [
-        "US",
-        "GB"
-      ],
-      "countryCount": 2,
+      "countries": [],
+      "countryCount": 1,
       "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "Fortune",
-        "The Telegraph"
-      ],
-      "effectiveCountries": 2,
+      "effectiveCountries": 1,
       "syndicated": false,
-      "ageHours": 8.3,
-      "score": 62.1,
+      "ageHours": 12,
+      "score": 62,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVTVBUUxBVEJkTUx3a3U5OWNUM09WS09IRDE3R0tUSGU4YndPM3NpMERZaXdnUG1pbTlXVkpidEZHakFubHYxTzdSc1JKazRHMFJDVUFVZUZxRDdnOGlTR2Znd3hhNDJWRGh4dlJnd29nZ2s5OE1JdTZWYlh6MEVDeTdZRUpoTkZhZER6RDAwWGVkUDByY3YtUjdROTAzNjYyLXZZQmNSV3NXbDNoZk5BQXN2eGY?oc=5",
-      "fp": "bessent|scott|treasury"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/a763d66ed8ec"
     },
     {
       "entity": "Copa Sudamericana 2026",
@@ -3748,24 +3779,6 @@
       "url": "https://es.wikipedia.org/wiki/Copa_Sudamericana_2026"
     },
     {
-      "entity": "Navy may rename carrier for Trump",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 61.9,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ebc0255d2ef0"
-    },
-    {
       "entity": "Convenzione di Dublino",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -3778,6 +3791,20 @@
       "score": 61.9,
       "confidence": 0.35,
       "url": "https://it.wikipedia.org/wiki/Convenzione_di_Dublino"
+    },
+    {
+      "entity": "Charles Manson",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 61.4,
+      "confidence": 0.57,
+      "url": "https://en.wikipedia.org/wiki/Charles_Manson"
     },
     {
       "entity": "Fernando Galmarini",
@@ -3822,6 +3849,31 @@
       "url": "https://id.wikipedia.org/wiki/Aturan_34"
     },
     {
+      "entity": "Michael Wright, Star of ‘The Five Heartbeats’ and ‘Sugar Hill,’ Dies at 70",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "GB"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The Hollywood Reporter",
+        "The Independent"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 2.6,
+      "score": 60.8,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcm9ydWpmLTR5WGo2d0VucW5FNGkyeHBWeVFwLWVwREs4b3hJanVQaGRmR2tWUlpQVDVsTkt5WGN2VXA0MXpIeWp6cDg5SDlKWGdKUm5ZVWt4Z3ozMjdfQk9RNVZuQUIzbDRXN3VOMl9la0RyOGxSQi1VS1hzNDA3UU9QOHFiM0dlS0ZqZzlZN3BwTy1DVnA4dVd3endwOEpfWUp0YVF3S3VrcWwtT19F?oc=5",
+      "fp": "five|heartbeats|star|wright"
+    },
+    {
       "entity": "Fabian Köster",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -3834,6 +3886,36 @@
       "score": 60.7,
       "confidence": 0.35,
       "url": "https://de.wikipedia.org/wiki/Fabian_K%C3%B6ster"
+    },
+    {
+      "entity": "JK Rowling comments on trans adults",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 60.6,
+      "confidence": 0.35,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9ba59fa99102"
+    },
+    {
+      "entity": "Alfalfa sprouts outbreak sickens dozens",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 60.3,
+      "confidence": 0.57,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9778a1083690"
     },
     {
       "entity": "Sport Club Corinthians Paulista",
@@ -3850,19 +3932,30 @@
       "url": "https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
     },
     {
-      "entity": "Cadwalladr on Jason Arday",
-      "source": "bluesky",
-      "phase": "SIGNAL",
+      "entity": "Trump Risks China Blowback With Plan to Choke Iran’s Economy",
+      "source": "googlenews",
+      "phase": "LOCAL",
       "status": "PLATEAU",
-      "countries": [],
-      "countryCount": 1,
+      "countries": [
+        "SG",
+        "PH",
+        "KE"
+      ],
+      "countryCount": 3,
       "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 59.9,
-      "confidence": 0.57,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d0e17318a0f7"
+      "articleCount": 4,
+      "publisherCount": 2,
+      "publishers": [
+        "Bloomberg.com",
+        "The New York Times"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 6.2,
+      "score": 59.7,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX0lXSUduZ2g3cVN0WDBOSkFHTl9veVlaVHp0UUxyX1kxRzgwSEhzN0p4Y3JKTnFzcEFMbUJ1VkV6cEM3Z2wzRlVOZUdhT01vNmZoN1N3YnNjb2JhaXFMRzhmaGw1TXExN0g1SUNCb1FVOWpRUzFOYjNrTzRJa0d2TS1WQm1rSDRGT1B2X3JFZENHampuaE8tck1MckNiODBtb1dTR3hQS19CeEI4bnl4U0YxVQ?oc=5",
+      "fp": "blowback|china|plan|risks"
     },
     {
       "entity": "Club de Regatas Vasco da Gama",
@@ -3879,6 +3972,21 @@
       "url": "https://pt.wikipedia.org/wiki/Club_de_Regatas_Vasco_da_Gama"
     },
     {
+      "entity": "Flock camera vandalism reports",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 59.3,
+      "confidence": 0.35,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f28ba58a71d6"
+    },
+    {
       "entity": "Ronaldinho Gaúcho",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -3891,21 +3999,6 @@
       "score": 59.1,
       "confidence": 0.35,
       "url": "https://pt.wikipedia.org/wiki/Ronaldinho_Ga%C3%BAcho"
-    },
-    {
-      "entity": "Worst sitcom you've watched",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 58.9,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/e5d9a6191fb6"
     },
     {
       "entity": "Episodi di Chicago Fire (quattordicesima stagione)",
@@ -3922,72 +4015,53 @@
       "url": "https://it.wikipedia.org/wiki/Episodi_di_Chicago_Fire_(quattordicesima_stagione)"
     },
     {
-      "entity": "End of an era for Cell C in South Africa",
+      "entity": "Apple's Camera AirPods Leaks Spark Hilarious Memes and Privacy Concerns | Vantage on Firstpost",
       "source": "googlenews",
-      "phase": "LOCAL",
+      "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "ZA"
+        "IN"
       ],
       "countryCount": 1,
       "newCountries": 0,
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "businesstech.co.za",
-        "MyBroadband"
+        "Firstpost",
+        "NDTV Profit"
       ],
       "effectiveCountries": 1,
       "syndicated": false,
-      "ageHours": 6.3,
-      "score": 58.1,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRzFJRVprZUFXSDBJbzV4YVRiVGJPTHplaDlvQUh1ZWFheW13ZlZTUVdxR3BHWmIwM1lCd0swcWd4NHZYMGNwc2pOLV81cWtUdV9lR3VfUzZueXpoQUVxdkNOZmhiY1Z5QXA1OHk0anBOVkVzUG5qdVpveUdicW9qdlZTQWJDcllHRkFrTVBPRENWREd6Q1hhWDYwRTByaHZ4?oc=5",
-      "fp": "africa|cell|south"
-    },
-    {
-      "entity": "Trump announces Iran economic warfare",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 58.1,
+      "ageHours": 3.8,
+      "score": 57.8,
       "confidence": 0.57,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/99a657bf0dcc"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZHAtdE1xWGxsSF95WnB6Slp5RzQweWFsTTk3UmlvdFVyT25QNm9xRjdGZlEzNEFOWmVvc183WkFTVGdpOTZzWl9DM2RpRkZud2t5OGNsVGhXcF9ZUjF6MDVSY2t3eWhuLXljc1d0LWFnWW5fWmh4UDQ4ZmxVZWFEYW0xZzVQbXZhUWNBUHVydEJTZFpaZlVSck9NNVNJaFByUzNJTGhTcFdDX25qclJkNFdXZlBRX1ZJaGs4M0YxWXpPRDJnSGtNYmF4YmdYRk5GUGfSAdcBQVVfeXFMT0s0aWVuWXk2ai1ZaWVWdUFtWjlrdUhIU1VxOGVMeXp6MGh0elpYWFduZlBMVmxUbzgwMDhFRG5sZHJZeXJqY3hCTllhemZ2a19NWGlacG1JdlVPdzJNU0VES1VCb1N5WTdPcDliNFBpV2dFMVpzQjlCTlNBOG5GSzAwVG1qVTQycXQwM01ndTE3ZkFZVE01Z2owX0dwb3JGTWZhdUdSYW9NNzQwWmlNRTVDSkJzMDVERU9KSExaS1poNzZ5UXJOMGNoS2xybWdBek5HTVctZGs?oc=5",
+      "fp": "airpods|camera|leaks|spark"
     },
     {
-      "entity": "Teenage Sex and Death at Camp Miasma",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
+      "entity": "Ruto mourns former High Court judge Joseph Mutava Mbalu",
+      "source": "googlenews",
+      "phase": "BREAKING",
       "status": "PLATEAU",
-      "countryCount": 1,
+      "countries": [
+        "AU",
+        "KE"
+      ],
+      "countryCount": 2,
       "newCountries": 0,
-      "effectiveCountries": 1,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "SMH.com.au",
+        "the-star.co.ke"
+      ],
+      "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 24,
-      "score": 58.1,
-      "confidence": 0.35,
-      "url": "https://en.wikipedia.org/wiki/Teenage_Sex_and_Death_at_Camp_Miasma"
-    },
-    {
-      "entity": "Wild horse sale policy debate",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
+      "ageHours": 5.5,
       "score": 57.5,
       "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ed2792244d96"
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTjFpVVlXUml2SmJmcjEyVl9weVgwVlFOUHpuVzBkTWZMOFQ2ZDVXajNDcEdYRW8wNXlQSmtRV0kzVEFpaXNTQzM5QnU3QUVlUC1Gc2JWbGdUaHA3N2hQRjRvTFRwOGxZR2ZlcWV2a05raDIySmU1Qk16YjdHMTZiX1ZKemYzLTlVTVF4clBTdGZqeWl4RGxfYmdxMmRfTjgxazJmWGJZZ3F3djBaM2NRNW9UU18yWDdmNTdmLU1tN204cGt5Qkt3N2RB?oc=5",
+      "fp": "abbott|hansons|high|pauline"
     },
     {
       "entity": "Copa Sul-Americana de 2026",
@@ -4018,29 +4092,29 @@
       "url": "https://id.wikipedia.org/wiki/Pornografi_di_Indonesia"
     },
     {
-      "entity": "2 Cops Among 7 Killed After Vehicle Rams Police Car In England",
+      "entity": "Focus on Tabung Haji instead of Taiwan, PKR man tells PAS",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "IN",
-        "IE"
+        "MY"
       ],
-      "countryCount": 2,
+      "countryCount": 1,
       "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
+      "articleCount": 3,
+      "publisherCount": 3,
       "publishers": [
-        "NDTV",
-        "The Irish Times"
+        "The Star",
+        "Malay Mail",
+        "Free Malaysia Today"
       ],
-      "effectiveCountries": 2,
+      "effectiveCountries": 1,
       "syndicated": false,
-      "ageHours": 1.4,
-      "score": 56.8,
+      "ageHours": 4.6,
+      "score": 56.5,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOU81X2tpX0FyYks5Q1dpSWJRNWd0SXk3eHRQZTY2SElYRmtDS3NFd3p1MU1tQUdsUE9Yc2NaalNEbTN2VkZyOUJDRmZBcUZkSEF4QTg0TVM3cmo5QmgxNW1jS1lTdHplZDBhTjZBMFBIUTB0WUV1Q28yR3dycmdvZm9QS05kSnNyTnBQN21SRVNWRExzS2hxRGRtbmV2QdIBpgFBVV95cUxPLThkbWJiVHViS2MzcUpibUNLZDlxek9SSTRjZnZLMHVTaF9Wd0szOXFEbjlxQS1ieTF4U0ZWRmRrbVZBMFZxMTBySi1NQWN6bWt5QW5NVDFIdHgxdEpVNFpHZUo4djlvb2dWYWJWUFFIWG03clJoanZ2ekVNX2FBZlZ1OFBJeWZubkpsNjdPVWpSZ2RxUG9RUDZna21sTlBfRGx6dWR3?oc=5",
-      "fp": "among|cops|killed|vehicle"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWG5MWE40eGF0N3UtSG5jM3lMZFBKcFRERE5ocFZGNjFqLXlnLXZtWHI1ZThCWnJiUVZ3bUJIc0hVNjNNbXdUTWM0eGdiMjJSSW9sTElWTUZpVzJzMEZOYWdfQlJsbFNGNXV2WWxRX2hUTjZJQTdFMHk2bHBNWmxCYi1mVGhINkZ4MVhwY1FYeGtQRVhDRGNRU2JQbXNQX005c2pvbmtBSVlhU2xQVGRqdktpWmRMZGQxcG03SmdR?oc=5",
+      "fp": "ceo|fahmi|haji|tabung"
     },
     {
       "entity": "Andi Syamsuddin Arsyad",
@@ -4085,46 +4159,32 @@
       "url": "https://id.wikipedia.org/wiki/Ghost_in_the_Cell"
     },
     {
-      "entity": "Weekly Health Update | Ebola Tops 5,000 Cases; Polio Outbreaks Recede",
+      "entity": "USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
       "source": "googlenews",
-      "phase": "BREAKING",
+      "phase": "LOCAL",
       "status": "PLATEAU",
       "countries": [
-        "NG",
-        "KE"
+        "US",
+        "PK"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
-      "publisherCount": 1,
+      "publisherCount": 2,
       "publishers": [
-        "Ecofin Agency"
+        "USNI News",
+        "CNN"
       ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 2.1,
-      "score": 55.6,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnJJTnMwY0dMaHMxVTZsbFVlNXRScFFVdllZNkYtNU9aRURkbUNOQ3dEcWJiOEx2VkpscEhFN0tCblZjeUtGcExKbmlxRHlnWGl1d2lIZDBWY1FxUEtOTmlqWGQyQmV1eEg4M2NTdFBIYmhPZlJRQkQwT0hsS2ZIdnpnOUlyMVpldjJ1R3kta1pVQklDZktMSXg5S1dENWhiNFB1RlNQQnU4NTUzVUdick9zTDVrN2dfalIxVg?oc=5",
-      "fp": "ebola|health|tops|update"
-    },
-    {
-      "entity": "Brentford faces Tottenham lineups",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
+      "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 12,
-      "score": 55.6,
-      "confidence": 0.79,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/42b93a2aedb4"
+      "ageHours": 6.8,
+      "score": 55.5,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUzAtQUNMTDlqam9nS28xdFpJc2RzUnZpZzhRQ1I4eHpRR29OQngySldLRkRFTGhESFlsMHVpaDE4aEVZLUtWMk1tdEpndTU1NEhmdVNfYXl1WV9QZ0tLVFlJMGpkSnhIWmVuZGxIVjByVkk5UzFMTjVqc0p3c2pJVUliUFZBRGM0b2ZQYTctRmZyUzdTRWU5X2NJZXQyZw?oc=5",
+      "fp": "abraham|leaves|lincoln|middle"
     },
     {
-      "entity": "Public backlash grows against AI data centers",
+      "entity": "Trump threatens military bond intervention",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -4134,9 +4194,9 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 55.3,
+      "score": 55.2,
       "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/e024e6e6f115"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/305963ccc37f"
     },
     {
       "entity": "Liga Deportiva Universitaria (Quito)",
@@ -4151,44 +4211,6 @@
       "score": 54.9,
       "confidence": 0.35,
       "url": "https://pt.wikipedia.org/wiki/Liga_Deportiva_Universitaria_(Quito)"
-    },
-    {
-      "entity": "Charles Manson",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 54.8,
-      "confidence": 0.35,
-      "url": "https://en.wikipedia.org/wiki/Charles_Manson"
-    },
-    {
-      "entity": "South Africans replacing Eskom",
-      "source": "googlenews",
-      "phase": "LOCAL",
-      "status": "PLATEAU",
-      "countries": [
-        "ZA"
-      ],
-      "countryCount": 1,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "TopAuto.co.za",
-        "MyBroadband"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 9.3,
-      "score": 54.7,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ1ZrN1gwNDBlQXIwVWM3cGxrZmVKWVpHa2d1QWxUMm1mQWg0MjBKTFhPa3ZpUG1BZXJkc0VzRncza3E5ZkJYTDVDZEhmR29VelVSYWNTWEJmd05neTZHWlFLSTBrTlJ1eU1TVi1hZ0pjMF9DOFpTQ2ltUF92YlF6b3hNXzl0U0k1N1g2YWJjYk8?oc=5",
-      "fp": "africans|eskom|south"
     },
     {
       "entity": "Copa Sudamericana",
@@ -4219,6 +4241,45 @@
       "url": "https://pt.wikipedia.org/wiki/Copa_Sul-Americana"
     },
     {
+      "entity": "Duskbloods network test impressions",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 54.3,
+      "confidence": 0.57,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f24b1918a2c6"
+    },
+    {
+      "entity": "Swedish police probe online networks after teenage girl killed in school sword attack",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 1,
+      "publishers": [
+        "Reuters"
+      ],
+      "effectiveCountries": 1,
+      "syndicated": true,
+      "ageHours": 5.9,
+      "score": 54,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZVV3NExuQmFxMzNiVU9iZnhweFRMb2tvQmlqVmhNbXJia0YtcXFMalNXanhOS2gxYy12MHFZT0VoRENBOWFLMklzdWVaV3pZMVFmSmI0VEJENUxSTU5nbUJZdnpWa3lIR1IydEFSb3JIY0pjQ0RRdjh5aGhqdy1DYlVLdksyc1psREx4Q1NXUDVOTk45WndFU1RaWE5RMmdTZFZ2SnAxVFltWDhhYTJ2WlQxNS1lNU9rX29nVXVRMmEwdw?oc=5",
+      "fp": "swedish police probe online networks aft"
+    },
+    {
       "entity": "Difterite",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -4231,6 +4292,31 @@
       "score": 54,
       "confidence": 0.35,
       "url": "https://it.wikipedia.org/wiki/Difterite"
+    },
+    {
+      "entity": "Defense Rests Case in Lindsay Clancy Murder Trial",
+      "source": "googlenews",
+      "phase": "LOCAL",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The New York Times",
+        "CTV News"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 10.3,
+      "score": 53.7,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kdEVJbnhHOV9Bekt0a1R6bWJFV3JFNTNnSHpnZXBKMVFZdm1iU0Zlb3UwOEdFaUV6N2dTaEJRTjl1Z0Y0UUhFVUJPWE5kcnJQRk5MOUpaLUN0anozTTZPVldDTzB1Wlk2VGVZUUlwdUVsLVhHQWFhS1dtaw?oc=5",
+      "fp": "case|clancy|lindsay|rests"
     },
     {
       "entity": "Google",
@@ -4289,20 +4375,6 @@
       "url": "https://en.wikipedia.org/wiki/File%3AWNBA_logo.svg"
     },
     {
-      "entity": "Roberto Vannacci",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 52.6,
-      "confidence": 0.57,
-      "url": "https://it.wikipedia.org/wiki/Roberto_Vannacci"
-    },
-    {
       "entity": "Luna Maya",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -4315,31 +4387,6 @@
       "score": 52.2,
       "confidence": 0.35,
       "url": "https://id.wikipedia.org/wiki/Luna_Maya"
-    },
-    {
-      "entity": "Mary J. Blige Gets Candid About Occasionally Questioning Her Child-Free Choice",
-      "source": "googlenews",
-      "phase": "LOCAL",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "ZA"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "Forex Factory",
-        "essence.com"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 21.2,
-      "score": 52.1,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pa0dTMG5qT3Jhblo1dVl5Z0dwS0JFQUowX05URUF1NWVNNHNHcEVYdjZsdmNTTWVrRVZaQjJxS0M2VmlYYWJtZXZ5WG0yUXZtaXlCR2M0RVV5aGhkZjdJSWJCTU11QTE1RVIyTFpRelExelYxZG5CTXBjczAzQlHSAYQBQVVfeXFMT0JXQjZQaFl0R2dPUHlhRThOYzM3bjdzQW54ZHNEdlV0SkItZHA2b0EwNklZeW9CdUlHaW5NVXRVczBKWWlwSWp6WmxQUDdFV2Z3Y0g2a25PQmJVNjk0MXFOTGhnbnoyeVZuaWJZMDM4cnRFd3BpUWhJaDY5QUVoblVEb21N?oc=5",
-      "fp": "gets|giant|restless|sleeping"
     },
     {
       "entity": "Bérangère Bonvoisin",
@@ -4382,31 +4429,6 @@
       "score": 51.8,
       "confidence": 0.35,
       "url": "https://fr.wikipedia.org/wiki/Patrick_Bruel"
-    },
-    {
-      "entity": "Russian strikes kill 6 people in Ukraine, day after shopping complex attack",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "GB",
-        "CA"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 2,
-      "publishers": [
-        "The Guardian",
-        "Al Jazeera"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 6,
-      "score": 51.7,
-      "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT0pmdWd4SEpWUTcwZUhOTE1oSlBNQ05DNXBBeV81Rm9JRzdNdUppODJCT0M1QXF6NzUzUTd6UVowazJaNE5kX2N3d2hwbHRybXNFSlFhcVpXY3Y4dDA5YTZWamlKQkVLY1FILTcwYjlMY2hKUVRRY0ZJUmVsZlU0LWVici1IR1RRaEQ1NWpqbVFaLUhsUFdVREpzOTNOS0R5TkNjcGc1bEhGZFhCaTVoUy1lVU1QLS1ReWJSYmNsRVVRZjNfOHQtZmpR?oc=5",
-      "fp": "ukraine"
     },
     {
       "entity": "Datei:Germany adm location map.svg",
@@ -4465,31 +4487,6 @@
       "url": "https://fr.wikipedia.org/wiki/N'oubliez_pas_les_paroles_!"
     },
     {
-      "entity": "Meghan 'offered role in Guy Ritchie Netflix series The Gentlemen'",
-      "source": "googlenews",
-      "phase": "LOCAL",
-      "status": "PLATEAU",
-      "countries": [
-        "GB",
-        "IE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "ITVX",
-        "RTE.ie"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 8,
-      "score": 50.9,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNDJXdmJPQTBoSW92allNSWMxYzBmT1dWR3FkR2pPVlBnZkg0TnItS1V2ckpoZzBUNHc2V2o1QzdCSl9wT3FrYmt0eHJHRWQ4MENqbEQtdUk5Q2FfS25WaGc0T1A4b1ktd0FTc194OUwtQzQ3dHkxNEo3OFpwMGctbUZVbWoyQkJMb0dqWWttOVpTMFdjdzJWdERpcnFwRWhZZ09oLXBrcjJLU3dGUUFn?oc=5",
-      "fp": "gentlemen'|guy|netflix|ritchie"
-    },
-    {
       "entity": "Die Odyssee (2026)",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -4502,45 +4499,6 @@
       "score": 50.8,
       "confidence": 0.35,
       "url": "https://de.wikipedia.org/wiki/Die_Odyssee_(2026)"
-    },
-    {
-      "entity": "Jason Arday",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 50.7,
-      "confidence": 0.57,
-      "url": "https://en.wikipedia.org/wiki/Jason_Arday"
-    },
-    {
-      "entity": "Spotify’s Fan Life campaign and Running Mode coincide with gains in Ad Awareness and Purchase Intent",
-      "source": "googlenews",
-      "phase": "LOCAL",
-      "status": "DECAYING",
-      "countries": [
-        "IN",
-        "NZ"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "India Book of Records",
-        "YouGov"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 12.4,
-      "score": 50.3,
-      "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOEFadG1NakJjS3BKOG9Ma0NMOG4wcVd4bExjMnFsczZSYXVrSGFTOXpFQ3lZemNrT0ZXQzlST2FMQjROZEpqc1FLaUx3T3A3VllRT0h2SmZ0UjI2ZkpCN0Fua3kwY2txal9Mb1FuZ0loVWhuaGwtMVAyN1AzTHh0QUJwZFI4VnQtVmIyWEFKazBUNDhJb0J6eURKeUFmQnhScUNEUw?oc=5",
-      "fp": "awareness|campaign|diabetes|organised"
     },
     {
       "entity": "Pornografi",
@@ -4557,62 +4515,31 @@
       "url": "https://id.wikipedia.org/wiki/Pornografi"
     },
     {
-      "entity": "US-Canada trade talks collapse",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 50.2,
-      "confidence": 0.57,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/b28e21eec571"
-    },
-    {
-      "entity": "Natalie Harp's letters to Trump",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 50.2,
-      "confidence": 0.57,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ad05b644a0e8"
-    },
-    {
-      "entity": "Lindsay Clancy trial: everything that happened this week in court",
+      "entity": "The hidden economy beneath our feet: Plants share energy through fungal networks",
       "source": "googlenews",
-      "phase": "LOCAL",
+      "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "US",
-        "CA"
+        "CA",
+        "NG"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
-      "publisherCount": 2,
+      "publisherCount": 1,
       "publishers": [
-        "The Guardian",
-        "CTV News"
+        "Digital Journal"
       ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 8.2,
+      "effectiveCountries": 1,
+      "syndicated": true,
+      "ageHours": 0.5,
       "score": 50,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVY3b3FxcFhTMVM5TE1FVzA4NjMtdFNKaGotZEtqdmhRZFpmUTdIWmFTNFdlbGYxU0NZbG54REhRLTNBWEFBbjIzbnpGb1p2cGpXNkRzM2lkUE5uVENHTWdCd3NNenlTWC1SWlIzdmJKMnpWeXk1aklGb0dJbTZHQTVZbFZIMm9PV3hrTl94UzEzUkRNRmRR?oc=5",
-      "fp": "clancy|lindsay"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeGVRdDkxdzVxY3BLNGlvem55aHVUVG5remliMV90eEpPM3YxOTFpTUhBZFZBZXNsSTZNZzFUUFdVa1JnUExkNTczYWxmWDhjeXYyVVRFZ3lMZzFRd0t0YWVtRHJfWGFuMUZJQjR6NDNvSnpxU0N0MnJLdHkyMDMzYkw0R01iMXFGSV9WS0k5N2hsc2kwZTZaSDUzZzNsMFBGc0R6U1dIeXQtV2ROMU8xbjdJS0NOM3cxQVlV?oc=5",
+      "fp": "plants"
     },
     {
-      "entity": "Duskbloods network test impressions",
+      "entity": "Migrant care contract scrutiny",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -4624,7 +4551,7 @@
       "ageHours": 12,
       "score": 50,
       "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f24b1918a2c6"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/cf0cd0706458"
     },
     {
       "entity": "Italia",
@@ -4683,30 +4610,6 @@
       "url": "https://pt.wikipedia.org/wiki/Pesquisas_de_opini%C3%A3o_para_a_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2026"
     },
     {
-      "entity": "NYT Connections Answers for August 23, 2026",
-      "source": "googlenews",
-      "phase": "LOCAL",
-      "status": "PLATEAU",
-      "countries": [
-        "AU",
-        "NZ"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 1,
-      "publishers": [
-        "The New York Times"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 8.3,
-      "score": 49,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQnJYNXBxX1ZuV2tCcjNpbW1OcUo3MVZEUXF4d0NQQ0xMZDRIV0d0YjBrbWlrTEQ0a3JVak1uVUpsUEpHeWFkX3VXbTA4eDB1bW5DWDgxSmhnOUxxMV9RZmc2enMyazJMN21uVGFiR0RReDFNeVJrWkhRU2RLeXBjekxGdw?oc=5",
-      "fp": "answers|connections"
-    },
-    {
       "entity": ".xxx",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -4747,31 +4650,6 @@
       "score": 48.2,
       "confidence": 0.35,
       "url": "https://es.wikipedia.org/wiki/Cristiano_Ronaldo"
-    },
-    {
-      "entity": "Hailey Bieber Spotted Wearing Skylrk’s Wired Earbuds As The Brand Soft-Launches Its Audio Expansion",
-      "source": "googlenews",
-      "phase": "LOCAL",
-      "status": "PLATEAU",
-      "countries": [
-        "US",
-        "PK"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The New York Times",
-        "Forbes"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 9.2,
-      "score": 48.1,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55X3hsYTloUjd6bk1HLU0wLThrSFFlYi1ndnVZZDF6YkxTZFhZQ01zVk8zVEVKYlZCNHhFaHhQSWlUM3lIdTNpdThpNWdLaklfVXRTbGtGWElqcm5SMUxDZXdkcElVS0trbW1vMHZfVFRKeldtd0E?oc=5",
-      "fp": "bieber|brand|ever|spotted"
     },
     {
       "entity": "Especial:Mudanças recentes",
@@ -4816,6 +4694,20 @@
       "url": "https://id.wikipedia.org/wiki/Inna_lillahi_wa_inna_ilaihi_raji'un"
     },
     {
+      "entity": "Hayden Panettiere",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47.5,
+      "confidence": 0.57,
+      "url": "https://en.wikipedia.org/wiki/Hayden_Panettiere"
+    },
+    {
       "entity": "Natalie Harp",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -4830,6 +4722,76 @@
       "url": "https://en.wikipedia.org/wiki/Natalie_Harp"
     },
     {
+      "entity": "2026 Men's FIH Hockey World Cup",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47.5,
+      "confidence": 0.57,
+      "url": "https://en.wikipedia.org/wiki/2026_Men's_FIH_Hockey_World_Cup"
+    },
+    {
+      "entity": "Nathan Cofnas",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47.5,
+      "confidence": 0.57,
+      "url": "https://en.wikipedia.org/wiki/Nathan_Cofnas"
+    },
+    {
+      "entity": "Wladimir Klitschko",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47.5,
+      "confidence": 0.57,
+      "url": "https://en.wikipedia.org/wiki/Wladimir_Klitschko"
+    },
+    {
+      "entity": "2026 Women's FIH Hockey World Cup",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47.5,
+      "confidence": 0.57,
+      "url": "https://en.wikipedia.org/wiki/2026_Women's_FIH_Hockey_World_Cup"
+    },
+    {
+      "entity": "Lautaro Martínez",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47.5,
+      "confidence": 0.57,
+      "url": "https://es.wikipedia.org/wiki/Lautaro_Mart%C3%ADnez"
+    },
+    {
       "entity": "Copa do Nordeste de Futebol de 2026",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -4842,6 +4804,20 @@
       "score": 47.5,
       "confidence": 0.57,
       "url": "https://pt.wikipedia.org/wiki/Copa_do_Nordeste_de_Futebol_de_2026"
+    },
+    {
+      "entity": "Liste des films de l'univers cinématographique Marvel",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47.5,
+      "confidence": 0.57,
+      "url": "https://fr.wikipedia.org/wiki/Liste_des_films_de_l'univers_cin%C3%A9matographique_Marvel"
     },
     {
       "entity": "Hong Kong",
@@ -4900,28 +4876,58 @@
       "url": "https://fr.wikipedia.org/wiki/XXX_(film)"
     },
     {
-      "entity": "Two Singapore traffic cops taken to hospital for smoke inhalation after vehicle catches fire on BKE",
+      "entity": "Roberto Vannacci",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 47,
+      "confidence": 0.35,
+      "url": "https://it.wikipedia.org/wiki/Roberto_Vannacci"
+    },
+    {
+      "entity": "Meghan 'offered role in Guy Ritchie Netflix series The Gentlemen'",
       "source": "googlenews",
       "phase": "LOCAL",
       "status": "PLATEAU",
       "countries": [
-        "SG"
+        "GB",
+        "IE"
       ],
-      "countryCount": 1,
+      "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "The Star",
-        "The Straits Times"
+        "ITVX",
+        "RTE.ie"
       ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 9,
+      "score": 46.9,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNDJXdmJPQTBoSW92allNSWMxYzBmT1dWR3FkR2pPVlBnZkg0TnItS1V2ckpoZzBUNHc2V2o1QzdCSl9wT3FrYmt0eHJHRWQ4MENqbEQtdUk5Q2FfS25WaGc0T1A4b1ktd0FTc194OUwtQzQ3dHkxNEo3OFpwMGctbUZVbWoyQkJMb0dqWWttOVpTMFdjdzJWdERpcnFwRWhZZ09oLXBrcjJLU3dGUUFn?oc=5",
+      "fp": "gentlemen'|guy|netflix|ritchie"
+    },
+    {
+      "entity": "Wild horse sale policy debate",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
-      "ageHours": 16.6,
-      "score": 47,
+      "ageHours": 12,
+      "score": 46.9,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQnVqQkVPS2JhcUpXT2hTVTd5bUJlT3RSdFJLLWJ2c3RmSm5SbkJodTY2dEw0RkV3TmZRcnlJTDU0bFhSNk5QME1LTFpncG9pUDlWWG1SMlhlbHp2TmJOemM4QUxWYVZZUFFfa0ZoZzZUZ0FwX0wyQXc2Qmo5b0luM3ZtOGt0SGZEbmZpQlg3Qk82N05NRTZ5Q0tKQi1RVTFKWlY4UTlDd085QUFrLXVtQVg3SVBqY201MC1pd1JhU2h5bmtYdy03ZlRFU3hpcDNUa2E4WUVJbDJWRkZ4QnVqYXRNZGNBSlctRjBvTHR4cUhFRmFl?oc=5",
-      "fp": "bke|singapore"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ed2792244d96"
     },
     {
       "entity": "Cinturón de fuego del Pacífico",
@@ -4994,6 +5000,30 @@
       "url": "https://de.wikipedia.org/wiki/Deutschland"
     },
     {
+      "entity": "Audio emerges from Sydney Swans incident",
+      "source": "googlenews",
+      "phase": "LOCAL",
+      "status": "PLATEAU",
+      "countries": [
+        "AU",
+        "PK"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 1,
+      "publishers": [
+        "news.com.au"
+      ],
+      "effectiveCountries": 1,
+      "syndicated": true,
+      "ageHours": 11.6,
+      "score": 45.7,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPaE5YYjZhX1BHNThVbnhTZ1J1U3QzM1ptN3J0TlNaMUtjc08xVXFRVmtaX0xzVjBOUHVlS0FQT2sxQlh3YllCSDdGUGVPTXNQYU41MnpNVXJ0czN3dGhtQl9oRXRTbmhfVlV6MU1FX3hlQjNmX25PZDlOaWYtTDlNa1RWWkhJY0tneVlub04xck4yVDVXYldteFk5c1FlXy0taGxrcWNVX0VPV1ZaZmdrZFpaTFQtWGN0b2ItXy1JSFZfN0Nnb2tJTnVNVFBZU09fV09DQVJiX2ktb1NBNXU0RUtXZExXMk1PQWE4VjNScGZqRXg4?oc=5",
+      "fp": "swans|sydney"
+    },
+    {
       "entity": "Copa Libertadores de América",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -5006,6 +5036,20 @@
       "score": 45.4,
       "confidence": 0.35,
       "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_de_Am%C3%A9rica"
+    },
+    {
+      "entity": "Jason Arday",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 45.3,
+      "confidence": 0.35,
+      "url": "https://en.wikipedia.org/wiki/Jason_Arday"
     },
     {
       "entity": "XXX",
@@ -5064,141 +5108,6 @@
       "url": "https://fr.wikipedia.org/wiki/Odyss%C3%A9e"
     },
     {
-      "entity": "NFL preseason games underway",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/e6da6ed4dfc9"
-    },
-    {
-      "entity": "Optimist-pessimist cup meme",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1086315c763f"
-    },
-    {
-      "entity": "Trump threatens military bond intervention",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/305963ccc37f"
-    },
-    {
-      "entity": "JK Rowling comments on trans adults",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9ba59fa99102"
-    },
-    {
-      "entity": "IndyCar race disrupts Washington DC",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/890d63d6d78a"
-    },
-    {
-      "entity": "US national debt tops $40 trillion",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/b61035a9f8ca"
-    },
-    {
-      "entity": "Calls to release Epstein files",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ebfc1498cbfc"
-    },
-    {
-      "entity": "Supreme Court ballroom case",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/3126cbfaee92"
-    },
-    {
-      "entity": "Hegseth's Pentagon draws scrutiny",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "DECAYING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 44.8,
-      "confidence": 0.35,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/a763d66ed8ec"
-    },
-    {
       "entity": "Terremoto de Valdivia de 1960",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -5225,6 +5134,21 @@
       "score": 44.7,
       "confidence": 0.35,
       "url": "https://es.wikipedia.org/wiki/Ceuta"
+    },
+    {
+      "entity": "Arsenal vs. Coventry match",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "DECAYING",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 44.6,
+      "confidence": 0.57,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/449ad62f74aa"
     },
     {
       "entity": "France",
@@ -5351,6 +5275,45 @@
       "score": 43.7,
       "confidence": 0.35,
       "url": "https://pt.wikipedia.org/wiki/Club_Deportes_Tolima"
+    },
+    {
+      "entity": "US national debt tops $40 trillion",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "DECAYING",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 43.6,
+      "confidence": 0.35,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/b61035a9f8ca"
+    },
+    {
+      "entity": "Man charged with murder of Irish woman in Melbourne",
+      "source": "googlenews",
+      "phase": "LOCAL",
+      "status": "DECAYING",
+      "countries": [
+        "IE"
+      ],
+      "countryCount": 1,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "RTE.ie",
+        "Irish Mirror"
+      ],
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 6.5,
+      "score": 43.5,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8wb0NfQzIySEV4cVVOQWxieU1XeFdPTFhLbDgybU41VWNEbEgyV2wteFk5cTdqRnk1SVd5MzRQai0wSmFTQVpuYlo0end4RHp5cnVVa0l1RXVoODl6TTlqdVdxOFp6ejYwcERnZXA4YmFLblJhWVQ5X0Z3?oc=5",
+      "fp": "hse|irish|melbourne"
     },
     {
       "entity": "Deaths in 2026",
@@ -5493,42 +5456,28 @@
       "url": "https://id.wikipedia.org/wiki/Soedirman"
     },
     {
-      "entity": "Man charged with murder of Irish woman in Melbourne",
+      "entity": "Request for Applications: Chevening Scholarship (Angola)",
       "source": "googlenews",
-      "phase": "BREAKING",
+      "phase": "LOCAL",
       "status": "DECAYING",
       "countries": [
-        "IE"
+        "NG",
+        "KE"
       ],
-      "countryCount": 1,
+      "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
-      "publisherCount": 2,
+      "publisherCount": 1,
       "publishers": [
-        "RTE.ie",
-        "Irish Mirror"
+        "fundsforNGOs"
       ],
       "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 5.5,
+      "syndicated": true,
+      "ageHours": 27.6,
       "score": 42.4,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8wb0NfQzIySEV4cVVOQWxieU1XeFdPTFhLbDgybU41VWNEbEgyV2wteFk5cTdqRnk1SVd5MzRQai0wSmFTQVpuYlo0end4RHp5cnVVa0l1RXVoODl6TTlqdVdxOFp6ejYwcERnZXA4YmFLblJhWVQ5X0Z3?oc=5",
-      "fp": "hse|irish|melbourne"
-    },
-    {
-      "entity": "Hayden Panettiere",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "DECAYING",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 42.4,
-      "confidence": 0.35,
-      "url": "https://en.wikipedia.org/wiki/Hayden_Panettiere"
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOejIxY2VNMGxUSW5MdW9qQWxWNExySTRLZUlwS2RtNWhNV0htdkp4RWRsYUNudkVvUElXb21wYl81ZzNMWElYdEVoUFJoMWVkVVFvTmQ1ZHViWUYxajZvX21rNjF2ckk2Z1F2LTN3akRTak9RSWRvZzZSdGdFZFpyeFlpUFhGWWRLbHplbkUtRk5zcVBqcUE1bE92cVJra3Q0YXhuSk53c9IBrAFBVV95cUxNVWpCZW0tYkRjUm92Ylp3Wlh4c2hFY0FUNEJ3NmtWR0dmdHo3bnNVcS00UDRrMTdxdERJMXVzQjRXRUxSVjFveU9SMlNNaGJ3dG9oRGt4a0FpVGxVeFJyemlfa3FMVEg3eUQ3MXJBNzFUWDVibmVGM2dJNll3QnA2OTF0OGx0QWNFaERxQjJnRXNXVF85d0dIcTlRR3ZxczlXazJ3eXNyTkhuaUZK?oc=5",
+      "fp": "applications|chevening|congo|scholarship"
     },
     {
       "entity": "Spider-Man: Brand New Day",
@@ -5585,20 +5534,6 @@
       "score": 42.4,
       "confidence": 0.35,
       "url": "https://en.wikipedia.org/wiki/Neatsville%2C_Kentucky"
-    },
-    {
-      "entity": "2026 Men's FIH Hockey World Cup",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "DECAYING",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 42.4,
-      "confidence": 0.35,
-      "url": "https://en.wikipedia.org/wiki/2026_Men's_FIH_Hockey_World_Cup"
     },
     {
       "entity": "Niu Lai",
@@ -5685,20 +5620,6 @@
       "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_films"
     },
     {
-      "entity": "Nathan Cofnas",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "DECAYING",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 42.4,
-      "confidence": 0.35,
-      "url": "https://en.wikipedia.org/wiki/Nathan_Cofnas"
-    },
-    {
       "entity": "The End of Oak Street",
       "source": "wikipedia",
       "phase": "CONFIRMED",
@@ -5767,20 +5688,6 @@
       "score": 42.4,
       "confidence": 0.35,
       "url": "https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films"
-    },
-    {
-      "entity": "Wladimir Klitschko",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "DECAYING",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 42.4,
-      "confidence": 0.35,
-      "url": "https://en.wikipedia.org/wiki/Wladimir_Klitschko"
     },
     {
       "entity": "Inde Navarrette",
@@ -5865,20 +5772,6 @@
       "score": 42.4,
       "confidence": 0.35,
       "url": "https://en.wikipedia.org/wiki/Zendaya"
-    },
-    {
-      "entity": "2026 Women's FIH Hockey World Cup",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "DECAYING",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 42.4,
-      "confidence": 0.35,
-      "url": "https://en.wikipedia.org/wiki/2026_Women's_FIH_Hockey_World_Cup"
     },
     {
       "entity": "Batwara 1947",
@@ -6005,6 +5898,118 @@
       "score": 42.4,
       "confidence": 0.35,
       "url": "https://es.wikipedia.org/wiki/Juan_Tamariz"
+    },
+    {
+      "entity": "Radio AM 750",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/Radio_AM_750"
+    },
+    {
+      "entity": "Terremoto de Colombia de 2026",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/Terremoto_de_Colombia_de_2026"
+    },
+    {
+      "entity": "Arroba (símbolo)",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/Arroba_(s%C3%ADmbolo)"
+    },
+    {
+      "entity": "Terremotos de Venezuela de 2026",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/Terremotos_de_Venezuela_de_2026"
+    },
+    {
+      "entity": "Fernando Cerimedo",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/Fernando_Cerimedo"
+    },
+    {
+      "entity": "Nubia Carolina Córdoba",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/Nubia_Carolina_C%C3%B3rdoba"
+    },
+    {
+      "entity": "YouTube",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/YouTube"
+    },
+    {
+      "entity": "Rodri Hernández",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "DECAYING",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 42.4,
+      "confidence": 0.35,
+      "url": "https://es.wikipedia.org/wiki/Rodri_Hern%C3%A1ndez"
     }
   ]
 }
