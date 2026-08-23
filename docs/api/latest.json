@@ -1,81 +1,86 @@
 {
-  "takenAt": "2026-08-23T04:28:12.522Z",
+  "takenAt": "2026-08-23T05:20:35.992Z",
   "watchedCountries": 14,
   "spreading": [
     {
-      "entity": "How Apple’s iPhone 18 Pro Launch Date Crushes The Competition",
+      "entity": "Hull City vs. Man United player ratings as Michael Carrick's side outplayed by newly-promoted Tigers",
       "source": "googlenews",
-      "phase": "LOCAL",
+      "phase": "GLOBAL",
       "status": "IGNITION",
       "countries": [
-        "US",
-        "IN",
-        "PK"
+        "GB",
+        "SG",
+        "IE",
+        "MY",
+        "AU",
+        "ZA",
+        "PK",
+        "KE",
+        "NG"
       ],
-      "countryCount": 3,
+      "countryCount": 9,
       "newCountries": 1,
-      "articleCount": 4,
-      "publisherCount": 3,
+      "articleCount": 9,
+      "publisherCount": 8,
       "publishers": [
-        "9to5Mac",
-        "Forbes",
-        "My Mobile India"
+        "NBC Sports",
+        "ESPN Singapore",
+        "Racing Post",
+        "ESPN",
+        "supersport.com",
+        "Al Jazeera",
+        "Goal.com",
+        "BBC"
       ],
-      "effectiveCountries": 3,
-      "syndicated": false,
-      "ageHours": 9.5,
+      "effectiveCountries": 8,
+      "syndicated": true,
+      "ageHours": 3.6,
       "score": 100,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fb0NOTy15Mzh1WmExVTFYSFBlMER0eVNSRjF4SUdoMS11a2tDTVRFTXhvV1IxdEpuQzdnU2ptMTNUU3gxdlhIb1E2U0Y0N2dhYm03SkhyV3laem5YQm9DNTR4UFVHM29nQ3kxR29JaGdwLXl3UktkODhld0VTUlk?oc=5",
-      "fp": "apple|apples|launch|pro"
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONnFiVnc3czNjTTVUYmt4dy01Nk8wSEY3RUx6eF9nMnhtN09BVnhLSjlseFBJMERnUjhHbDlEUFdWdW1ibng5Rk84Z1NMTnNOMk15YThZRDBnLWFCcDhUQ0VTbVNRdTJsRDJwZmFDZndwaGZUM2x3RU1DMTgtQjVPRnQzTXdGeTJrUklSRGVPZWplclZJdkdKb2czVzBuWVcyZzlyeWhjYmpXcGFqSEwwc0RfZ2xhZjExSFhoZlFMVDMzZWd1dFNHUkdn?oc=5",
+      "fp": "carrick|hull|manchester|united"
     },
     {
-      "entity": "‘GTA 6’ Leaker Has Now Reached A Strip Club As Rockstar Scrambles",
+      "entity": "5.9-magnitude earthquake strikes eastern Japan including Tokyo, disrupting trains",
       "source": "googlenews",
-      "phase": "SPREADING",
-      "status": "IGNITION",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
       "countries": [
         "US",
-        "GB",
-        "IN",
-        "CA",
-        "ZA",
-        "NZ"
+        "SG"
       ],
-      "countryCount": 6,
-      "newCountries": 2,
-      "articleCount": 6,
-      "publisherCount": 4,
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
       "publishers": [
-        "Forbes",
-        "IGN India",
-        "Forbes Africa",
-        "RNZ"
+        "AP News",
+        "The Straits Times"
       ],
-      "effectiveCountries": 4,
-      "syndicated": true,
-      "ageHours": 4.5,
-      "score": 95.5,
-      "confidence": 0.35,
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 2.1,
+      "score": 80.8,
+      "confidence": 0.79,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRFdGWGV0M3A5V3drU3ozT29tM2liSzNJQlIxX2RXc0dZSkpLWWd0a1NoZ0JhSkNoNTNWdGNXXzFOb044ZzlVSExySG4tdDY1eGgtRGlVUURTSTI4cjdkdFVWUFVtTjQ3QjFQVEJoTTZuaU8wcEsyV1hwblFTaklBd2dEd0oweU01cktldHVXLUQzamRLV0NhaGtEMUZxVWdSajZheXdBb2RCbC1sWktNak9hNTQ?oc=5",
-      "fp": "has|leaker|reached|strip"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbU1lTW5ZbUgyclJKQ3NSM0F0VVpydllLTnFSYnFxZ1FvYXF5TnF4LTJDWlBYWGFDTV9URlZ1OHozWE1OaUstMU5XU2R6aDlhVW5OVmtJTXUzN05vaU51MmZ3Wjd4RWZEcmNWNE05SG9XN3dvUkk3Vld1a1BEd2RlazFrV19KYXZQQmc?oc=5",
+      "fp": "japan|tokyo"
     },
     {
-      "entity": "Real Madrid beat Espanyol 2-1 in Jose Mourinho’s first game on return",
+      "entity": "Iran warns countries against joining in US sanctions",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
       "countries": [
+        "US",
         "IN",
-        "SG",
-        "NG",
-        "KE"
+        "IE",
+        "NZ"
       ],
       "countryCount": 4,
       "newCountries": 0,
@@ -83,183 +88,133 @@
       "publisherCount": 3,
       "publishers": [
         "Al Jazeera",
-        "ESPN Singapore",
-        "Goal.com"
+        "RTE.ie",
+        "NZ Herald"
       ],
       "effectiveCountries": 3,
       "syndicated": true,
-      "ageHours": 2.6,
-      "score": 80.2,
+      "ageHours": 4.8,
+      "score": 79.7,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcUhXM3lwRU1uZFk4V0xGZS1RVk50MWFvYWRIOFJoaUItQ0FyNzRzamFtd0xGaVRPS3FqbDdTZ1pKcElxQ2ZQbnVpNEpyUGtxMHAzYVFRYmhnM0RWd3VhLTlfM1kxVnNFQWVKNVZOVFA1bGVfQk13Qm1CclIzU2UxR0UyX3VIeDNmMjl2UWVHU2pzNHF3RVN0ZkZpR1ZBYTdPNzlBanlJUlV0SHVCeWtxa9IBtgFBVV95cUxQZ05pOG9VcjNJaVNvM1NsSnkwTzZOYnU0eUx3YTMtalE2Z1V6alRYaUxzRkx5b3Vmam1LX3BTX245ZHFXazI1VlV0NS1jbTU3UDVwMEsxWmVUQ1Nja3lZTWgyTHRJVEJ1NWNPZzdyU0JBMDlqdVFWbzZTc2djNHpNT2Y3b2pibTZZaVp3cnBhZThJbTBYeTNLRDROWmVXSmJQeVpqY1Jsb0UzQTAzRjhKRWFtVGRBdw?oc=5",
-      "fp": "espanyol|jose|madrid|mourinhos"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlFYOHBOWnRTWC00UkQ2U2FBWWJYRXFNT2NXUXJla1pNU1JFTzJZX1dsOGVvVGJLdEItUlBHUHlrMkJJSE1lS0gxSGIzTTR5T0F3RkRfbGNhalRQV3dsQ3dHbEx4OS1yOG9ldjAtamVWVUpnZHNyekhLYVdMRWpaa1k3a1ExdDFheHYzMGVrWDFmczktdHpjOXNnX0pkSVFVZzBKcnNLTEhxQdIBrwFBVV95cUxQT3VjZlFtdm1HYzhhQmZyZ05QWXAxUFJFc2J3d2NiSWRtbVFmWUhXSk9qNmF3dHotQmhJWm9aakxEcDkwb2cydU5KclJ2WlpYODhmZTFaZENuVmdiVWdicU4xdHBMaGIxcXY5VFk2RG1SZld2WkhWeGp5TlN0TjdVWWpOYmtSZllhQzZRMzduby1CWGJNdkRPM3g2MmJGSnJaWnBkWVpMZVA3YS1pYy1v?oc=5",
+      "fp": "iran warns countries against joining in "
     },
     {
-      "entity": "Victim of sword attack at a Swedish school was a 17-year-old girl | ITV News",
+      "entity": "All Blacks stun South Africa to end Springboks’ 12-match winning streak in bruising Ellis Park battle",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
       "countries": [
-        "US",
-        "GB",
-        "AU"
+        "ZA",
+        "IE",
+        "NZ"
       ],
       "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 3,
+      "articleCount": 5,
+      "publisherCount": 5,
       "publishers": [
         "BBC",
-        "ITVX",
-        "Al Jazeera"
+        "businesstech.co.za",
+        "MyBroadband",
+        "Irish Independent",
+        "1News"
       ],
       "effectiveCountries": 3,
       "syndicated": false,
-      "ageHours": 2.9,
-      "score": 70.3,
+      "ageHours": 0.5,
+      "score": 78.3,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RaHFHX0M3OEFxUjZuLTFia1RUcnZ5M1pFQWcyWS1TTEN2bHlWUDVmSVltUlBrVnU2QkZ3TEZRN0NNODlRZzV5RUpCLWRRS0VrdFk3cERSOVRWQQ?oc=5",
-      "fp": "itv|swedish"
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kQVh6RUNVZVBiazk0Y1pVWF9hRmoxWllFRkllUy1jX0JCSi0tN1lqeXZ6M2dmZC1Zc2xCempaUV9vTl9KREFpbGdPdXRVbExQU1ZZNndLN1lfa3Et0gFiQVVfeXFMTWItaHNiMGsySG1vLXYxeVdqdEpTUGVsZW03REhPcEZ6bmkwU21xVjNJVlpYX191WDVWdE11Zk5XdW1TQjRkVVR0WVY0RmdXZVp6RE1RRG1LN2dIaU1nc0prSXc?oc=5",
+      "fp": "affairs|africa|home|south"
     },
     {
-      "entity": "Russia builds satellite to test eco-friendly rocket fuel in orbit",
+      "entity": "Is Malaysia ready for international retirees?",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "ZA",
-        "SG",
-        "IE",
-        "NG",
-        "PH",
-        "NZ",
-        "KE",
+        "PK",
         "MY"
-      ],
-      "countryCount": 8,
-      "newCountries": 0,
-      "articleCount": 8,
-      "publisherCount": 1,
-      "publishers": [
-        "Global Times"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 0.6,
-      "score": 67.5,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sZ0hNMVVYVjdHMl9aVjk3MnI5Z3FuUThCeWo1OF9KYzlMajFmdnZoZ2ZlWldqTzVzT0VFVkVaM1hpZmVncHBVYy1vMjFHYVRjYXJvb0l2UjZGckhjVHFGb0xB?oc=5",
-      "fp": "russia builds satellite to test eco-frie"
-    },
-    {
-      "entity": "External Validation, Reproducibility, and Interoperability in Digitized Traditional Diagnostic Research: A Cross-Sectional Content Analysis",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IE",
-        "NG",
-        "PH",
-        "NZ",
-        "KE",
-        "MY"
-      ],
-      "countryCount": 6,
-      "newCountries": 0,
-      "articleCount": 6,
-      "publisherCount": 1,
-      "publishers": [
-        "Cureus"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 0.4,
-      "score": 63,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNYXRSWWY5Yk1WX1M1c1E2SVZ6QXhhWlppQ2NBZTEwZnlxOG9JOXdjeEtHUTViZ2JnWDluOW5QNkZ6WG53b045QzZGR21CZHBlR1B6MEw4cnl0dkVmUmxPYzBsRnJ2SmN3T09GQmxJMzRIT0tTa0U5VFlOSWh4MENaLTF5SlFLRjJEdUxEaHVRUGJ2RE43ell5X28ySUZITDJFOVRYNERLMXU2TkRUN1p5Qi1OSHhVZDdtclM3RExIUXZibGpNUjJPelJwYk5PLTMzakZhd2RaX3E4S28tdlZvOF8zRGFLZUhvRGZfckNYRno1NHVGTzZ6SHdBMmlOZ1pOS2VPQi1R?oc=5",
-      "fp": "digitized|interoperability|reproducibility|validation"
-    },
-    {
-      "entity": "Prince Harry: royal misfit making unlikely UK return",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "PH",
-        "PK"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "Inquirer.net",
-        "The Times"
+        "Dawn",
+        "The Star"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 1.1,
-      "score": 62.1,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaGZlLXFNRElGbzlIbjh5MDBocURIalZuMkxKODJld3BQUThBeVE0WDZTR05pRGpLUEFVbnRwWmJDTWRxT2M0X0h5alppUGhnb3ZabS04Z1NqQnhxT0x3bEtuY19zQ0xybm9yOGFVUGxzeFY3U2RHR01MdkJjVmNOQ0xVbjNlcDBiSGdVVHBmN054b0pwQkRr0gGcAUFVX3lxTE1UQmJmdmhHWms2TUV0cDFNWTc1b1QzUzZkcDdLY2Q4UzJtT3NJMDlSTDhQdmloRDZCWVRQLXJyWXhuSENDMzV1T1lfa3pmM2pRNEM2WVlaSWlGQkNnWFdrNFl0cV9VMkwwNkFKVF9PaFFVOUs0YlpOSXNGa3VFMkVYVVVoNFVrcHpzMkJVM09GWWw0RlBWSHBad3E5MQ?oc=5",
-      "fp": "harry|meghans"
+      "ageHours": 3.2,
+      "score": 69.2,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOEJ0TkRtTkdoamg2RDdxU2c2WU8zdWk0TEFxa0F5NkI4dkRxSmZkbWRyX004TUs4aEIzQlhibjNYZE54T2Eza0stV3lmRTlTUmNhWm94S29vRWhhTF9xNHp3Zjk1QnozZjdBR2JkSEV1Mk1fX0NKaTU4TlY0bW1xb01PR3lQQWlnMHhFeGhtdkFsSVpUamxEM0dIZHdtV1FlSFNJ0gFOQVVfeXFMUDlNeDhxQXY1UHR0Zy0xNkFxUjlNNEE1Mi1POHBJMnZnSFdCWVZQQ2VTbDF3Z1lfLXRFeXJHZ0w0RnBPbFZQQUtYczNLNEF3?oc=5",
+      "fp": "malaysia"
     },
     {
-      "entity": "White Dwarf-Red Dwarf Binaries Power Cosmic Lasers",
+      "entity": "Kiwi teenager claims UCI junior men's World Cup Mountain Bike Downhill title",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "ZA",
+        "NZ"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "News24",
+        "RNZ"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 2.2,
+      "score": 64.4,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWVoxTjRjYWg1R3BIWnppTUlxbGN2cHdNQnQ3RnE5eFJoUTYzWXBiVlM5MnFFaFJHUU5ZaDV4RTBsYzNPaU4xSjJRRXFRZkdaMVhzbGJGZmlqR0RxZkd2c3o5alA3N3pjcHR2emk4eVJiT1g0S05fVmllWmFwd21TY3Eya1U4LXl4SndnWnhodnUtVEtJU3ZXRWhDek1vRzR2N0k1WW9pU0JLZGF1cnl3ZDk5NXBpdmxzTF9wT1JZdWp6TUg2VzlNSWowQWJ0aWJmZEZoQURtVWw?oc=5",
+      "fp": "cup|johan|roux|world"
+    },
+    {
+      "entity": "NON-FICTION: A GALAXY OF CULTURAL ICONS",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
         "IN",
-        "CA",
-        "NG",
         "PH",
-        "MY"
-      ],
-      "countryCount": 5,
-      "newCountries": 0,
-      "articleCount": 5,
-      "publisherCount": 1,
-      "publishers": [
-        "Universe Today"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 5.4,
-      "score": 55.4,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOXB5Y3hmeDk0WVRJeVNDMERnMW5HOEJmTGhzMmE1dmNRalBBVFRoRjdIeV9RSGEybThJWW43cEJFTXo1YjNHMWhUT2FqZ3pkNVpBZHQ0YXpBU1hsWkdpLWZMcXN3WDdhTTV3bGNqWHNIeEM4djYySWJBWmlvSV9yanoxWkNVdnZtc0E?oc=5",
-      "fp": "binaries|dwarf|dwarf-red|power"
-    },
-    {
-      "entity": "Iran’s new security chief says neighbours who join US economic war will be considered ‘enemies’",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "GB",
         "PK"
       ],
-      "countryCount": 2,
+      "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 1,
+      "articleCount": 3,
+      "publisherCount": 2,
       "publishers": [
-        "The Guardian"
+        "PhoneArena",
+        "Dawn"
       ],
-      "effectiveCountries": 1,
+      "effectiveCountries": 2,
       "syndicated": true,
-      "ageHours": 0.9,
-      "score": 48.1,
+      "ageHours": 3.2,
+      "score": 63.6,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX1I0S3hyemkyRkVnUldIb05KbVViYW1tclh2T3lNSUlEM00zT3hSeHZZNDFVNUhPdGVjenB2WW1NUGEyOHNxdTJoSU9oMnV4cmRYd08zb3BXcVhER3hOVW4wWUtMRHplS09qMXJqSWdWMXd5VDhaVmFPSE1zNTUwbDNWX2lodFN1LXpuc2NOYi16UXZWaUVLeXJwazZkVFdxQTJVM2szYXRvNzRZaXk0?oc=5",
-      "fp": "iran’s new security chief says neighbour"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTk1uSVBLNGxnajNIeFRPN3JDcVRIdk0xQVQ4bkw5VFFUOUJSc0w5b3FTcEdxNkd3UDBPWTYwTEQ5VUlBcUYtUmNzVUNTYXA5VjFFeVhCVl8yNDI2WlVFY19JUDNNd2NtSEY0LTI2YnBqOHN2ZmtmUFBTWnZGejgtZTdKbFdwTzZTVVVOWXZjYTZvVXRiNVRTTHZOekdYLW9od3F6R0xvOUhYWHl3eENXYkxjdUV1T0tXeHRqckZYT0NQZm8?oc=5",
+      "fp": "cultural|fold|galaxy|icons"
     },
     {
-      "entity": "Allen facing investigation over qualifying incident",
+      "entity": "Australia's first bird flu case in a mammal confirmed in South Australia",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
@@ -270,62 +225,71 @@
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
-      "publisherCount": 1,
+      "publisherCount": 2,
       "publishers": [
-        "Supercars"
+        "The Guardian",
+        "RNZ"
       ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 0.9,
-      "score": 48.1,
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 2.6,
+      "score": 62.7,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONHQ0eG9Ddm5QV3NhbWNzeFhXOVBrYkpRWDAxYzlKdjVjVU5Ramo0Y3BxQ2sxRDJ3UjN6WGZMU2lONmlzZHJtQjJXVC14VzRIUEg2NG9Gc2s3N3RjVmdFNWdPMkJzVDNWMjlheXJKRlRJYUdPZDZRaUpHNWludkk0N2tIZENGLUg3TzR3cE0tTnBFQlUybjNDcXhUS0ZDX2ZEXzZiRTFoMjFwQWVORld3cTAxUXd5aVd2cnZ6RTZqenBhTG9abHhmWkNFYVFjUEE?oc=5",
-      "fp": "allen facing investigation over qualifyi"
-    }
-  ],
-  "global": [
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQODJyTFVKQVNTX25JeXRyMjZ5b1RZdzgzYmd1cEtDdzJldHRHWkZMWk5ZWTc3aHpYbkJYZmY1Vk5fQmxaY3hFaW1ZamNWUmxiT1ZpLWNnNHFpZVBYeG9Ccm51WFMyVWpfdEd3a3JucDl0Q3dfUVoxOVFkazZzaUVsWmFLekRTYkItczg1MWZoTElUYk1wWGdv?oc=5",
+      "fp": "australia|south|western"
+    },
     {
-      "entity": "Hull City 2-0 Man Utd: Michael Carrick's side left stunned by newly-promoted Tigers in Premier League opener",
+      "entity": "Swedish sword attack victim was 17-year-old girl, police say",
       "source": "googlenews",
-      "phase": "GLOBAL",
-      "status": "IGNITION",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
       "countries": [
         "GB",
-        "AU",
-        "ZA",
-        "SG",
-        "NG",
-        "PK",
-        "KE",
-        "MY"
+        "AU"
       ],
-      "countryCount": 8,
+      "countryCount": 2,
       "newCountries": 0,
-      "articleCount": 9,
-      "publisherCount": 9,
+      "articleCount": 2,
+      "publisherCount": 2,
       "publishers": [
-        "Sky Sports",
-        "Sports Illustrated",
-        "ESPN",
-        "supersport.com",
-        "ESPN Singapore",
-        "beIN SPORTS",
-        "WFIN",
-        "Goal.com",
-        "The Star"
+        "BBC",
+        "Al Jazeera"
       ],
-      "effectiveCountries": 8,
+      "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 2.8,
-      "score": 100,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONXlOdTRXTGxNMEVBYURRTDVQLVJRbkcxSWdEd295cm1xQXJtQW9fQk9tSHBSQmtBTG10Q1REdXpBYm1LNmdOMkU0d3FrUjFnNVF1Y0V0UHljbFFQZE5nUHFRclpYLWJ0ZU9pa1RxODJ1MGhYZ3ZJUDRKRUtmWVlpRWJZc09nQV9pTk1VSFJ2TEZoMC0wVk5YVjhLVXZKLUNlS0hzNUZob29sZ2gxZVBjZkk3alJDVzJPVG1GOWhVQ0duc1dpWkhsZTYyR1hkWDhxajBzbFBXMTh1Y2pKVk42OUNLMHVxMkZBbDY4OE9EeDJ6Mlk?oc=5",
-      "fp": "city|man|michael|utd"
+      "ageHours": 3.8,
+      "score": 60.8,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xdmprXy1xWlJiMTRoV3NHM2dOeXE5UjVpNkNaMHcxWkkwS2cydldwZWZ2MlJSWmNGb2pvWlZ6NkNlNldEQUlGM0xPWWw5Y2ttMXI5UGowdEpva05X?oc=5",
+      "fp": "swedish sword attack victim was 17-year-"
+    },
+    {
+      "entity": "Serena Williams to play mixed doubles with Carlos Alcaraz at U.S. Open",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "GB",
+        "PK"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "ATP Tour",
+        "The Japan Times"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 4.3,
+      "score": 59.8,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUW9ZZ19SZGRvNXZpWEU3THkzeV9WMlBsTDYyR2FKNmpteDQxTXpncjN3azNtNkhnNi11UEF4dW1wRFU3elRDMk5rWUc3SXRTRk9DdFBlN1BZREtuQi14UklwZTlZbFd6SmlIZ2s0SV9rbzhIbkI2cmM0ZzFFektqRFA5dVlxdUFZREE?oc=5",
+      "fp": "carlos|open|serena|williams"
     }
   ],
+  "global": [],
   "signals": [
     {
       "entity": "Michael Wright (actor)",
@@ -345,7 +309,7 @@
       "url": "https://en.wikipedia.org/wiki/Michael_Wright_(actor)"
     },
     {
-      "entity": "Flock camera vandalism reports",
+      "entity": "Person in Spider-Man costume detained",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "IGNITION",
@@ -355,15 +319,15 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 91.1,
+      "score": 87.5,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/f28ba58a71d6"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/3f02a70f6f13"
     },
     {
-      "entity": "lionel messi",
+      "entity": "india national cricket team",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -372,12 +336,12 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 72.8,
-      "confidence": 0.57,
+      "score": 80.6,
+      "confidence": 0.79,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=lionel%20messi&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=india%20national%20cricket%20team&geo=IN"
     },
     {
       "entity": "Hull City A.F.C.",
@@ -397,7 +361,7 @@
       "url": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
     },
     {
-      "entity": "Natalie Harp's letters to Trump",
+      "entity": "Optimist-pessimist cup meme",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "CLIMBING",
@@ -407,15 +371,15 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 89.9,
-      "confidence": 0.79,
+      "score": 77.4,
+      "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/ad05b644a0e8"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1086315c763f"
     },
     {
-      "entity": "india national cricket team",
+      "entity": "anthony smith",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -429,10 +393,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=india%20national%20cricket%20team&geo=IN"
+      "url": "https://trends.google.com/trends/explore?q=anthony%20smith&geo=US"
     },
     {
-      "entity": "Mercedes Müller",
+      "entity": "Michelle (Sängerin)",
       "source": "wikipedia",
       "phase": "CONFIRMED",
       "status": "IGNITION",
@@ -446,10 +410,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://de.wikipedia.org/wiki/Mercedes_M%C3%BCller"
+      "url": "https://de.wikipedia.org/wiki/Michelle_(S%C3%A4ngerin)"
     },
     {
-      "entity": "ICE detains mother, daughter at hospital",
+      "entity": "Judge tells baby to file asylum",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "CLIMBING",
@@ -459,15 +423,15 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 79.5,
+      "score": 75.3,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d9771dcd971b"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d8de54904e08"
     },
     {
-      "entity": "meghan markle the gentlemen",
+      "entity": "the international 2026",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -481,7 +445,7 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=meghan%20markle%20the%20gentlemen&geo=AU"
+      "url": "https://trends.google.com/trends/explore?q=the%20international%202026&geo=BR"
     },
     {
       "entity": "Michael Wright (acteur)",
