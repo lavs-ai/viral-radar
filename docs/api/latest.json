@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-08-22T23:11:31.284Z",
+  "takenAt": "2026-08-23T00:44:23.561Z",
   "watchedCountries": 14,
   "spreading": [
     {
@@ -12,24 +12,28 @@
         "GB",
         "IN",
         "AU",
+        "CA",
         "ZA",
-        "IE"
+        "IE",
+        "NG"
       ],
-      "countryCount": 6,
+      "countryCount": 8,
       "newCountries": 2,
-      "articleCount": 6,
-      "publisherCount": 6,
+      "articleCount": 8,
+      "publisherCount": 8,
       "publishers": [
         "The New York Times",
         "Financial Times",
         "Hindustan Times",
-        "News.com.au",
+        "SMH.com.au",
+        "CTV News",
         "News24",
-        "The Journal"
+        "The Journal",
+        "Vanguard News"
       ],
-      "effectiveCountries": 6,
+      "effectiveCountries": 8,
       "syndicated": false,
-      "ageHours": 2.6,
+      "ageHours": 3.3,
       "score": 100,
       "confidence": 0.57,
       "category": null,
@@ -39,29 +43,60 @@
       "fp": "canada|trade|trump|war"
     },
     {
-      "entity": "Espanyol vs. Real Madrid LIVE: LaLiga updates as Calatrava equalises for hosts",
+      "entity": "USS Abraham Lincoln Leaves the Middle East After Almost 7 Months",
       "source": "googlenews",
-      "phase": "BREAKING",
+      "phase": "LOCAL",
       "status": "IGNITION",
       "countries": [
+        "US",
         "IN",
-        "NG",
-        "KE"
+        "PK"
       ],
       "countryCount": 3,
       "newCountries": 1,
       "articleCount": 3,
       "publisherCount": 3,
       "publishers": [
-        "Managing Madrid",
-        "ESPN",
-        "Al Jazeera"
+        "USNI News",
+        "NDTV",
+        "CNN"
       ],
       "effectiveCountries": 3,
       "syndicated": false,
-      "ageHours": 2.4,
-      "score": 94.6,
+      "ageHours": 12.2,
+      "score": 86.4,
       "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUzAtQUNMTDlqam9nS28xdFpJc2RzUnZpZzhRQ1I4eHpRR29OQngySldLRkRFTGhESFlsMHVpaDE4aEVZLUtWMk1tdEpndTU1NEhmdVNfYXl1WV9QZ0tLVFlJMGpkSnhIWmVuZGxIVjByVkk5UzFMTjVqc0p3c2pJVUliUFZBRGM0b2ZQYTctRmZyUzdTRWU5X2NJZXQyZw?oc=5",
+      "fp": "abraham|leaves|lincoln|middle"
+    },
+    {
+      "entity": "Espanyol vs. Real Madrid Lineups & Confirmed Team News: Is Kylian Mbappe Playing Tonight?",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
+      "countries": [
+        "IN",
+        "SG",
+        "NG",
+        "KE"
+      ],
+      "countryCount": 4,
+      "newCountries": 0,
+      "articleCount": 4,
+      "publisherCount": 3,
+      "publishers": [
+        "Managing Madrid",
+        "ESPN",
+        "Yahoo Sports"
+      ],
+      "effectiveCountries": 3,
+      "syndicated": true,
+      "ageHours": 3.1,
+      "score": 81.4,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
@@ -69,91 +104,158 @@
       "fp": "espanyol|liga|madrid|real"
     },
     {
-      "entity": "Israel and Turkey edge towards a dangerous miscalculation over Syria",
+      "entity": "Mitchell Starc leaves Bangladesh shell-shocked with 22-ball five-fer, moves past Dale Steyn in all-time Test list",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
       "countries": [
         "IN",
-        "SG",
+        "AU",
         "PK"
       ],
       "countryCount": 3,
       "newCountries": 0,
       "articleCount": 3,
-      "publisherCount": 2,
+      "publisherCount": 3,
       "publishers": [
-        "South China Morning Post",
-        "Financial Times"
+        "Hindustan Times",
+        "The Guardian",
+        "Yahoo Sports"
       ],
-      "effectiveCountries": 2,
-      "syndicated": true,
-      "ageHours": 4.9,
-      "score": 73.2,
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 0.9,
+      "score": 74.7,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeHpuYmNKdVI3ZHd1Z0ZXZmRqYkREdldrOUR2U09ER3dEMkYxbGx1LTVMSWFWbjc1S05yenUzQmFQelVMY1pIX2ZPbExua0t1MzFxUlVRWWxiT0hPNDU5aFRhMl9rWS1jY1ZlVmxYS3ZXbE1jbHhiYUNUR3RsbS1hWVBHS0dEMmpfWTNyNmFhQjU2eU1fSnhSV1JQRG43SjI4RDA1MUZEeTR1QnQxTVcxSmJRbnc4Y3p2RGRyeWVUdVVzRDZNWVBQS9IByAFBVV95cUxObzg4ZHYyVDRybG9SaTdaNWdTd3pfLUZqS2tnYjVJb0hPTXZVRDc4RTJnWmNjN1pZS1JZdkxEdXQ3eEYtUzlGZzNBWGhpel9OQ2JLZ09VRzFqcHN5QW9ycjJyTWFKaGl3MlVuQmxsSHZyYmNyMmR1TUFsTkVsb3NUTGtkYXloRnZ5ZHlpZFktWmhRaWlzRER2UVBMdjZneXJQRm5ESHhUX2tEMVNjYmZQejZIbjNhWFozUTZWQ3NGbFpPaFVZNmN5Yw?oc=5",
-      "fp": "syria|turkey"
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcjhWMHBRamZOLVAzZGVibkpkbE1SSGlMVVZub1d0d2V2cEEyUHlKZFBOYnZkdmdsSEU1TFBhVmdPTFFhc2ZIRFA5Q1VGN3ZENVVRNU8zRGd6M0x1bUh6clp1ZV8xY0lBTkF2YnM4Z0VPMDZhNzlBdTNnV3ZFLUEyd3NYb19ERFM1VkRZSUFFbHRUeWwzNU4taUFMOUVIdTNmaW0tZTcxOWEzTTVQdU5Kc2huSEx4eFJKMmtSbVN2UTFPSGctVlU1N3I1TUtIcUpKOVNoVG5RLVVUeEp2YzlzXzhhTVNydW95WUQxOFZrbE05XzRuaE9xMjNwcnpLWEE2V3c?oc=5",
+      "fp": "bangladesh|dale|starc|steyn"
     },
     {
-      "entity": "Synchronized Stars Power Cosmic Radio Laser",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "CLIMBING",
-      "countries": [
-        "IN",
-        "CA",
-        "IE",
-        "NG",
-        "PH",
-        "KE",
-        "MY"
-      ],
-      "countryCount": 7,
-      "newCountries": 0,
-      "articleCount": 7,
-      "publisherCount": 1,
-      "publishers": [
-        "Universe Today"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 0.4,
-      "score": 69.6,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOXB5Y3hmeDk0WVRJeVNDMERnMW5HOEJmTGhzMmE1dmNRalBBVFRoRjdIeV9RSGEybThJWW43cEJFTXo1YjNHMWhUT2FqZ3pkNVpBZHQ0YXpBU1hsWkdpLWZMcXN3WDdhTTV3bGNqWHNIeEM4djYySWJBWmlvSV9yanoxWkNVdnZtc0E?oc=5",
-      "fp": "cosmic|power|radio|stars"
-    },
-    {
-      "entity": "Meghan Markle Reportedly Dropped From Consideration to Join Guy Ritchie’s ‘The Gentlemen’",
+      "entity": "Nigerians Turn To Faith Healers As HIV Aid Dries Up",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "US",
-        "GB",
-        "AU"
+        "ZA",
+        "NG",
+        "KE"
       ],
       "countryCount": 3,
       "newCountries": 0,
       "articleCount": 3,
       "publisherCount": 2,
       "publishers": [
-        "The Hollywood Reporter",
-        "The Guardian"
+        "Eurasia Review",
+        "SciDev.Net"
       ],
       "effectiveCountries": 2,
       "syndicated": true,
-      "ageHours": 1.4,
-      "score": 67.5,
+      "ageHours": 4,
+      "score": 65.1,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWV80blh2QkVPZjhXZVN2aTVSbl9GMTlwZm5OSjNoMU53QVNubHJtNEY4VnZ1Tm42NndZc3IzekZ5bUY5bUMtYUhnQ2dHdmFDUXhMbkNLWW81SHZnMmdyMzFzTjJ3WG5GRkZHVVZWMkpUdmlhY3hzcE16eFR6RFBmY0F2RjZYb3pGSnQ4RXNKUmxNNmdHLUx5akRVM19tNFhkUFo2Qk4tbw?oc=5",
-      "fp": "consideration|dropped|markle|reportedly"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYXQteHc5MlhPWDVUWXVSUm5xQnk3U01UcWlRU0JaWmdBNmZoNF85MC0wS0RiWEFwNDJKNXNRcmRPZXhfVmJLV2NmNzdHeUZtT3FRal9FRDIwUHk2ZEtEaUR0TF9aUGVDcGpiT3k2OUF6VzA0Y25MS0JTY2xtX3loaGd0Z2N3N3hGT3pLNHE4Ylg2dm1VRnc?oc=5",
+      "fp": "faith|healers|hiv|turn"
+    },
+    {
+      "entity": "Titan is the only place besides Earth with stable liquid on its surface, a working weather cycle and complex organic chemistry — and now, according to 2025 NASA research, a plausible mechanism for building the first membrane around a primitive cell, without",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "NG",
+        "KE",
+        "MY"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 1,
+      "publishers": [
+        "Space Daily"
+      ],
+      "effectiveCountries": 1,
+      "syndicated": true,
+      "ageHours": 0.6,
+      "score": 64.5,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVkFIRFItNGZYU0RxUXU1VFhZQkptcHg2bURjOGZ3V1VKZ25SNENkWk9ZRi1aUjNSTGtqYXQ2RTRBZjF5YmU1MTIzNXpiWHhDc3dtQmpWS01XRERUN0pudFVCMm91c2EyNzF5M2FLT1IzZ1RuUlMwM2hoQlZIam5ocGJn?oc=5",
+      "fp": "earth|nasa"
+    },
+    {
+      "entity": "There Are Fungi in The Ocean, And They May Be Way More Important Than We Realized",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "AU",
+        "NG"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "ScienceAlert",
+        "Business Post Nigeria"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 4.7,
+      "score": 63.6,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYkRjODRLdW1kT0F2eW1pSFoyRmtwcE1pYmtDak5BdmdTR3BlajJGdzBpSnE4WUwwV3l4ckI3bktTaHFqbkpLbnBmekhLV1lWRnJiZ1M3WkZaYnlkbmJDaUFsQXg4Q2lJYUMwLUhhZ0lKVmY0YTRzM21YVktiZlBmbjVGZy1iM3dZWGpBQ2g3TW9hT1JjTnVaRmh3eXpobFRPTmNqOGNCOUd4b2JjYVE?oc=5",
+      "fp": "fungi|important|ocean|way"
+    },
+    {
+      "entity": "How Apple’s iPhone 18 Pro Launch Date Crushes The Competition",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IN",
+        "PK"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 1,
+      "publishers": [
+        "Forbes"
+      ],
+      "effectiveCountries": 1,
+      "syndicated": true,
+      "ageHours": 5.7,
+      "score": 56,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0lCMHRPdjV1S0Jpc0NsTS1rX2d5dHdwSl9SR0JkSFR4am1wMk4wTlpBQ2Q2Rml1czNPWHdpcExscGgzT0t0OG9tQUNQLUJkRHJHalBLZzBiZWc1STdWWFBILVNiaWlNakhnODEzR2RSSElkd3NaOFhNUy11MUp4VG90QnF5cFdLNDJwd3hZSF9LZ1Jnb1cxSlk4Ny03UnV6VEY5X2dBU095enZybkZZdEFn?oc=5",
+      "fp": "apples|date|launch|pro"
+    },
+    {
+      "entity": "Nvidia Customers Notified About AI-Related Price Hikes Above 15%",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US"
+      ],
+      "countryCount": 1,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "Bloomberg.com",
+        "Engadget"
+      ],
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 6,
+      "score": 55.9,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWxlMlJjV3JZVWZoeTJhRzlhTDJOenZaS195ZEl4a1NkWERBQUwyU2hQcXlTOEk2RkpqLW5OeWhybzlFbzFONVkyWHhjNWhnSEhZQUpJS2xlSU0wOUQ3b2NsZXd0RTdGMHZsQ25rYTI4aDNNOU05OEVHMHVuaXQ0N2NyUXQtN194VXhqQ0g1SlpwdFZrM3JEeTZvYjFfVWhJaC12NkRfWTE5bzZkMXNyTC1Xbk8?oc=5",
+      "fp": "about|ai-related|customers|notified"
     },
     {
       "entity": "Chase Is On For ‘Grand Theft Auto VI’ Leaker—Take-Two Subpoenas Microsoft And Discord",
@@ -161,188 +263,30 @@
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "NZ",
-        "PK"
+        "ZA",
+        "NZ"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "RNZ",
-        "Forbes Africa"
+        "Forbes Africa",
+        "RNZ"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 0.7,
-      "score": 66.6,
+      "ageHours": 2.2,
+      "score": 52.7,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjZnOXkycF9oRllVV1RWTm5KV1Y4Q0dyM0hJTHYzU0ZDZnVVWi1TMnpGRk1KbE9GcUpvTXFGZHU4TDE4b0ZaMXNHWlhLUmFKOUJ1VG1Ndk9GejlPN1FKYWk3N2JYVWgwSVBnWkx5dWJNd095U0Qwbk5XUGd4ZV8xbXJacE05TnFYM1Y3N1pDTy1Fb2h4cGpoT0FqRVVBRGs0eDEyRXhqTURzTVY5WjZXQkVzTlpjYVhqWHl2OXdzV3haZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLS1ZRHBiLUFjQmxQcDJqU2ZURkQ5Z3VBVU0yRFdoS1ZROFc5NTctUERkemlVSTJZeUFKbGgwRzdHamVVMGNfeXFUakEwaVFRUVdlX0M2R0U2aW9FMTBHc0lHdjd3VFVBeDVvLU8xY1hxMUlvZjRkdldoVi05d2VRd0hPaHdCX3U4d2xNMm95UFEtc3k5UE5wSWV6cVR0QVdvSHdrRldnUVhaWWVMbzB5REw4Z1kxZkkyWE80TGZwRXdfOHp3bDlEWmFZc1MwczRmYVp1OHpn?oc=5",
       "fp": "auto|grand|leakertake-two|theft"
-    },
-    {
-      "entity": "Princess Kate Pushes Prince William to Make Peace With Prince Harry Amid ‘Rival Royal Court’ Fears",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "ZA",
-        "PK"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "News24",
-        "Yahoo"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 4.1,
-      "score": 64.3,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQm0wcDJlV3h0MUtsV3dXellpSzcydFZZaE1kMWxoQUJVT0U4LTFQTU9GaDFfa2dMcE9VakhrYWw1ck0yR0hDM1ktQmY0N3YwenMyNnR3RE5uVk9YY2s3WWN1Yk8tWTg3ZHduQXIyb2N3dmhldktZTEZDbmJMeHo0Q05KMUNNeG9kZHBKRlJ1WkNpX05SZXZMTlJUSDRPTWFCcVliN1RwSEhwbUF0RHNWRE9GQ0RyY2R0WkxManQwS0ROaXdkM1YzaEcyczNuYjVvQUU0?oc=5",
-      "fp": "harry|kate|netflix|prince"
-    },
-    {
-      "entity": "2027: I’d Have Declined If Tinubu Had Offered Me Campaign DG — Wike",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "NG"
-      ],
-      "countryCount": 1,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 3,
-      "publishers": [
-        "Channels Television",
-        "Business News Nigeria",
-        "The Guardian Nigeria News"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 2.7,
-      "score": 63.3,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOFBkQ01zMzNHSWN5bF9rdk1Fd3I1SXlrejRYc043aVdrci0xVURjcDc3WU9XNUZZQkNPekxKeWl4bldyOXdFWU93WE5OUUhtb2pzM2ZMM1pDQzNYV1N5RGJQODhzQWlFSmxEY0k3QTdNcFc3YW0tcm1oUGcwZG9rNW5sdHpYN2pHbDBuMVJoU2lsNzF4OEg2cElqYkdBemRpeFU3YQ?oc=5",
-      "fp": "declined|had|have|tinubu"
-    },
-    {
-      "entity": "Russian strikes kill seven in Ukraine, day after shopping complex attack",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "GB",
-        "CA"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The Guardian",
-        "Al Jazeera"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 4.6,
-      "score": 62.4,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT0pmdWd4SEpWUTcwZUhOTE1oSlBNQ05DNXBBeV81Rm9JRzdNdUppODJCT0M1QXF6NzUzUTd6UVowazJaNE5kX2N3d2hwbHRybXNFSlFhcVpXY3Y4dDA5YTZWamlKQkVLY1FILTcwYjlMY2hKUVRRY0ZJUmVsZlU0LWVici1IR1RRaEQ1NWpqbVFaLUhsUFdVREpzOTNOS0R5TkNjcGc1bEhGZFhCaTVoUy1lVU1QLS1ReWJSYmNsRVVRZjNfOHQtZmpR?oc=5",
-      "fp": "ukraine"
-    },
-    {
-      "entity": "Davis 'grateful' for support over cancer diagnosis",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "GB",
-        "IE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 1,
-      "publishers": [
-        "BBC"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": true,
-      "ageHours": 1.3,
-      "score": 55.9,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHYmVIWnh3X2UtZnF2RU5JV1pSV21JZVNfNDVZdktmWHhJZ0l3VmVNQnVUWEZ4M2piZ2J1SXRUUnZRS3JSMWJQTHhTN1dJcXhIQXlpbEpTclVQcmZH?oc=5",
-      "fp": "davis 'grateful' for support over cancer"
     }
   ],
-  "global": [
-    {
-      "entity": "Hull City 2-0 Man Utd: Michael Carrick's side left stunned by newly-promoted Tigers in Premier League opener",
-      "source": "googlenews",
-      "phase": "GLOBAL",
-      "status": "IGNITION",
-      "countries": [
-        "US",
-        "GB",
-        "ZA",
-        "SG",
-        "IE",
-        "NG",
-        "KE",
-        "MY"
-      ],
-      "countryCount": 8,
-      "newCountries": 0,
-      "articleCount": 11,
-      "publisherCount": 9,
-      "publishers": [
-        "NBC Sports",
-        "Sky Sports",
-        "supersport.com",
-        "London Evening Standard",
-        "ESPN Singapore",
-        "Irish Independent",
-        "Goal.com",
-        "Sofascore",
-        "ESPN"
-      ],
-      "effectiveCountries": 8,
-      "syndicated": false,
-      "ageHours": 0.3,
-      "score": 82.6,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSlVlM3J4SVR2SENyMTVHb1o0cU04YTRrSTl4QWMyQ1F2YlJBeXhFNGFYZEF2VkppQW5qZEpvdko5Z3ktX3ItNXBKQnpyX1dyZFdYRzhrSGxOa0pncktRUFU3bWdGVVJPNmFXODdmcTZwdmlTc0trZlJfYlJ3cy1KdW9NNkJscHdJNGpDZkxCWE9ONUFsNVNXSEZXR3Y1VzZDSktMMFZqLWFmS3V4SkR5V2lYV2J0YVRRZjBZ?oc=5",
-      "fp": "city|league|opening|premier"
-    }
-  ],
+  "global": [],
   "signals": [
     {
-      "entity": "Coventry City F.C.",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "IGNITION",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 100,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
-    },
-    {
-      "entity": "ICE detains mother, daughter at hospital",
+      "entity": "WNBA games and controversies",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "IGNITION",
@@ -352,15 +296,15 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 95.5,
+      "score": 94.5,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/d9771dcd971b"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/eafe9ed9bf04"
     },
     {
-      "entity": "cruzeiro x flamengo",
+      "entity": "boxing fights tonight",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -374,45 +318,28 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=cruzeiro%20x%20flamengo&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=boxing%20fights%20tonight&geo=US"
     },
     {
-      "entity": "Lito Sousa",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "IGNITION",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 100,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://pt.wikipedia.org/wiki/Lito_Sousa"
-    },
-    {
-      "entity": "Optimist-pessimist cup meme",
+      "entity": "Ghent University suspends Nathan Cofnas",
       "source": "bluesky",
       "phase": "SIGNAL",
-      "status": "CLIMBING",
+      "status": "IGNITION",
       "countries": [],
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 79.7,
+      "score": 94.5,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/1086315c763f"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/4cabae3256c3"
     },
     {
-      "entity": "cruzeiro vs flamengo",
+      "entity": "weather delhi",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -426,27 +353,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=cruzeiro%20vs%20flamengo&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=weather%20delhi&geo=IN"
     },
     {
-      "entity": "Big Brother 28 (American season)",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "IGNITION",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 96.8,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://en.wikipedia.org/wiki/Big_Brother_28_(American_season)"
-    },
-    {
-      "entity": "Honor's robot outruns Usain Bolt",
+      "entity": "Worst sitcom you've watched",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "CLIMBING",
@@ -456,15 +366,15 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 74.6,
+      "score": 78.6,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/45c368b11f5d"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/e5d9a6191fb6"
     },
     {
-      "entity": "chicago vs ny red bulls",
+      "entity": "delhi weather",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -478,24 +388,42 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=chicago%20vs%20ny%20red%20bulls&geo=US"
+      "url": "https://trends.google.com/trends/explore?q=delhi%20weather&geo=IN"
     },
     {
-      "entity": "Christos Tzolis",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
-      "status": "IGNITION",
+      "entity": "Arsenal vs. Coventry match",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "CLIMBING",
+      "countries": [],
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
-      "ageHours": 24,
-      "score": 95.5,
+      "ageHours": 12,
+      "score": 76.3,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://en.wikipedia.org/wiki/Christos_Tzolis"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/449ad62f74aa"
+    },
+    {
+      "entity": "weather jammu",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 72.8,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=weather%20jammu&geo=IN"
     }
   ]
 }
