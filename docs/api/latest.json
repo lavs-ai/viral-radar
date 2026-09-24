@@ -1,233 +1,169 @@
 {
-  "takenAt": "2026-09-24T02:18:55.526Z",
+  "takenAt": "2026-09-24T07:58:19.532Z",
   "watchedCountries": 14,
   "spreading": [
     {
       "entity": "Judge skeptical of Trump's White House media ban at hearing",
       "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "CLIMBING",
+      "phase": "SPREADING",
+      "status": "IGNITION",
       "countries": [
         "US",
         "GB",
-        "CA"
+        "IN",
+        "CA",
+        "SG",
+        "IE",
+        "NZ"
       ],
-      "countryCount": 3,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 3,
+      "countryCount": 7,
+      "newCountries": 2,
+      "articleCount": 7,
+      "publisherCount": 5,
       "publishers": [
-        "NBC News",
+        "Reuters",
         "The Guardian",
-        "Reuters"
+        "Bloomberg.com",
+        "RTE.ie",
+        "stuff.co.nz"
       ],
-      "effectiveCountries": 3,
-      "syndicated": false,
-      "ageHours": 3,
-      "score": 74.2,
+      "effectiveCountries": 5,
+      "syndicated": true,
+      "ageHours": 2,
+      "score": 95.5,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa25FZ0pjdTJVM1JHQkJCLVpkZHktRUJmTkV1amJYblVmc1Y1NGRvc0RPcTlacHNZVjg0RzI2OTc4dXFjZEJ5UmY4bXRIaUJPOWRhbU1BLURMUVNOUmxyYWJ1eDR6cTNjMnppRmNSZ2tUbWhHLVpabUZKMHc3Ymo2ejZqczVEQ0pleHJJSWJJblJYdEltYTBTb0Y0MG5sVl9JN3FmeldtT3dSWEhsT3NhNGlaTjhQVU51M1E?oc=5",
-      "fp": "access|house|trump|white"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2V0SEZGX1dfSmIwdGdRLU4zTlFsdVlDa3dXeS1EVnczQV9yUzJIXzN3NVhvR2gzcVBMTFBkY0g2Qk1xWGladm51WVQ1ZkN6Q19MTDAySThlMjhYSzNKaFJYeXFaUnpZNUZ3SkRBcTRVaGFORElVUkdHZG16UXQxcUVuTjROUFFycnNuQi11VDNHdlVtcWZnNTk3bDE?oc=5",
+      "fp": "house|trump|trump's|white"
     },
     {
-      "entity": "Anthony Albanese says OpenAI agent hacked Medicare and he expressed ‘extreme concern’ to Sam Altman",
+      "entity": "Indonesia to Face China in Asian Games Men’s Team Badminton Final",
       "source": "googlenews",
       "phase": "BREAKING",
-      "status": "PLATEAU",
+      "status": "IGNITION",
       "countries": [
-        "AU",
-        "CA"
+        "IN",
+        "SG",
+        "MY"
       ],
-      "countryCount": 2,
+      "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
+      "articleCount": 5,
+      "publisherCount": 4,
       "publishers": [
-        "The Guardian",
-        "BBC"
+        "The Hindu",
+        "Jakarta Globe",
+        "olympics.com",
+        "The Straits Times"
       ],
-      "effectiveCountries": 2,
+      "effectiveCountries": 3,
       "syndicated": false,
-      "ageHours": 0.3,
-      "score": 73.2,
+      "ageHours": 1.6,
+      "score": 91.7,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUdoblhiZ2ZiTUUwTURqQmxST0xYS1ZXVWxGWm9NSWYyZnFDQ2hsUDRDZ0h6cFZpS3RiUzRkSnJMdGpKN01LRmNqejItbFJIZ01CYXh2MVV1U2ZrQ1NMRjVMYjJfV09UU1UydFVHVTZxRjdPVE85RjRnYklDcHEydnp4QWNjMHRLQjlMdXVVdmNvQ25tenJyZ2M5S21fdWZIS3A4V3FOMTA1T3ZOVS0wRGNVVHZLYzhKbUJ0Yk9FUGIyNHBLSmlMQTVCdVI?oc=5",
-      "fp": "albanese|medicare|openai|sam"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVFduY00xdmg4dGhaeFpRd0swVkF3LXlCUEg4R21zbS1SU0tIbjRhT0M3NXNJeXZ4dWxzcnliQXd2RTNxcFNKWVRIRHg4dUxnTy1JdmRzM0RzNUZzalN5dnd4bkQydzIzSXpGYWpGOWFJeWpYQ1lsazVVYWg1R0hlWGx0NG1ZMS1YXzdjRlJzaUpVV3M0M3JsZFcwMThKbk1LYTV3OHBOZDcxdkFLeFHSAbQBQVVfeXFMTXk1SzFXVDZ6dURCZ3ZjS1N1elhRZXNMR3BMbWYyZXhGQnBxb0xjY240ZzJVZW5MMUtPTGpoOUt5alZ2a0dBckR6TGQxVDlHRHIxdk5PWW1UajBtODFJY05IaENMS21ZNFRSb3JZbWctN0xuMzRPMllrRl9vbk5ka2tSdXdyRlVkVW1mRFhDNWxfdl9JZVBiV0oxRWxkOVFrSmNuNVExdWtHRDhVZ19NX2YyOVNw?oc=5",
+      "fp": "asian|devi|games|roshibina"
     },
     {
-      "entity": "Trump greets Xi Jinping at plane as Chinese leader arrives for state visit",
+      "entity": "Iran War Updates: Iran's president calls U.S. attacks \"cowardly\" as Trump threatens annihilation",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "CLIMBING",
       "countries": [
         "US",
-        "AU",
-        "CA"
-      ],
-      "countryCount": 3,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 3,
-      "publishers": [
-        "theguardian.com",
-        "The Guardian",
-        "CBC"
-      ],
-      "effectiveCountries": 3,
-      "syndicated": false,
-      "ageHours": 3.5,
-      "score": 73,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNXJiRGRJVWpENUxMLW52eTlhdm5WMTREUnhMcFY1aG5nTElLM3lxZTV4cGRpa1FaS2x1MFNuUVdDVmFIQk5uTkpIU1F5Q1hnTDVRQTRpOEV5UlkteE5NYzhLcnh1MzVjeUZjQWUtaTdHQzBXclc3c1R6Y3pCd1hIelVneHZJbmRxM0RuUnd3?oc=5",
-      "fp": "chinese|jinping"
-    },
-    {
-      "entity": "Sam Altman, Dario Amodei urge UN Security Council to adopt international AI standards",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "CLIMBING",
-      "countries": [
-        "PK",
-        "KE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 3,
-      "publisherCount": 3,
-      "publishers": [
-        "cnn.com",
-        "news.un.org",
-        "the-star.co.ke"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 3.9,
-      "score": 68.1,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSUdBSkFIY3dyaDB0SkVqVFZaZ055V0dOc3V5Uy0wZkRBT1BxZG85R1hDRmxHUjJuUXY0TTl3cE0taXNCaDlNbUJfOGxDS3hGWE5FQ0RnMjNGQ21Ha3RSWEJKQ3AyMlFvcFNFeTVMcmxCQ2dpZ09ycVh1YUZKdl9HanZFU05jZw?oc=5",
-      "fp": "altman|amodei|dario|security"
-    },
-    {
-      "entity": "PM Carney prepared for ‘risk’ that Trump might order U.S.-led military invasion of Canada: report",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "CA"
-      ],
-      "countryCount": 1,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "CP24",
-        "Global News"
-      ],
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 0.8,
-      "score": 67.7,
-      "confidence": 0.79,
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPd1lnVmZnbEM0NjlqTFk1QWlaNk8tRUhaSVlMOHNNTUZMckZjZk5ncU9PWUJkWG83ZEE4UUx5SEFXR3pzZGNUWWVjRXpvTU9qVFdsWVVJVWhuMy1ibVJvR3c4WnNnZU12MGJPaVlMRndwSlFzQlZYVGloR1ktbzdmZDdROU9hcEJJbmRQUkxQTkEyQWZCb1JkS0tkRnJLSG85QkxKM1lmZUZTUWRhNWVWRDN2d01nYkNrWGhQdmlRQW1NZ2NHZUlMSGtJN0d3by14dGc?oc=5",
-      "fp": "canada|carney|trump|us-led"
-    },
-    {
-      "entity": "Crown-of-thorns starfish can help reefs thrive",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "NG",
-        "PH",
-        "PK",
-        "MY"
-      ],
-      "countryCount": 4,
-      "newCountries": 0,
-      "articleCount": 4,
-      "publisherCount": 2,
-      "publishers": [
-        "Phys.org",
-        "phys.org"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": true,
-      "ageHours": 2.3,
-      "score": 66.6,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCMUdkcVVUNVc5eFZFeXhrU2FsbENaRUxRQXptdjh0RktURDVLOEpwVlFfTV8zNjBBWXlCaTV4UXJsWXJYanBQZ1F5TG9YcTJrckcyWWloNWZfZ1dmTFRXSmZYV2l1R0hiOUZmLUI1Zw?oc=5",
-      "fp": "crown-of-thorns starfish can help reefs "
-    },
-    {
-      "entity": "Reference genomes and fossils revise bat family phylogeny and biogeography",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "US",
-        "GB",
+        "IN",
         "IE"
       ],
       "countryCount": 3,
       "newCountries": 0,
       "articleCount": 3,
-      "publisherCount": 2,
+      "publisherCount": 3,
       "publishers": [
-        "nature.com",
-        "Nature"
+        "CBS News",
+        "The Indian Express",
+        "RTE.ie"
       ],
-      "effectiveCountries": 2,
-      "syndicated": true,
-      "ageHours": 2.8,
-      "score": 63.5,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zYXJXQzUwTHFTc2dQYk5pd3lfSnBodUxFSTRmcklVUWluR0pjbXp6aE1lUkcyZmEzLWRXQmpuNVhRWUppWmpVV0FKRjlkcU0zSF9GSUd4SHpqbmJPMDhz?oc=5",
-      "fp": "reference genomes and fossils revise bat"
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 2.7,
+      "score": 84.3,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?oc=5",
+      "fp": "iran's|president|trump|war"
     },
     {
-      "entity": "Zelensky warns Russia of consequences if energy truce talks fail",
+      "entity": "China's FAST telescope discovers over 1,300 pulsars in decade of operation",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
+      "countries": [
+        "NG",
+        "PK",
+        "MY"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 3,
+      "publishers": [
+        "China Daily",
+        "People's Daily Online",
+        "The Star"
+      ],
+      "effectiveCountries": 3,
+      "syndicated": false,
+      "ageHours": 2.5,
+      "score": 76.2,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GaXR4M1ZRLXJGdVhqV1NvMzEtRWZuMTk5c2xWUU1BVUpBS2VROVRYQ1R0aHRXeUdGOXFlNk1mMTVxX0ZwQmc1dm04WnpETzBvVVktR2ttdlh4WXljdmtkb0pSUXd3YjV1RHNMWjgwWDU1M3lVaFlxaW1uLWVzQQ?oc=5",
+      "fp": "fast"
+    },
+    {
+      "entity": "Real Kashmir Football Club Makes It To International Emmy Nominations, Third Time For Vir Das",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
         "IN",
-        "CA"
+        "SG"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "Reuters",
-        "theglobeandmail.com"
+        "NDTV",
+        "CNA Lifestyle"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 4.6,
-      "score": 61.2,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3MzYlZCZEgzcUlDYjZORWhrZEFaczhhdjlTV2tXYW9lcjk0V1BIZlpqNVM1d21rQU1GYi1vX1p2QWtLV2MtRFNUZ2VuZzRmSkNCUGZibHFPVjF1NjdBUkhrU2NmR3pzZk4wdDFSdFdfWkJfX19wdll1LUROTGVVTkF6RUQzSmZ2NXBsRi14WHJnZkJiajIxUXVfbnc5Wk5zRXBncjZhRHNveHl2Yl9MeE9GWHliX0dW?oc=5",
-      "fp": "russia"
+      "ageHours": 2.1,
+      "score": 72.8,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWGJOeDRhVS0zYkU1RWlvRnRGa2NIWjYzV1RWQ2x6Tkw5NHZ3NVpsd2VPU1B2WmUzWWZPX2J2VlM4eGhHSlBwdDJhYmpPVk1jQWdLQTA3WFQycnhqdUh2eWYwZWRvcnhYMzhhOUI4UEc5dkNTNEgwTm1uTEVZM1gxODlneEdDZXp4VTRJUnp6aWJTMFhLeXlYQnEzZ1JncVNkc0NHRnJmcnQzTDRfd0NwTjNvQW9XYjZDQTZYTC12V3NLbUttV0puVTEtMWtyRE9NSEHSAdoBQVVfeXFMTlYwQ3dfS2pXbWJVdXo4S1Bhci1hMm1lejhVbnB4TjZkdGVxTzh1RFFCUE5WR0ZhZXAyR1pjLVZwY01TZzJnYzh4S1o3c2pOeXdnRXpCcWFOYi1pbC1YX0NMWHozbDFCRzFMV2RYbXRHR0dtTlp5YUxDWDZrME5WbW5uZG1kbm1mTjIwMUFlak9YUHRRUGdpQVAzYlFZS1VoUWhQNUJIazFtZUdxUW8yZHk5YWdscVZQU1Qya05JbEdJMC1kX0hrSGRlTHY2ekdjQURsZzJqMDFlRXc?oc=5",
+      "fp": "club|football|kashmir|makes"
     },
     {
-      "entity": "King Salman: Saudi Arabia Was Established on Firm Foundations to Preserve the Faith, Justice",
+      "entity": "JPN vs AFG, 1st Match, Group A, Asian Games 2026 - Full Commentary",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "NG",
+        "IN",
         "PK"
       ],
       "countryCount": 2,
@@ -235,47 +171,122 @@
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "Goal.com",
-        "ASHARQ AL-AWSAT English"
+        "olympics.com",
+        "Cricbuzz"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 4.6,
-      "score": 61.2,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVmQ5ZVY4SFRVbjRaQmViZmlnU0NoQ2YxVkt6RFNNc013M3F2N29XUDlZaTJkUmVrektYb0xVMDB3NE50cVJOWDN0Mk9sNzE1OVNsUUV2c3BpNU1XcHRBOTRULWRvZ1J1VHl6YVh2akN1MGZveEI0WlFubmNsdUFxbVpaOTc1dkVzNFRBVXZFamxuNElvOHpueGxtTG5GQjRSVUttdWo0ZkYtcGZaTVVRNnV4aEVwNUV5TnhaNG1YOURKTG1sNHZIMERZeUpLc2t3MWo3eURqSVpKTlpQYWxXdHBIYmx2OVN5Z0x5OVdmOGZ5ekp2M19QNg?oc=5",
-      "fp": "arabia|reinders|salman|saudi"
+      "ageHours": 2.2,
+      "score": 71.9,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOU9sUmVNTXYxRUR2VGdsRUpjY1owM0F4YUJrS0g1c21QVkpRR2RKNjVZVnl6YmF1MjgwYU9qVjQ3S0FidVIwUEFqZ0kwRFRJSHh3RWRJSGVFcWpJUzVjRHlFdlpuVVlYamgyRUJxWEI5QWJMUFAtMXF0MFBSVnplWXp1SE4yU0xFdzNkSVdZOWxjN0FLRUU1cUZtNWJIc1ZDUUtIWThQcUlPZw?oc=5",
+      "fp": "chinese|games|india|taipei"
     },
     {
-      "entity": "Global Bat Study Redefines Species' Family Tree",
+      "entity": "Trump gives Xi Jinping rare airport welcome as summit visit begins",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "AU",
-        "CA"
+        "US",
+        "MY"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "Mirage News",
-        "CBC"
+        "The Washington Post",
+        "The Star"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 4.7,
-      "score": 59.4,
+      "ageHours": 2.9,
+      "score": 70.6,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHhaaUFNQmIxNFF4eFUxelRnUVFBNE5BWUlLcEx3OENoWWRaaXdfTzhHcDhqWUwyNVNNazQtMGZVVmpIYnB2UXZWVGJSNTBfVVVSeXN6TG15SUFNSU5UYlpjRV95Y1g3TkkxNjdrZ205ZXYxS0NWa1RsN2d6M2lXQ2MxeW9BalFUd1NBM0ZtLTEyYXNKNUl6TVhIdnBKR1cxemlhYlp1b1Y0eTJLT0pR?oc=5",
+      "fp": "jinping"
+    },
+    {
+      "entity": "Trump greets Xi in Washington with rare red-carpet airport welcome",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "CLIMBING",
+      "countries": [
+        "IN",
+        "NZ"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The Hindu",
+        "1News"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 0.4,
+      "score": 68.3,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObl9fNXVjWWI4VDVqU0FZNnNnMFZiTVlIOXZTQmNYNFZnUm9neVdWdk9NVjY0ZU43clJ3bk9UckpXY1Y0emVWWW50c0plNHliVDlpVE4wZzlzQkZJN3JrWE14ZnpGb0FmdlBERmJBV2dUY3pwQkItUVg3X25Sc1lSZjJCOENKVm5IZnc?oc=5",
-      "fp": "bat|redefines|species'|study"
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUC1VdWNBbUZJNklkSDZUdHlQMHlfM0ZrblNNQ05sU0xjOXNLdElMWnVEX0oxRnNscmZyZ3BQWWttUjFMUlZ6ZlFNZDliZHBuVzNEcks2cjIyekdRcFR6SVRfU3RUR09idG9hOXhRdWlQTF9HSnZ0RjRkXy1Bc2xXclItUXdLYzk0a05TcEctZlc1RERyZnhQejY5VHJQMjYxZ3lISjFlU1U3NXhRTHlrU00wS3F4YVRBMm1WNVVVZngtSGdOSEtZX2UyeTdreFV2UHIxTk5BVU82SklMc280MjVKX21Za0tucnVv0gHyAUFVX3lxTE9NZmg4d1F5Mml5bG14YW94VHZzZGZzU1ByMFlRZ2taUC1BSHdKWWhDMXhKako4MldBcFZQbXZ1R2FlVFZhN2d6N20tYWw2ZVpWVXd4Y0llZ3kxdjV2cHVBQ3l5WElPSFItR2huYWlTeEJZOElvVV9CZDBFcHpvSWt2UF9yYXlYSzVMNkxxZTFiOWprSjlXWWc3Ul9QZE5wdWRvbnRhdDFnTHAzRzlHTkh1aFREVHhZdWd1NGhNOVhaNENLRkZONU82bUUyMG5wRUNTeEJkcE54ZTE0MnppOWFFUVR6YmRQMy0wNUh3NXpzRXln?oc=5",
+      "fp": "trump|washington"
+    },
+    {
+      "entity": "A teacher spotted two unusually large footprints. They turned out to be a first for science",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "CA",
+        "NZ"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "CTV News",
+        "RNZ"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 5.4,
+      "score": 67.2,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOGRRQ3RqYTRaLWpTSGpoN0NZejJyRWpqQU16TXJSYXhMbF93X3BzNVV2OHJhV0oxUDhpY0trY1ZfUWtWNXl6LWxhUEk5Z09td2w4akJIS180TXFIajhKazZnU2tfWmpiLW9yZ0xqY2hQUEtQU1JZQl9SejJLV2VfTTMzLXR4bmduVFA1WHZlem95bVJ0RkFYQjhjc0Q5Y2pWOFZ6XzFXVDAwMGo0YWdadjNKOTlRdVJqYTBDQnRhcGxzLVVuRk15eG5MSQ?oc=5",
+      "fp": "a teacher spotted two unusually large fo"
+    },
+    {
+      "entity": "Dolly Parton's sister denies family feud amid legal row",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "IE",
+        "NZ"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "RTE.ie",
+        "RNZ"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 1.3,
+      "score": 67,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdzIzY21NdW5hYklRU1lJRUR4dVBDTHlDSGVEek41d1VvVGhybU9mN2FFbk43YW5pbUJZVzlSYjVVLXBtaWxKeTQ2V19JclN5VmU5Q3NLczFEOGVyVGQxb1JTa2lwOGZDSy1lYUlab2l2dDNtY3JfVENKZDM2TklFalhIdENZQ2I0NVF1djdOLVdPVVNFZWxUVGNESG4ydnAxSUY0QW1nOHBsdw?oc=5",
+      "fp": "dolly|parton's"
     }
   ],
   "global": [],
   "signals": [
     {
-      "entity": "You Can See Everything",
+      "entity": "Dancing with the Stars (American TV series) season 35",
       "source": "wikipedia",
       "phase": "CONFIRMED",
       "status": "IGNITION",
@@ -289,80 +300,28 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
     },
     {
-      "entity": "Big Brother 28 nears its finale",
+      "entity": "OpenAI agent Medicare incident",
       "source": "bluesky",
       "phase": "SIGNAL",
-      "status": "CLIMBING",
-      "countries": [],
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 89,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/a334f5a4e8f2"
-    },
-    {
-      "entity": "canada donald trump",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 88.4,
-      "confidence": 1,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=canada%20donald%20trump&geo=CA"
-    },
-    {
-      "entity": "Tom Bateman (actor)",
-      "source": "wikipedia",
-      "phase": "CONFIRMED",
       "status": "IGNITION",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 24,
-      "score": 100,
-      "confidence": 0.57,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://en.wikipedia.org/wiki/Tom_Bateman_(actor)"
-    },
-    {
-      "entity": "Fans react to Survivor 51 episode",
-      "source": "bluesky",
-      "phase": "SIGNAL",
-      "status": "CLIMBING",
       "countries": [],
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 86.6,
+      "score": 95.5,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/8f054de28015"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/98a29cc24a54"
     },
     {
-      "entity": "asian games kabaddi",
+      "entity": "vr glasses",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -376,10 +335,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=asian%20games%20kabaddi&geo=IN"
+      "url": "https://trends.google.com/trends/explore?q=vr%20glasses&geo=IN"
     },
     {
-      "entity": "Tom Bateman",
+      "entity": "Harvey Weinstein",
       "source": "wikipedia",
       "phase": "CONFIRMED",
       "status": "IGNITION",
@@ -388,33 +347,33 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 24,
-      "score": 100,
+      "score": 97.7,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://de.wikipedia.org/wiki/Tom_Bateman"
+      "url": "https://en.wikipedia.org/wiki/Harvey_Weinstein"
     },
     {
-      "entity": "AEW airs 3-hour Dynamite special",
+      "entity": "Meta unveils Muse AI glasses",
       "source": "bluesky",
       "phase": "SIGNAL",
-      "status": "CLIMBING",
+      "status": "PLATEAU",
       "countries": [],
       "countryCount": 1,
       "newCountries": 0,
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 80,
-      "confidence": 0.57,
+      "score": 82.7,
+      "confidence": 0.79,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/22d6c96d946c"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9b91d68e9405"
     },
     {
-      "entity": "meta vr glasses",
+      "entity": "uss abraham lincoln",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -428,7 +387,7 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=meta%20vr%20glasses&geo=GB"
+      "url": "https://trends.google.com/trends/explore?q=uss%20abraham%20lincoln&geo=US"
     },
     {
       "entity": "Elizabeth Holmes",
@@ -440,12 +399,64 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 24,
-      "score": 93.2,
+      "score": 95.5,
       "confidence": 0.35,
       "category": null,
       "why": null,
       "angle": null,
       "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+    },
+    {
+      "entity": "Russia-Ukraine war continues",
+      "source": "bluesky",
+      "phase": "SIGNAL",
+      "status": "CLIMBING",
+      "countries": [],
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 73.9,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/624e7d5bdd04"
+    },
+    {
+      "entity": "south africa vs australia",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 72.8,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=south%20africa%20vs%20australia&geo=GB"
+    },
+    {
+      "entity": "You Can See Everything",
+      "source": "wikipedia",
+      "phase": "CONFIRMED",
+      "status": "IGNITION",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 24,
+      "score": 95.5,
+      "confidence": 0.35,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
     }
   ]
 }
