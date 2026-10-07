@@ -1,6 +1,6 @@
 {
   "name": "viral-radar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Detects which news stories are crossing borders right now, by reading 14 countries at the same moment.",
   "type": "module",
   "engines": {
@@ -9,9 +9,19 @@
   "scripts": {
     "run": "node src/index.js",
     "dry": "DRY_RUN=1 node src/index.js",
-    "serve": "npx --yes serve docs -l 3000"
+    "serve": "npx --yes serve docs -l 3000",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
   },
   "dependencies": {
-    "cheerio": "^1.2.0"
+    "better-sqlite3": "^11.7.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   }
 }
