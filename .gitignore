@@ -1,3 +1,10 @@
-node_modules/
-.env
-*.log
+import { seedSampleStories } from '../db/stories.js';
+
+export async function runPipeline(): Promise<void> {
+  seedSampleStories();
+  console.log('Pipeline bootstrapped with sample stories');
+}
+
+if (process.argv[1]?.endsWith('run-pipeline.ts')) {
+  runPipeline();
+}
