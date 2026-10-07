@@ -1,121 +1,211 @@
 {
-  "takenAt": "2026-10-07T07:56:37.864Z",
+  "takenAt": "2026-10-07T14:59:44.167Z",
   "watchedCountries": 14,
   "spreading": [
     {
-      "entity": "England 3-0 Czech Republic: Harry Kane marks record-equalling 125th cap with two goals and an assist in Nations League victory | Football News",
+      "entity": "Eva Marie Saint, star of On the Waterfront, dies at 102",
       "source": "googlenews",
       "phase": "BREAKING",
-      "status": "PLATEAU",
+      "status": "CLIMBING",
       "countries": [
         "GB",
-        "NG"
+        "IE",
+        "NG",
+        "NZ"
       ],
-      "countryCount": 2,
+      "countryCount": 4,
       "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
+      "articleCount": 4,
+      "publisherCount": 3,
       "publishers": [
-        "Sky Sports",
-        "Yahoo Sports"
+        "The Guardian",
+        "The Irish Times",
+        "1News"
       ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 0.8,
-      "score": 78.3,
-      "confidence": 1,
+      "effectiveCountries": 3,
+      "syndicated": true,
+      "ageHours": 2,
+      "score": 78,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNcDRWRlZCZGZkbFpfVkNoOVFibmstdXdTdUZzS3V4N1F6dHMyMXBTNjZPLTZjWXpZRmoxeFRBM3FSTjBwNWYxY0VaNGRXYmExNjZhWWR4RTFqZHVESWl4TThKQS1rSW5XQmJEMTZWcjZ4Rmx6NzVIak1XMkNUYWRRR21jTzZVUlpWZkFmSFBaRmJYUjJ1M2lCT1k5alBIU3VHTjg1YW5HZV9CQzdWRDBmdmJUUXJZUDczUTNsd2d1aXhURmlXZHZ3WHgwVU51czdBZ1AxUjgwc3pTQ0NzMDhNREI5VFV1U1htSjZUaUhJcFJHZjdKZEYtakdNcWs0dDB6NHRLVQ?oc=5",
-      "fp": "czech|harry|kane|republic"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX2x3dG5aNEpibXZBUFBBMUtzNTI3VmN6UzVmQVpnUFQ0aUNtcXZtcXFzczA2ZTRCVmZYODAycngyWDJtZWJ2R0lLdVE5Uy1UWWtUQzFWZjkyclZuU0g5ZlJKU2ViWUc1cmE3aG15ZDZUZjhZTldzNlNOZms3WlJxczh3N0ZGZnJCOVc1Zm1aWHRzdERXcl96eTZTMlhpS2JocldQTTlqb1NfSmFic21rUFYtRml5X25yVVFSQUE1NWlQVWlFMkw3UG94WWFsUQ?oc=5",
+      "fp": "hollywood|marie|saint|waterfront"
     },
     {
-      "entity": "Russian plague death: What is plague and how dangerous is it?",
+      "entity": "Trump to speak to Putin about plague lab worker's death in Russia",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
-        "AU",
-        "IE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The Conversation",
-        "The Journal"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 2.4,
-      "score": 75.2,
-      "confidence": 1,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNVlvdFpuN2hCUHJXUVgwUlNMUklydmFxaTN4aTJyWGNmYlBMaDlORzZ2dUp1Q05mVjFTLXQ2TDJZOXE2Sk5xdERjSERGdkNlMUNKYktqaDl0eHFhSlZ4NlFwNE5jc0hzM25FWTJpU2lRSERNbnlqemhweUdpcGhWN1FVUEVUT2hGeGhKU3hjLVhQSXVWcGVnSXY0YV9mdU93RVYzampLSTY?oc=5",
-      "fp": "russian"
-    },
-    {
-      "entity": "'Will call Putin over pneumonic plague,' says Trump - what is happening in Russia?",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "ZA"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The Times of India",
-        "eNCA"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 5.2,
-      "score": 66.1,
-      "confidence": 1,
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTklOZXN2QU5oMGZtTEhkTS16eDNLQ3llb2kwTTFhdi15eWo5c2Y2TzhBZk9GRmJtZHN5aHZpUF9YWDJWdlVOc3JLdWVRTlcwWmpSeXNPX01mSWhVaFZFdklnclUwc3Z1bWE3WWNWeW5aTFEtTGFUY09KdXJ3YXFIOFJIenlLMkpHY2V0Nk5pbFlhWVdnN0JmVnhJMjRoZkptWUxzS1pEV29CZUhRRkMtTExLYnNrSHFXZi1TVmU2SXFwaWY2ZDFDQTlTYnlPd2UxeDJWVUEzdWppTy1BamllQVIyd0ZHRUstUzVlN0haTdIB9AFBVV95cUxOTS1qZW95S2tKMzBZRmlDZjE0MG5RMzhidVFiSDdGeTJZM25HcU5JU3hSME9KclhJRUw3aG5tdnhNcmtUUC1tU09DSXU1dHBnblkwV0owNDl0T1BIWnpucDFEQ1cyZjN5YVVaQTB3aUk0aTRMYjFlSG9fREpEckRNUWQ1Ukp4UEdYWURyU2hxWEFlZThoS3hPSEhmQTFGMC1KR0lWMDktTDdfbmY2aExpeVQ2STJNSjIxTFhJU2VIOTVlTW02OTEzVmM2VzNHQzBYYkljc0oyYWo5dnJuUmREYnFKWEtWYUR4dEE4VXJJV01NeHJP?oc=5",
-      "fp": "putin|russia|trump"
-    },
-    {
-      "entity": "Drishyam The Conclusion Box Office Collections: Ajay Devgn starrer holds well on Monday, Nets Rs. 192 Cr in four days in India",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IN",
-        "PK"
+        "CA",
+        "PH"
       ],
       "countryCount": 2,
       "newCountries": 0,
       "articleCount": 3,
       "publisherCount": 3,
       "publishers": [
-        "Pinkvilla",
-        "NDTV Profit",
-        "The Indian Express"
+        "Euronews.com",
+        "CBC",
+        "BBC"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 5,
-      "score": 66,
+      "ageHours": 2,
+      "score": 71.9,
       "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNb2ctdzJZZ3RiQ0dvOERVQ3V6Sm1heThwcW1pY3FQNDI1d0pMVy01cWhZUXBLb3dRS1NwZ2IwN3VSbEVuTDFLRlBKc1BKUHhSMjJJbHN6aVp1amtnMEtWNlZBX1pDRFZNYm1jNG5GTzVaT3dyQnRaN0xXV21oRmNTM3g3NjNEd010MDRfeUZRWmVfanlJU2hPSXlnUGlYNUlNdkVFQXpjY213ZjI2RnNDc2lWSDlES2FKYXAyWkJnRkNUejluN21sdnFzdEpmaDVFRFFmdDY0TVJVYkw2NmRSYVNHeEJDVHBHN3M0cFphcjN5N2lkYjNPUlJHSEd2b0dLOE1TTDd5OVJOdGVhaU1N0gGUAkFVX3lxTE92dndqY3gtY2lsZEJnVzRkMkw5QzF1Qm9TQzRXdnZ6cDNYZUtOcEdxZW5ycks2UVZsOXg4eVQ0OGZ6YXdOVk5pNVBfRXA0MHIydWNlbmoyd0xaZFRUSFFyVjR6Qno4RG9NWEtWM2NmQ055SnpYcWNYREQ3cEJCcEZ0bkJ3bDVJdm1CazlYcmpTTzZwdlNCemdqT1B0Rkx4cDI3aXMybmozMU9RNF9hajhpYXVxMGY1ZXQ1SXBkNExHa3JrVlJXWVV3NjA2QzBWc3JGdU5DOVNmWGF4UGlmbUdPOXlOaVFqcFpDYnhfTlZVY0w2VjF0Y0syVUVQaEs0cG96ZXN6bVZFT25hS3d5QWVPZWM0NQ?oc=5",
-      "fp": "box|collections|conclusion|office"
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1MxQ1Zja0Jpb0RWVEVvTmhsbDh0UEl4MkJ3d2VaNlotbVFNaVU3Q3ZMcHJ1bzFuOTdjczZEZS1YWGZVVHhYYVhXOWNYcldzZVc3SjFLbGpMNTJpWTl3amd4SklubEFHMGMtZ0t6d3pxX2YxYUViNVpUZUlYeE5sQmpoMVBqbXp4VGdFdWNtY2dudW1PVmQxejY0ZWd1Vk9hNlB3d21rTjNBUWhWaFNrMm1B?oc=5",
+      "fp": "putin|russia"
     },
     {
-      "entity": "How Russia and the world are responding to possible case of plague",
+      "entity": "Worlds collide! James Webb Space Telescope investigates what happens when planets crash together",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "NG",
+        "PH",
+        "KE",
+        "MY"
+      ],
+      "countryCount": 5,
+      "newCountries": 0,
+      "articleCount": 5,
+      "publisherCount": 2,
+      "publishers": [
+        "Space",
+        "ScienceDaily"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 1.8,
+      "score": 71,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZklGX2k2OXl1cjdwVUNvWllqY05iOEp4STRiOE5zX040OHlKczBNc1ZTcEIzem9hMld1QlJaR3BGc1QxWjhPNGtlTTkzbFJtOTZxenJlbGJVVWxwSXJkQlRTVWpWRTdxRGZmVGhRSVh4dU9oakNTM3FPRkVpTkVhcm4yZzAzNm9LS2xJcVVTWjBoRi11UTZhMDM3MzFLcGNLblFEdWhuWGQzTkZ6RjJNMWpYcnFodS1PMDVXWFA3NnM4VTJRS21sc0JOUzE4Mk1USllYZw?oc=5",
+      "fp": "james|space|telescope|webb"
+    },
+    {
+      "entity": "NASA's SpaceX Crew-12 mission undocks from ISS to begin 27-hour journey back to Earth",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "GB",
+        "IN",
+        "CA"
+      ],
+      "countryCount": 4,
+      "newCountries": 0,
+      "articleCount": 4,
+      "publisherCount": 2,
+      "publishers": [
+        "Space",
+        "Yahoo News Canada"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 1.7,
+      "score": 68.9,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNck44bkQ0c3B3Z2VTLTgzU01XeVRibHgzRUFtbENGaXJkemNjbzBpQmZtNTlBUDBpZW5DajEtdG5EWmt4OGZ1bnc0a29xT3llUk5BSjZ3WVB0a0x2ODBNRzRjRG4zODJOcjZ6c2VpWEt3N2tjSjdQOXJpRzdILTZSNDdjUDJpUTRfUk81Mm11cG1HWnJfa01tMERpYzZ4ZlFNSW5GTzk2YlhNMF9nWE1URzFvdVlYQmtCS05lUg?oc=5",
+      "fp": "crew-12|earth|iss|spacex"
+    },
+    {
+      "entity": "NASA's Curiosity rover captures dawn on Mars",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "AU",
+        "SG",
+        "MY"
+      ],
+      "countryCount": 4,
+      "newCountries": 0,
+      "articleCount": 4,
+      "publisherCount": 3,
+      "publishers": [
+        "Reuters",
+        "ABC News & Headlines – Australian Broadcasting Corporation",
+        "The Straits Times"
+      ],
+      "effectiveCountries": 3,
+      "syndicated": true,
+      "ageHours": 3.9,
+      "score": 67.5,
+      "confidence": 0.35,
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM1BhS3R3enAtWHdaMGpnOG9DRUgzTUE0LTNaUkNUbmdfZFNkY1FXSE5aZjJER1pvdDZ4NllQdWxsLTNpSVpPRUhZV0dlUi0xVXJIU3RranZtMVJrSTdyVWVITWdOYmh0a3VKbWN5MkUtUzZfMnhNczhGT0hhT0V1ZGN1Q3VQaUl4c01OZDhBeDVMZDhiYTV6aENCYW9zTzQ?oc=5",
+      "fp": "curiosity|mars"
+    },
+    {
+      "entity": "France suspends stun grenades after student injury",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
         "GB",
+        "IE",
+        "PK"
+      ],
+      "countryCount": 3,
+      "newCountries": 0,
+      "articleCount": 3,
+      "publisherCount": 2,
+      "publishers": [
+        "BBC",
+        "RTE.ie"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": true,
+      "ageHours": 2.7,
+      "score": 64.8,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95QVpWaDA5Ynp2akVSbWJVYlZoY1ZxT2ZQS1dJbjZmdklPNnZHV0Q3ci1WaFVIYTMwbGhIekhKUnd0anZuVXZ6UDNpbWJha3dnZ05Ddlk4VVZqdFJUZ0E?oc=5",
+      "fp": "france suspends stun grenades after stud"
+    },
+    {
+      "entity": "‘The Social Reckoning’ Review: Aaron Sorkin Savages Facebook Once Again in Sharp Whistleblower Thriller Led by Mikey Madison and Jeremy Allen White",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "countryCount": 2,
+      "newCountries": 0,
+      "articleCount": 2,
+      "publisherCount": 2,
+      "publishers": [
+        "The Hollywood Reporter",
+        "The Globe and Mail"
+      ],
+      "effectiveCountries": 2,
+      "syndicated": false,
+      "ageHours": 2,
+      "score": 63.3,
+      "confidence": 0.57,
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ3dudmE5TzZBUGtKeEI4ekJjQUJTSE03LTYxdTRjTUJnTFJiOGtBeURBNEllWVBBX1h6eFd5czNXMVhROWJqdzFMcVVGN3dqd2ZKdVEyOGNxaWdBT0Z2Zl9pRm9HNmxtYWpFTFJ0cmhva1dQOU5VLUxMUXl0WnRaZnhvQkFVWmE3NWZkY1QxM3BocHB5S3dtX1REZ1NMX29UcHFTYkw5aHZBZ0JIMXVHWnJMVjVtY0YyY183eENn?oc=5",
+      "fp": "aaron|reckoning|review|social"
+    },
+    {
+      "entity": "‘Gen Z has risen up’: Tens of thousands mass for tense France school protests",
+      "source": "googlenews",
+      "phase": "BREAKING",
+      "status": "PLATEAU",
+      "countries": [
+        "SG",
         "NZ"
       ],
       "countryCount": 2,
@@ -123,125 +213,50 @@
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "The Guardian",
-        "1News"
+        "CNA",
+        "NZ Herald"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 1.2,
-      "score": 63.5,
+      "ageHours": 3.4,
+      "score": 61.7,
       "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQakozM2lPQWE3YzBYMVJWdzBldFJBS2EwYVQzU3l1N3p0emhTZmhVSkl0WXQ2eHJQVEN1Mm0zZjE0RFpKRmJyczZYaThFZWNyb1haY1c4dWthT2RXT0lUUzBLZDJpbkhRNWpBQUxOQ2diQkw1S0VOeWlFYmVYUW9NWV9nSVNTUlpKVERIZFZBMHFOekZzaEthTHBuZ0RaLVVCckZnSXBn?oc=5",
-      "fp": "russia"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNzBMYWlLUDU0bTZmaUhESEZjdkU0S2taTFEtWnlvX2pLYnRxcnBhU3dnMEpqM25ielk4ZW1TNlJWLV9pUGJTS3NPVU1sdXNDekI1WEZYb09jTlpSMkgxaHJTa1N2T3lrWnEyRUxlN3IzMC1GbzNkcVhDMW81SDlick8wVjNhb1l0QTZ6UG0tb1lqck5mbGd4YklLV1BiMkF3VHl0RmZ0N09UQmJhMEhR?oc=5",
+      "fp": "explains|france|tens"
     },
     {
-      "entity": "Sheikh Tahnoon's Azura bet expands into South Africa",
+      "entity": "African Union launches homegrown credit rating agency to challenge Moody’s, S&P and Fitch",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
         "ZA",
+        "NG",
         "KE"
       ],
-      "countryCount": 2,
+      "countryCount": 3,
       "newCountries": 0,
-      "articleCount": 4,
-      "publisherCount": 3,
-      "publishers": [
-        "BusinessTech",
-        "Billionaires.Africa",
-        "IOL"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 2.3,
-      "score": 62.3,
-      "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOOVJSUnJLeF9zN2owRW9qSnRDZ25vVTlIQ190YW4xdEF5T1NUNjNMTDR6WDJUenlEODN3Rkh2X3ZoaVFueFA0bEhHVGMxdUNCQ05ueHE2NFk4Z09aak9kcGgwVVEySWlWSTk2UUNrWW5ya3NjN1JzRFRpVmxBUVVJeGlxV1Y1aTVoRE51Umk5NVJxcnIwN256bDFQV0hNUnhEVklTX1pEVi1nb21fREVXTEV1OHNDRnU2SGZ1ZUJHVUlpWk8wVnJnVlZHZjJTRENqUC1paU9WUmVsOGlLSkMwWW01UHVCVkRtMm9WRG1iY1IyQQ?oc=5",
-      "fp": "africa|r300|south|tahnoon's"
-    },
-    {
-      "entity": "Martin Breheny: GAA is still living in the shadowy world of Manchester City when it comes to illegal manager payments",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "IE",
-        "NG"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
+      "articleCount": 3,
       "publisherCount": 2,
       "publishers": [
-        "Irish Independent",
-        "Goal.com"
+        "Reuters",
+        "Business Insider Africa"
       ],
       "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 2.4,
-      "score": 61.9,
+      "syndicated": true,
+      "ageHours": 4.3,
+      "score": 60.8,
       "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOWkxMbEdZRHU3YVpkYVlvU3IzZW5WXzlVNGF1MXdFTWxKbVlWSzAwX1lPbFZtUmhkYWNQNUFTWlJGZG5FczhlYWlJSXF2Z3BRN2xyUzJjZVo2RWdOQXV0VkhhWC15bVRKSVRHRUl4UmJ4NkFLMXVfdG03T3pXZU1HbWtXaWV1cGM3WUxGbHRfQzhrLUROTUZ5YW5KVGFwT09nMnp4SjIwZTdRNGZjM2tuRUJpLUNUUlR6RHhsX1k3NVRBS1hsOWdYV3lZTlUzNTFQRUxjRVAxRzJHMTdSVTNybUtmOFdQRlVhclUyYWZ3NldYWmRmUWw0dGppc053eTQ?oc=5",
-      "fp": "breheny|city|gaa|manchester"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1RIN0NyaU4zcDFKeEhMYmpUZnRYNUdFUmItVUJodDJZOTZvMUFTMFY5b3E2MmVKd1pVdmhoZ3UzeGoxc2V0N0RoZmx5Qkk2cTc5UHVOakJtcG5WSXlJQnlUNHd4UnlGdnJlWC1sT0N5WEljX1NZWVQ0d0VXdmo1YUJlUTdidldJd2FLclMxcV9VU3o1aUl3Mk9kWGxDdDhRSEFERFpaNTl6TUk?oc=5",
+      "fp": "fitch|moodys|union"
     },
     {
-      "entity": "5 Takeaways From the First Maine Senate Debate",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "US",
-        "KE"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The New York Times",
-        "The Star, Kenya"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 3.6,
-      "score": 59.6,
-      "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjdqcFhweFV3eFo3REVlYmlqMnFIdHliMUxFSjFZWTdnOExGTWRQcGRISVlTeDkxbm1vUjRnVlhnelZMekRPS1FGQXdTN183ang5ZzA5MzExQmx4a05kZUpIWUtQUDg3a1o0cHFXQmNScE1LX1BVTm1NclJ4TjQ4ZWQ4SDR3Y0pX?oc=5",
-      "fp": "debate|maine|senate|takeaways"
-    },
-    {
-      "entity": "Over 250,000 students, teachers protest across France",
+      "entity": "Amazon Ring’s First Smart Lock Has a Clever Solution for Battery Anxiety",
       "source": "googlenews",
       "phase": "BREAKING",
       "status": "PLATEAU",
       "countries": [
         "IN",
-        "NG"
-      ],
-      "countryCount": 2,
-      "newCountries": 0,
-      "articleCount": 2,
-      "publisherCount": 2,
-      "publishers": [
-        "The Hindu",
-        "Daily Trust"
-      ],
-      "effectiveCountries": 2,
-      "syndicated": false,
-      "ageHours": 4.4,
-      "score": 58.4,
-      "confidence": 0.57,
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPM3BGVFY2Q2xTaXctVkhadDJlNzdKaXQtNkI5VnVTOUtuX3NiVGZwc2RGSnUzN0FzNkhGWU9JTkZ4NDBlWnZwcUpFekUwYWFvTl9uRVVmRVFFTE9SU3BjNmVyRUdPejhGbEZ5OWlpYXpCTzBrNzhkV19yUDYxQ0ZtV19LdUtETjJNdGM4dk4wSTBRaGJPUWxpZkZiRWhBdWg3MWVpc0tiNzB4cTdfNFFzay02bTVvY1dPRTJMNkVDUE1ROEhFSVpBWHRGN0RsV2_SAdYBQVVfeXFMTURYb0dKN2dVNXRjQUVZNV9xbXBUSVY5cW5VUUtBMkdPbmdMMUxYSlU3SllSNGJta2pVOUNxN2hyMEd2VW5aeGxGWXBKYVVMTHlGTzJNYkpZTFhrekZxaWVBcnhzMTQ0UnV4M3hxZHVUSUtnUEV4bW0xVE1faEszb3VUY2lQdkVxeXV5YU03UFhzNEtwLU82blhvOFk2aVdIZmZ2WHFaWERqcXU5YVYtYXJfbHJDLUNkeEpTOFZvRWptbmpEQlZqWUhxeGczT0pRNlJobjRyQQ?oc=5",
-      "fp": "france|students"
-    },
-    {
-      "entity": "Ships’ captains paid $100,000 a month to transit Strait of Hormuz",
-      "source": "googlenews",
-      "phase": "BREAKING",
-      "status": "PLATEAU",
-      "countries": [
-        "GB",
         "PK"
       ],
       "countryCount": 2,
@@ -249,99 +264,19 @@
       "articleCount": 2,
       "publisherCount": 2,
       "publishers": [
-        "Financial Times",
-        "Al Jazeera"
+        "Bloomberg.com",
+        "Yahoo Finance"
       ],
       "effectiveCountries": 2,
       "syndicated": false,
-      "ageHours": 4.5,
-      "score": 51.3,
+      "ageHours": 1,
+      "score": 59.7,
       "confidence": 0.35,
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObFJlMDNQMUZSMXlnWk43YVI5eGI4bEc5LW5kNDBjMC1UOERsaDFzbFRpeWxaUU85Tm01YjF0c1dINnhDY0E0aGdaM3ZnQ19hT1owZWNzeFhSdmZCdjRTS2xaOFdPZG44Ujd4WFZQMFN0VFhnajRtTjJmX3R5ZGJkTFg5Zks?oc=5",
-      "fp": "hormuz|strait"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM1BIYS1aQ1owU2R2MGJoaXVSZ0k5R3BMS2ZZM3d5dHZta21WU05BbXJLQmZ3U0N5T0RtaUpjdy05aVJnenhBOXM0cjBhS2JGS0tOZFUybGR1NENrclc2azhxbWxkdEhxd0ItbEdLSUpISnhrVkJwNk1Zem1VT1oycmo5RzRpSlNmQ1g4SDdnMkUyRXlCdm9lR2p1NUJKNXpRR3BUMWFPck5VdjdrdDFHNEZlNnEwQzZjOTNN?oc=5",
+      "fp": "has|lock|rings|smart"
     }
   ],
-  "global": [
-    {
-      "entity": "Christa Pike conscious and speaking after failed execution in Tennessee, say lawyers",
-      "source": "googlenews",
-      "phase": "GLOBAL",
-      "status": "IGNITION",
-      "countries": [
-        "US",
-        "GB",
-        "AU",
-        "CA",
-        "ZA",
-        "IE",
-        "NZ"
-      ],
-      "countryCount": 7,
-      "newCountries": 0,
-      "articleCount": 7,
-      "publisherCount": 7,
-      "publishers": [
-        "The Washington Post",
-        "Sky News",
-        "ABC News & Headlines – Australian Broadcasting Corporation",
-        "Al Jazeera",
-        "IOL",
-        "The Irish Times",
-        "RNZ"
-      ],
-      "effectiveCountries": 7,
-      "syndicated": false,
-      "ageHours": 2.5,
-      "score": 100,
-      "confidence": 0.79,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2RMYlZTM0FvNGswWFQ4bnM2UzAxZnRtb3JPZ2pfUGNDQklFWk44em5obTJ5ZUdEVkdHSFE4OVNRdm1RRWxNQTRWeDlhbUZRS0VaLXhaM2QzQ0NwdFI2UlI2anFFUnFsM3R5NnpDY2FKelZ1bVNzd3dDSHkyb2gxUkh6UGNIaVB1Q1JnOVdMTURqNVp4ZlY2UGVGcnRYcU5OVzdHUFl1WVUyN2hSRXdGeUNsVkxPR3dCTUMzb3Nn?oc=5",
-      "fp": "christa|pike|tennessee"
-    },
-    {
-      "entity": "Africa: Nobel Physics Prize Awarded for Discovery of 'Ghostly Messengers' From the Cosmos",
-      "source": "googlenews",
-      "phase": "GLOBAL",
-      "status": "IGNITION",
-      "countries": [
-        "US",
-        "SG",
-        "NG",
-        "PH",
-        "PK",
-        "MY",
-        "GB",
-        "AU",
-        "CA"
-      ],
-      "countryCount": 9,
-      "newCountries": 0,
-      "articleCount": 9,
-      "publisherCount": 8,
-      "publishers": [
-        "Phys.org",
-        "CCTV.com English",
-        "allAfrica.com",
-        "BusinessWorld Online",
-        "NPR",
-        "Xinhua",
-        "Euronews.com",
-        "The Conversation"
-      ],
-      "effectiveCountries": 8,
-      "syndicated": true,
-      "ageHours": 3.8,
-      "score": 89.6,
-      "confidence": 0.35,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBONXpOVmlsLUhqczlYWlNvNTMzVWw0b0c4d2F1MWkwUWV1dkhtOHJCQnNwUmpuWnpZcmhkMXNXTWo0ZVVFQ0kyTkJyNHpQdTNhWTJyMTdPZ19JMXFGczhaTWRRbDZ2UGFjRnpLWmd6WGJKZHNkbW1V?oc=5",
-      "fp": "francis|halzen|nobel|prize"
-    }
-  ],
+  "global": [],
   "signals": [
     {
       "entity": "Freddie Jackson",
@@ -361,24 +296,7 @@
       "url": "https://en.wikipedia.org/wiki/Freddie_Jackson"
     },
     {
-      "entity": "russian plague outbreak bubonic plague",
-      "source": "gtrends",
-      "phase": "SIGNAL",
-      "status": "PLATEAU",
-      "countryCount": 1,
-      "newCountries": 0,
-      "effectiveCountries": 1,
-      "syndicated": false,
-      "ageHours": 12,
-      "score": 88.4,
-      "confidence": 1,
-      "category": null,
-      "why": null,
-      "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=russian%20plague%20outbreak%20bubonic%20plague&geo=CA"
-    },
-    {
-      "entity": "Russia strikes Kyiv's Northern Bridge",
+      "entity": "Trump refuses international election monitors",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "IGNITION",
@@ -388,12 +306,29 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 86.8,
-      "confidence": 0.35,
+      "score": 97.2,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/51bb4d1b878e"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/968320b5bbbd"
+    },
+    {
+      "entity": "christine brennan",
+      "source": "gtrends",
+      "phase": "SIGNAL",
+      "status": "PLATEAU",
+      "countryCount": 1,
+      "newCountries": 0,
+      "effectiveCountries": 1,
+      "syndicated": false,
+      "ageHours": 12,
+      "score": 72.8,
+      "confidence": 0.57,
+      "category": null,
+      "why": null,
+      "angle": null,
+      "url": "https://trends.google.com/trends/explore?q=christine%20brennan&geo=US"
     },
     {
       "entity": "Eva Marie Saint",
@@ -406,14 +341,14 @@
       "syndicated": false,
       "ageHours": 24,
       "score": 100,
-      "confidence": 0.79,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
       "url": "https://en.wikipedia.org/wiki/Eva_Marie_Saint"
     },
     {
-      "entity": "David Ellison's acting past",
+      "entity": "Lane Johnson retires from NFL",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "CLIMBING",
@@ -423,15 +358,15 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 78.4,
-      "confidence": 0.35,
+      "score": 77.4,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/9f6c8eec257a"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/821875349938"
     },
     {
-      "entity": "collingwood football club",
+      "entity": "the social reckoning",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -445,10 +380,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=collingwood%20football%20club&geo=AU"
+      "url": "https://trends.google.com/trends/explore?q=the%20social%20reckoning&geo=GB"
     },
     {
-      "entity": "2009 Fort Hood shooting",
+      "entity": "Lane Johnson",
       "source": "wikipedia",
       "phase": "CONFIRMED",
       "status": "IGNITION",
@@ -462,10 +397,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://en.wikipedia.org/wiki/2009_Fort_Hood_shooting"
+      "url": "https://en.wikipedia.org/wiki/Lane_Johnson"
     },
     {
-      "entity": "Trump says Iran could hit Los Angeles",
+      "entity": "ICE detentions and protests",
       "source": "bluesky",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -475,15 +410,15 @@
       "effectiveCountries": 1,
       "syndicated": false,
       "ageHours": 12,
-      "score": 75,
+      "score": 72.9,
       "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/c65c6ab55867"
+      "url": "https://bsky.app/profile/did:plc:qrz3lhbyuxbeilrc6nekdqme/feed/3d2b3b4d841f"
     },
     {
-      "entity": "langley shooting",
+      "entity": "bbc northern ireland",
       "source": "gtrends",
       "phase": "SIGNAL",
       "status": "PLATEAU",
@@ -497,10 +432,10 @@
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://trends.google.com/trends/explore?q=langley%20shooting&geo=CA"
+      "url": "https://trends.google.com/trends/explore?q=bbc%20northern%20ireland&geo=GB"
     },
     {
-      "entity": "Harry Kane",
+      "entity": "Christine Fréchette",
       "source": "wikipedia",
       "phase": "CONFIRMED",
       "status": "IGNITION",
@@ -510,11 +445,11 @@
       "syndicated": false,
       "ageHours": 24,
       "score": 100,
-      "confidence": 0.79,
+      "confidence": 0.57,
       "category": null,
       "why": null,
       "angle": null,
-      "url": "https://en.wikipedia.org/wiki/Harry_Kane"
+      "url": "https://fr.wikipedia.org/wiki/Christine_Fr%C3%A9chette"
     }
   ]
 }
